@@ -379,13 +379,21 @@ function renderRanking(locations){
       </div>
     `;
   }
-  const width = 720;
+   const isMobile =
+    window.matchMedia(
+      "(max-width: 560px)"
+    ).matches;
+
+  const width =
+    isMobile ? 360 : 720;
+
   const height = 170;
 
-  const padX = 38;
+  const padX =
+    isMobile ? 28 : 38;
+
   const padTop = 28;
   const padBottom = 60;
-
   const values = events
     .map(e => Number(e.height_cm))
     .filter(Number.isFinite);
