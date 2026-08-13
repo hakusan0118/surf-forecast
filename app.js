@@ -414,10 +414,47 @@ function renderRanking(locations){
     return h * 60 + m;
   };
 
-  const xFor = time =>
-    padX +
-    (minutes(time) / 1440) *
-    (width - padX * 2);
+  const firstEventMinute =
+    minutes(events[0].time);
+
+  const lastEventMinute =
+    minutes(
+      events[events.length - 1].time
+    );
+
+  const mobileTimeRange =
+    Math.max(
+      1,
+      lastEventMinute -
+      firstEventMinute
+    );
+
+  const xFor = time => {
+
+    const timeMinute =
+      minutes(time);
+
+    if(isMobile){
+
+      return (
+        padX +
+        (
+          (
+            timeMinute -
+            firstEventMinute
+          ) /
+          mobileTimeRange
+        ) *
+        (width - padX * 2)
+      );
+    }
+
+    return (
+      padX +
+      (timeMinute / 1440) *
+      (width - padX * 2)
+    );
+  };
 
   const yFor = value =>
     padTop +
