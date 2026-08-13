@@ -495,12 +495,22 @@ const bestMarker =
 
   const markers = points.map(p => {
 
-    const isHigh =
+     const isHigh =
       p.type === "滿潮";
 
-     const labelY = isHigh
-      ? Math.max(16, p.y - 14)
-      : Math.max(18, p.y - 12);
+    const isNearBest =
+      bestTime &&
+      Math.abs(
+        minutes(p.time) -
+        minutes(bestTime)
+      ) <= 75;
+
+    const labelY =
+      isHigh && isNearBest
+        ? p.y + 20
+        : isHigh
+          ? Math.max(16, p.y - 14)
+          : Math.max(18, p.y - 12);
 
     const heightM =
       (p.value / 100).toFixed(2);
