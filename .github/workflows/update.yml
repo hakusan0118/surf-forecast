@@ -1,0 +1,55 @@
+name: Update Surf Forecast
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public repository
+        uses: actions/checkout@v4
+
+      - name: Checkout private scoring repository
+        uses: actions/checkout@v4
+        with:
+          repository: hakusan0118/surf-forecast-private
+          ref: main
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: private-scoring
+          persist-credentials: false
+
+      - name: Verify private scoring files
+        run: |
+          test -f private-scoring/scoring.py
+          test -f private-scoring/spot_rules.json
+          echo "Private scoring files found"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update forecast data
+        env:
+          CWA_API_KEY: ${{ secrets.CWA_API_KEY }}
+        run: python update_forecast.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "surf-forecast-bot"
+          git config user.email "surf-forecast-bot@users.noreply.github.com"
+          git add data/surf_forecast.json
+
+          if git diff --cached --quiet; then
+            echo "No forecast changes"
+          else
+            git commit -m "Update surf forecast"
+            git push
+          fi

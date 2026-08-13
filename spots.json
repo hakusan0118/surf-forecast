@@ -1,0 +1,146 @@
+{
+  "Miaoli-Yuanli": {
+    "name": "松柏港",
+    "area": "西部",
+    "region": "苗栗縣｜苑裡鎮",
+    "bestTide": "中潮 → 滿潮",
+    "cwa": {
+      "geocode": "10005020",
+      "coastalId": "10005020C01",
+      "county": "苗栗縣"
+    },
+    "info": {
+      "facing": "西北",
+      "kind": "沙灘浪型"
+    }
+  },
+
+  "Tainan-Jiangjun": {
+    "name": "將軍",
+    "area": "西部",
+    "region": "臺南市｜將軍區",
+    "bestTide": "中潮",
+    "cwa": {
+      "geocode": "67000160",
+      "coastalId": "67000160C01",
+      "county": "臺南市"
+    },
+    "info": {
+      "facing": "西南",
+      "kind": "沙灘浪型"
+    }
+  },
+
+  "Kaohsiung-Yongan": {
+    "name": "永安",
+    "area": "南部",
+    "region": "高雄市｜永安區",
+    "bestTide": "中潮",
+    "cwa": {
+      "geocode": "64000270",
+      "coastalId": "64000270C01",
+      "county": "高雄市"
+    },
+    "info": {
+      "facing": "—",
+      "kind": "特殊條件浪點"
+    }
+  },
+
+  "Kaohsiung-Qijin": {
+    "name": "旗津",
+    "area": "南部",
+    "region": "高雄市｜旗津區",
+    "bestTide": "乾潮 → 中潮",
+    "cwa": {
+      "geocode": "64000100",
+      "coastalId": "64000100C01",
+      "county": "高雄市"
+    },
+    "info": {
+      "facing": "西南",
+      "kind": "沙灘浪型"
+    }
+  },
+
+  "Yilan-Wushi": {
+    "name": "烏石港",
+    "area": "北部",
+    "region": "宜蘭縣｜頭城鎮",
+    "bestTide": "中潮",
+    "cwa": {
+      "geocode": "10002040",
+      "coastalId": "10002040C01",
+      "county": "宜蘭縣"
+    },
+    "info": {
+      "facing": "東",
+      "kind": "沙灘浪型｜沙底｜左右跑"
+    }
+  },
+
+  "Hualien-Beibin": {
+    "name": "北濱",
+    "area": "東部",
+    "region": "花蓮縣｜花蓮市",
+    "bestTide": "乾潮 → 中潮",
+    "cwa": {
+      "geocode": "10015050",
+      "coastalId": "10015050C01",
+      "county": "花蓮縣"
+    },
+    "info": {
+      "facing": "東南",
+      "kind": "河口｜沙和石頭底｜左右跑"
+    }
+  },
+
+  "Hualien-EnvironmentalPark": {
+    "name": "環保公園",
+    "area": "東部",
+    "region": "花蓮縣｜花蓮市",
+    "bestTide": "滿潮前後 2–3 小時",
+    "cwa": {
+      "geocode": "10015010",
+      "coastalId": "10015010C01",
+      "county": "花蓮縣"
+    },
+    "info": {
+      "facing": "東北東",
+      "kind": "礁石｜鵝卵石底｜左右跑",
+      "level": "中階 +"
+    }
+  },
+
+  "Pingtung-Nanwan": {
+    "name": "南灣",
+    "area": "南部",
+    "region": "屏東縣｜恆春鎮",
+    "bestTide": "乾潮 → 中潮",
+    "cwa": {
+      "geocode": "10013040",
+      "coastalId": "10013040C01",
+      "county": "屏東縣"
+    },
+    "info": {
+      "facing": "南",
+      "kind": "沙灘浪型｜礁盤沙底｜右跑"
+    }
+  },
+
+  "Pingtung-Jialeshui": {
+    "name": "佳樂水",
+    "area": "南部",
+    "region": "屏東縣｜滿州鄉",
+    "bestTide": "中潮",
+    "cwa": {
+      "geocode": "10013240",
+      "coastalId": "10013240C01",
+      "county": "屏東縣"
+    },
+    "info": {
+      "facing": "東南",
+      "kind": "河口 / 定點起浪｜沙和石頭底｜左右跑"
+    }
+  }
+}

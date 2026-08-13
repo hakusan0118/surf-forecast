@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07111d">
+  <title>台灣浪點｜Surf Taiwan Forecast</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <div class="hero-mark">🏄</div>
+      <div>
+        <p class="eyebrow">TAIWAN SURF FORECAST</p>
+        <h1>台灣浪點</h1>
+        <p id="updated" class="updated">讀取最新資料中…</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">3-DAY RANKING</p>
+          <h2>🏆 浪點推薦</h2>
+        </div>
+      </div>
+      <div id="ranking" class="ranking-list"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SPOT DETAILS</p>
+          <h2>浪點預報</h2>
+        </div>
+        
+      </div>
+      <div id="region-filter" class="region-filter">
+  <button class="region-btn active" data-region="全部">全部</button>
+  <button class="region-btn" data-region="北部">北部</button>
+  <button class="region-btn" data-region="西部">西部</button>
+  <button class="region-btn" data-region="東部">東部</button>
+  <button class="region-btn" data-region="南部">南部</button>
+</div>
+      <div id="forecast" class="spot-list"></div>
+      <p id="error" class="error" hidden></p>
+    </section>
+
+    <footer>
+      <p>資料來源：中央氣象署</p>
+      <p>顯示：今日起三天｜全天預報</p>
+      <p>評分為自訂浪點條件模型，非中央氣象署官方評等。</p>
+    </footer>
+  </main>
+  <script src="./app.js" defer></script>
+</body>
+</html>

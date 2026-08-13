@@ -1,0 +1,1555 @@
+*{box-sizing:border-box}
+:root{
+  --bg:#eaf4f8;--bg2:#f7fbfd;--glass:rgba(255,255,255,.58);
+  --glassStrong:rgba(255,255,255,.76);--text:#123247;--textStrong:#0c2a3a;
+  --muted:#6c8797;--line:rgba(77,128,151,.16);--cyan:#099bc4;
+  --teal:#00a98f;--amber:#e7a936;--coral:#e66666;
+}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{
+  margin:0;min-height:100vh;color:var(--text);
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","Noto Sans TC",sans-serif;
+  background:
+    radial-gradient(circle at 8% 2%,rgba(89,198,230,.26),transparent 28%),
+    radial-gradient(circle at 92% 8%,rgba(82,219,192,.20),transparent 30%),
+    radial-gradient(circle at 50% 110%,rgba(255,255,255,.95),transparent 40%),
+    linear-gradient(180deg,#e8f4f8 0%,#f8fcfd 48%,#edf6f9 100%);
+  background-attachment:fixed;
+}
+.app-shell{width:min(100%,1080px);margin:auto;padding:26px 14px 52px}
+.hero{display:flex;align-items:center;gap:15px;padding:12px 4px 26px}
+.hero-mark{
+  width:60px;height:60px;display:grid;place-items:center;font-size:31px;border-radius:20px;
+  background:linear-gradient(145deg,rgba(255,255,255,.85),rgba(228,247,252,.42));
+  border:1px solid rgba(255,255,255,.9);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,1),0 14px 34px rgba(38,104,129,.14);
+  backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%);
+}
+.eyebrow{margin:0 0 6px;font-size:11px;letter-spacing:.17em;font-weight:800;color:var(--cyan)}
+h1{margin:0;font-size:36px;line-height:1;font-weight:900;letter-spacing:-.035em;color:var(--textStrong)}
+h2{margin:0;font-size:22px;letter-spacing:-.025em;color:var(--textStrong)}
+.updated{margin:9px 0 0;color:var(--muted);font-size:13px}
+.section{margin-top:20px}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin:0 3px 12px}
+
+.ranking-list{display:block}
+.rank-card{
+  position:relative;overflow:hidden;min-height:182px;padding:16px;border-radius:22px;
+  background:linear-gradient(145deg,rgba(255,255,255,.72),rgba(244,251,253,.40));
+  border:1px solid rgba(255,255,255,.88);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,1),0 16px 38px rgba(46,112,137,.12);
+  backdrop-filter:blur(26px) saturate(160%);-webkit-backdrop-filter:blur(26px) saturate(160%);
+  transition:transform .22s ease,box-shadow .22s ease;
+}
+.rank-card:hover{transform:translateY(-3px);box-shadow:inset 0 1px 0 #fff,0 22px 50px rgba(46,112,137,.16)}
+.rank-card::after{
+  content:"";position:absolute;width:150px;height:150px;right:-60px;top:-62px;border-radius:50%;
+  background:radial-gradient(circle,rgba(90,202,229,.24),rgba(90,202,229,.07) 45%,transparent 72%);
+}
+.rank-no,.rank-title,.rank-meta,.score-row,.best-time,.rank-stats{position:relative;z-index:1}
+.rank-no{font-size:12px;color:var(--muted);font-weight:800}
+.rank-title{margin-top:7px;font-size:19px;font-weight:900;color:var(--textStrong)}
+.rank-meta{margin-top:3px;font-size:12px;color:var(--muted)}
+.score-row{display:flex;align-items:center;justify-content:space-between;margin-top:18px}
+.score{font-size:36px;font-weight:950;letter-spacing:-.055em;color:var(--textStrong)}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:900;border:1px solid rgba(255,255,255,.8);box-shadow:inset 0 1px 0 rgba(255,255,255,.75)}
+.badge.epic{background:rgba(0,169,143,.12);color:#007f6e}
+.badge.good{background:rgba(9,155,196,.12);color:#087ba0}
+.badge.fair{background:rgba(231,169,54,.15);color:#a46d04}
+.badge.poor{background:rgba(230,102,102,.13);color:#b34f4f}
+.best-time{margin-top:8px;font-size:12px;color:var(--muted)}
+.rank-stats{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.chip{
+  padding:6px 9px;
+  border-radius:999px;
+  font-size:11px;
+  color:#486b7e;
+  background:rgba(255,255,255,.48);
+  border:1px solid rgba(255,255,255,.78);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.88);
+}
+
+.spot-list{display:grid;gap:18px}
+.spot-card{
+  position:relative;overflow:hidden;border-radius:24px;
+  background:linear-gradient(160deg,rgba(255,255,255,.68),rgba(242,249,252,.44));
+  border:1px solid rgba(255,255,255,.88);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,1),0 20px 48px rgba(49,96,118,.13);
+  backdrop-filter:blur(28px) saturate(155%);-webkit-backdrop-filter:blur(28px) saturate(155%);
+  transition:
+  border-color .35s ease,
+  box-shadow .35s ease;
+}
+.spot-summary{
+  padding:19px;border-bottom:1px solid var(--line);
+  background:linear-gradient(115deg,rgba(255,255,255,.66),rgba(236,248,252,.34));
+}
+.spot-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.spot-name{font-size:25px;font-weight:950;letter-spacing:-.035em;color:var(--textStrong)}
+.spot-region{margin-top:4px;font-size:12px;color:var(--muted)}
+
+.day-section{padding:17px 17px 19px}
+.day-section+.day-section{border-top:1px solid var(--line)}
+.day-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:11px}
+.day-title{font-size:15px;font-weight:900;color:var(--textStrong)}
+.day-best{font-size:11px;color:var(--cyan);font-weight:700}
+.forecast-grid{
+  display:grid;grid-template-columns:
+  86px repeat(
+    var(--slot-count),
+    minmax(92px, 1fr)
+  );overflow-x:auto;border-radius:16px;
+  background:rgba(255,255,255,.38);border:1px solid rgba(255,255,255,.84);
+  box-shadow:inset 0 1px 0 #fff,0 8px 22px rgba(42,103,126,.06);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+}
+.cell{
+  min-width:0;padding:10px 8px;text-align:center;border-right:1px solid rgba(94,138,157,.12);
+  border-bottom:1px solid rgba(94,138,157,.12);font-size:12px;color:#365c70;background:rgba(255,255,255,.18);
+}
+.label{
+  position:sticky;left:0;z-index:2;text-align:left;font-weight:800;color:#315e73;
+  background:linear-gradient(90deg,rgba(237,247,250,.97),rgba(245,251,253,.88));
+}
+.headcell{font-weight:900;color:#0c7ea4;background:linear-gradient(180deg,rgba(239,249,252,.96),rgba(248,252,253,.76))}
+.metric-main{font-size:17px;font-weight:950;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.18)}
+.metric-period{font-size:15px;font-weight:850;color:var(--textStrong)}
+.score-mini{display:inline-flex;min-width:42px;justify-content:center;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:900}
+.wave-0{background:linear-gradient(100deg,#76c7e8,#57a9d7)}
+.wave-1{background:linear-gradient(100deg,#4ebadf,#2fa5d8)}
+.wave-2{background:linear-gradient(100deg,#2daed0,#55c8cf)}
+.wave-3{background:linear-gradient(100deg,#43c3bc,#ddb14c)}
+.wave-4{background:linear-gradient(100deg,#e3b447,#ef8954)}
+.wave-5{background:linear-gradient(100deg,#ef855a,#dd5c6a)}
+/* =====================================================
+   BEST FORECAST COLUMN
+   ===================================================== */
+
+.best-slot{
+  position:relative;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(210,247,240,.34),
+      rgba(229,250,246,.22)
+    );
+
+  box-shadow:
+    inset 1px 0 0 rgba(0,169,143,.24),
+    inset -1px 0 0 rgba(0,169,143,.24);
+}
+
+
+/* 最佳時段表頭 */
+.best-head{
+  position:relative;
+
+  color:#007f6e;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(210,247,240,.82),
+      rgba(232,250,247,.58)
+    );
+
+  box-shadow:
+    inset 1px 0 0 rgba(0,169,143,.30),
+    inset -1px 0 0 rgba(0,169,143,.30);
+}
+
+
+.best-head::after{
+  content:"BEST";
+
+  display:block;
+
+  margin-top:2px;
+
+  font-size:7px;
+  line-height:1;
+
+  font-weight:950;
+  letter-spacing:.06em;
+
+  color:#008b76;
+}
+.direction{font-size:11px;color:#385e72}
+.muted{color:#92a7b3}
+.error{padding:14px;border-radius:15px;color:#a14949;background:rgba(255,236,236,.76);border:1px solid rgba(211,98,98,.22)}
+footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
+
+@media(max-width:560px){
+  .app-shell{padding:16px 10px 38px}
+  h1{font-size:31px}
+  .hero-mark{width:51px;height:51px;border-radius:17px}
+  .rank-card{min-height:166px;padding:13px;border-radius:19px}
+  .rank-title{font-size:16px}.score{font-size:31px}
+  .spot-summary{padding:15px}.spot-name{font-size:22px}
+  .day-section{padding:13px 10px 15px}
+  .forecast-grid{grid-template-columns:72px repeat(var(--slot-count),92px)}
+  .cell{padding:9px 6px}
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .rank-card,.spot-card,.forecast-grid,.hero-mark{
+    background:rgba(255,255,255,.92)
+  }
+}
+
+.spot-card summary{
+  list-style:none;
+  cursor:pointer;
+}
+
+.spot-card summary::-webkit-details-marker{
+  display:none;
+}
+
+.spot-detail{
+  padding:0 18px 20px;
+}
+
+.date-tabs{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+
+  gap:4px;
+  margin:18px 0 14px;
+  padding:4px;
+
+  border-radius:18px;
+
+  background:rgba(225,239,245,.62);
+  border:1px solid rgba(255,255,255,.72);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.95),
+    0 8px 24px rgba(39,108,136,.07);
+
+  backdrop-filter:blur(20px) saturate(160%);
+  -webkit-backdrop-filter:blur(20px) saturate(160%);
+}
+
+.date-tab{
+  position:relative;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+
+  padding:11px 10px;
+
+  border:0;
+  border-radius:14px;
+
+  background:transparent;
+  color:#718d9b;
+
+  font-family:inherit;
+
+  cursor:pointer;
+
+  transition:
+    background .2s ease,
+    box-shadow .2s ease,
+    color .2s ease,
+    transform .15s ease;
+}
+
+.date-tab:hover{
+  background:rgba(255,255,255,.40);
+}
+
+.date-tab:active{
+  transform:scale(.98);
+}
+
+.date-tab-day{
+  font-size:12px;
+  font-weight:900;
+}
+
+.date-tab-date{
+  font-size:12px;
+  font-weight:700;
+  opacity:.82;
+}
+
+.date-tab.active{
+  color:#0b5069;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.96),
+      rgba(244,251,253,.82)
+    );
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 6px 18px rgba(39,108,136,.13);
+}
+
+.date-tab.active::after{
+  content:"";
+
+  position:absolute;
+  left:28%;
+  right:28%;
+  bottom:4px;
+
+  height:2px;
+  border-radius:999px;
+
+  background:var(--cyan);
+}
+
+.day-panel[hidden]{
+  display:none;
+}
+
+/* ===== 每日 TOP 3 ===== */
+
+.daily-ranking{
+  margin-bottom:20px;
+}
+
+.daily-ranking-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:0 3px 10px;
+}
+
+.daily-ranking-date{
+  font-size:22px;
+  font-weight:950;
+  color:var(--textStrong);
+  letter-spacing:-.03em;
+}
+
+.daily-ranking-title{
+  margin-top:2px;
+  font-size:11px;
+  font-weight:800;
+  color:var(--cyan);
+  letter-spacing:.08em;
+}
+
+.daily-ranking-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+
+@media(max-width:560px){
+
+  .daily-ranking-grid{
+    display:grid;
+    grid-template-columns:repeat(3,170px);
+    gap:9px;
+    overflow-x:auto;
+    padding-bottom:6px;
+    scrollbar-width:none;
+  }
+
+  .daily-ranking-grid::-webkit-scrollbar{
+    display:none;
+  }
+
+  .daily-ranking-grid .rank-card{
+    min-height:165px;
+    padding:13px;
+  }
+
+  .daily-ranking-grid .rank-title{
+    font-size:17px;
+  }
+
+  .daily-ranking-grid .rank-meta{
+    display:block;
+  }
+
+  .daily-ranking-grid .score{
+    font-size:31px;
+  }
+}
+
+/* ===== 區域篩選 ===== */
+
+.region-filter{
+  display:flex;
+  gap:8px;
+  margin:0 0 16px;
+  overflow-x:auto;
+  padding:2px 1px 5px;
+  scrollbar-width:none;
+}
+
+.region-filter::-webkit-scrollbar{
+  display:none;
+}
+
+.region-btn{
+  appearance:none;
+  border:1px solid rgba(255,255,255,.78);
+  border-radius:999px;
+  padding:9px 16px;
+
+  background:rgba(255,255,255,.46);
+  color:#587889;
+
+  font-family:inherit;
+  font-size:12px;
+  font-weight:800;
+
+  cursor:pointer;
+  white-space:nowrap;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.9),
+    0 5px 15px rgba(42,103,126,.05);
+
+  backdrop-filter:blur(18px) saturate(160%);
+  -webkit-backdrop-filter:blur(18px) saturate(160%);
+
+  transition:
+    background .2s ease,
+    color .2s ease,
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.region-btn:hover{
+  transform:translateY(-1px);
+}
+
+.region-btn.active{
+  color:#087b9d;
+
+  background:rgba(255,255,255,.86);
+
+  border-color:rgba(255,255,255,.95);
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 8px 22px rgba(37,113,143,.13);
+}
+
+@media(max-width:560px){
+
+  .region-filter{
+    margin-bottom:13px;
+  }
+
+  .region-btn{
+    padding:8px 14px;
+    font-size:12px;
+  }
+}
+
+
+@media(max-width:560px){
+
+  .date-tabs{
+    margin:15px 0 12px;
+  }
+
+  .date-tab{
+    flex-direction:column;
+    gap:1px;
+    padding:9px 6px;
+  }
+
+  .date-tab-day{
+    font-size:11px;
+  }
+}
+
+/* ===== 開燈 / 關燈 ===== */
+
+.daylight-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+
+  margin:0 0 12px;
+}
+
+.daylight-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+
+  padding:7px 11px;
+
+  border-radius:999px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.74),
+      rgba(239,249,252,.48)
+    );
+
+  border:1px solid rgba(255,255,255,.86);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.96),
+    0 6px 18px rgba(42,103,126,.06);
+
+  color:#587989;
+
+  font-size:11px;
+  font-weight:700;
+
+  backdrop-filter:blur(18px) saturate(150%);
+  -webkit-backdrop-filter:blur(18px) saturate(150%);
+}
+
+.daylight-chip strong{
+  margin-right:3px;
+
+  font-size:11px;
+  font-weight:900;
+
+  color:var(--textStrong);
+}
+
+.daylight-icon{
+  font-size:14px;
+  line-height:1;
+}
+
+.daylight-on{
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,250,235,.80),
+      rgba(255,255,255,.54)
+    );
+}
+
+.daylight-off{
+  background:
+    linear-gradient(
+      145deg,
+      rgba(240,246,255,.82),
+      rgba(255,255,255,.52)
+    );
+}
+
+/* ===== 潮汐 Dashboard ===== */
+
+.tide-card{
+  margin:0 0 14px;
+  padding:12px 12px 8px;
+
+  border-radius:18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.68),
+      rgba(232,248,252,.38)
+    );
+
+  border:1px solid rgba(255,255,255,.86);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.98),
+    0 9px 25px rgba(41,105,130,.07);
+
+  backdrop-filter:
+    blur(20px)
+    saturate(155%);
+
+  -webkit-backdrop-filter:
+    blur(20px)
+    saturate(155%);
+}
+
+
+.tide-card-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:10px;
+
+  padding:0 3px 5px;
+}
+
+
+.tide-card-title{
+  display:flex;
+  align-items:center;
+  gap:6px;
+
+  font-size:12px;
+  color:var(--textStrong);
+}
+
+
+.tide-card-title strong{
+  font-weight:900;
+}
+
+
+.tide-range{
+  padding:4px 8px;
+
+  border-radius:999px;
+
+  font-size:10px;
+  font-weight:800;
+
+  color:#087b9d;
+
+  background:
+    rgba(9,155,196,.09);
+}
+
+
+.tide-chart-wrap{
+  width:100%;
+  overflow:hidden;
+}
+
+
+.tide-chart{
+  display:block;
+
+  width:100%;
+  height:170px;
+
+  overflow:visible;
+}
+
+
+.tide-line{
+  fill:none;
+
+  stroke:#119fc4;
+  stroke-width:3;
+
+  stroke-linecap:round;
+  stroke-linejoin:round;
+
+  vector-effect:
+    non-scaling-stroke;
+}
+
+
+.tide-area{
+  pointer-events:none;
+}
+
+
+.tide-high-dot{
+  fill:#099bc4;
+  stroke:white;
+  stroke-width:2;
+
+  vector-effect:
+    non-scaling-stroke;
+}
+
+
+.tide-low-dot{
+  fill:#00a98f;
+  stroke:white;
+  stroke-width:2;
+
+  vector-effect:
+    non-scaling-stroke;
+}
+
+
+.tide-height-label{
+  font-size:10px;
+  font-weight:900;
+
+  fill:#234f63;
+}
+
+
+.tide-time-label{
+  font-size:10px;
+  font-weight:800;
+
+  fill:#466f81;
+}
+
+
+.tide-type-label{
+  font-size:9px;
+  font-weight:700;
+
+  fill:#89a1ac;
+}
+
+
+@media(max-width:560px){
+
+  .tide-card{
+    padding:
+      10px 7px 6px;
+  }
+
+  .tide-chart{
+    height:155px;
+  }
+
+  .tide-height-label{
+    font-size:9px;
+  }
+
+  .tide-time-label{
+    font-size:9px;
+  }
+
+  .tide-type-label{
+    font-size:8px;
+  }
+}
+/* =====================================================
+   BEST SURF DASHBOARD
+   ===================================================== */
+
+.best-dashboard{
+  margin-top:14px;
+  overflow:hidden;
+
+  border-radius:18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.72),
+      rgba(235,248,252,.42)
+    );
+
+  border:1px solid rgba(255,255,255,.88);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,1),
+    0 10px 28px rgba(39,104,129,.09);
+
+  backdrop-filter:
+    blur(20px) saturate(155%);
+
+  -webkit-backdrop-filter:
+    blur(20px) saturate(155%);
+}
+
+
+.best-dashboard-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:12px 14px;
+
+  border-bottom:
+    1px solid rgba(77,128,151,.12);
+}
+
+
+.best-dashboard-label{
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.08em;
+
+  color:var(--cyan);
+}
+
+
+.best-dashboard-time{
+  margin-top:2px;
+
+  font-size:23px;
+  line-height:1;
+
+  font-weight:950;
+  letter-spacing:-.035em;
+
+  color:var(--textStrong);
+}
+
+
+.best-dashboard-score{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+
+.best-dashboard-score > span:first-child{
+  font-size:22px;
+  font-weight:950;
+
+  color:var(--textStrong);
+}
+
+
+.best-dashboard-grid{
+  display:grid;
+  grid-template-columns:
+    repeat(3, minmax(0,1fr));
+}
+
+
+.best-tile{
+  position:relative;
+
+  min-height:88px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  padding:10px 6px;
+
+  text-align:center;
+
+  background:
+    rgba(255,255,255,.20);
+
+  border-right:
+    1px solid rgba(77,128,151,.12);
+
+  border-bottom:
+    1px solid rgba(77,128,151,.12);
+}
+
+
+.best-tile:nth-child(3n){
+  border-right:0;
+}
+
+
+.best-tile:nth-child(n+4){
+  border-bottom:0;
+}
+
+
+.best-tile-icon{
+  height:22px;
+
+  display:flex;
+  align-items:center;
+
+  margin-bottom:3px;
+
+  font-size:17px;
+}
+
+
+.best-tile-value{
+  font-size:19px;
+  line-height:1.15;
+
+  font-weight:950;
+  letter-spacing:-.025em;
+
+  color:var(--textStrong);
+}
+
+
+.best-tile-value small{
+  margin-left:2px;
+
+  font-size:10px;
+  font-weight:800;
+
+  color:var(--muted);
+}
+
+
+.best-tile-text{
+  font-size:15px;
+}
+
+
+.best-tile-label{
+  margin-top:4px;
+
+  font-size:9px;
+  line-height:1.25;
+
+  font-weight:800;
+
+  color:var(--muted);
+}
+
+
+.best-tile-tide{
+  background:
+    linear-gradient(
+      145deg,
+      rgba(218,246,250,.52),
+      rgba(255,255,255,.18)
+    );
+}
+
+
+.best-tile-tide .best-tile-value{
+  color:#087b9b;
+}
+
+
+@media(max-width:560px){
+
+  .best-dashboard-head{
+    padding:11px 12px;
+  }
+
+  .best-dashboard-time{
+    font-size:21px;
+  }
+
+  .best-tile{
+    min-height:82px;
+    padding:8px 4px;
+  }
+
+  .best-tile-value{
+    font-size:17px;
+  }
+
+  .best-tile-text{
+    font-size:13px;
+  }
+
+}
+/* =====================================================
+   SPOT CARD EXPAND INDICATOR
+   ===================================================== */
+
+.spot-expand-icon{
+  width:32px;
+  height:32px;
+
+  flex:0 0 auto;
+
+  display:grid;
+  place-items:center;
+
+  border-radius:50%;
+
+  background:
+    rgba(255,255,255,.44);
+
+  border:
+    1px solid rgba(255,255,255,.78);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.9);
+
+  transition:
+    transform .25s ease,
+    background .2s ease;
+}
+
+
+.spot-expand-icon span{
+  width:8px;
+  height:8px;
+
+  border-right:
+    2px solid #4d788b;
+
+  border-bottom:
+    2px solid #4d788b;
+
+  transform:
+    rotate(45deg)
+    translate(-1px,-1px);
+
+  transition:
+    transform .25s ease;
+}
+
+
+.spot-card[open]
+.spot-expand-icon span{
+  transform:
+    rotate(225deg)
+    translate(-1px,-1px);
+}
+
+
+.spot-card[open]
+.spot-expand-icon{
+  background:
+    rgba(224,246,250,.65);
+}
+/* =====================================================
+   DESKTOP TYPOGRAPHY TUNING
+   ===================================================== */
+
+@media(min-width:561px){
+
+  .updated{
+    font-size:14px;
+  }
+
+  .rank-no,
+  .rank-meta,
+  .best-time{
+    font-size:13px;
+  }
+
+ .chip{
+  font-size:12px;
+  }
+
+  .spot-region{
+    font-size:14px;
+  }
+
+  .best-dashboard-label{
+    font-size:11px;
+  }
+
+  .best-tile-label{
+    font-size:11px;
+  }
+
+  .best-tile-text{
+    font-size:16px;
+  }
+
+  .day-best{
+    font-size:13px;
+  }
+
+  .daylight-row{
+    font-size:13px;
+  }
+
+  .cell{
+    font-size:14px;
+  }
+
+  .direction{
+    font-size:13px;
+  }
+
+  .metric-period{
+    font-size:16px;
+  }
+
+  .headcell{
+    font-size:13px;
+  }
+
+  .score-mini{
+    font-size:12px;
+  }
+
+  .tide-card-title{
+    font-size:13px;
+  }
+
+  .tide-range{
+    font-size:11px;
+  }
+}
+.rank-card-link{
+  cursor:pointer;
+}
+
+.rank-card-link:hover{
+  transform:
+    translateY(-3px)
+    scale(1.005);
+}
+
+.rank-card-link:active{
+  transform:
+    translateY(-1px)
+    scale(.995);
+}
+
+.rank-card-link:focus-visible{
+  outline:
+    2px solid var(--cyan);
+
+  outline-offset:3px;
+}
+/* =====================================================
+   TOP 3 — STRONG #1 HIGHLIGHT
+   ===================================================== */
+
+.daily-ranking-grid .rank-card:first-child{
+  position:relative;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.96),
+      rgba(225,248,244,.78)
+    );
+
+  border:
+    1px solid rgba(0,169,143,.32);
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 22px 52px rgba(25,120,130,.20);
+
+  transform:
+    translateY(-4px)
+    scale(1.025);
+}
+
+
+/* 左側冠軍色條 */
+.daily-ranking-grid
+.rank-card:first-child::before{
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  top:18px;
+  bottom:18px;
+
+  width:4px;
+
+  border-radius:0 999px 999px 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      #00a98f,
+      #43bed8
+    );
+}
+
+
+/* 第一名 badge */
+.daily-ranking-grid
+.rank-card:first-child
+.rank-no{
+  display:inline-flex;
+
+  align-items:center;
+  gap:5px;
+
+  padding:5px 10px;
+
+  border-radius:999px;
+
+  color:#755500;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,225,128,.58),
+      rgba(255,245,201,.72)
+    );
+
+  border:
+    1px solid rgba(211,163,35,.35);
+
+  font-size:13px;
+  font-weight:950;
+}
+
+
+/* 加皇冠 */
+.daily-ranking-grid
+.rank-card:first-child
+.rank-no::before{
+  content:"♛";
+  font-size:12px;
+}
+
+
+/* 第一名名稱 */
+.daily-ranking-grid
+.rank-card:first-child
+.rank-title{
+  margin-top:10px;
+
+  font-size:23px;
+
+  color:#073f4b;
+}
+
+
+/* 第一名分數 */
+.daily-ranking-grid
+.rank-card:first-child
+.score{
+  font-size:44px;
+
+  color:#075b65;
+}
+
+
+/* 右上裝飾 */
+.daily-ranking-grid
+.rank-card:first-child::after{
+  width:190px;
+  height:190px;
+
+  right:-72px;
+  top:-78px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(0,169,143,.28),
+      rgba(67,190,216,.11) 48%,
+      transparent 72%
+    );
+}
+
+
+/* hover 保留冠軍高度 */
+.daily-ranking-grid
+.rank-card:first-child:hover{
+  transform:
+    translateY(-7px)
+    scale(1.03);
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 28px 62px rgba(25,120,130,.24);
+}
+
+
+/* 手機 */
+@media(max-width:560px){
+
+  .daily-ranking-grid
+  .rank-card:first-child{
+    transform:none;
+  }
+
+  .daily-ranking-grid
+  .rank-card:first-child:hover{
+    transform:none;
+  }
+
+  .daily-ranking-grid
+  .rank-card:first-child
+  .rank-title{
+    font-size:19px;
+  }
+
+  .daily-ranking-grid
+  .rank-card:first-child
+  .score{
+    font-size:36px;
+  }
+
+}
+/* =====================================================
+   TOMORROW / DAY AFTER RANKING
+   ===================================================== */
+
+.daily-ranking:nth-child(n+2){
+  margin-top:22px;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-date{
+  font-size:18px;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid{
+  align-items:start;
+}
+
+.daily-ranking:nth-child(n+2)
+.rank-card{
+  min-height:0;
+  height:auto;
+
+  padding:8px 10px;
+  border-radius:17px;
+}
+
+.daily-ranking:nth-child(n+2)
+.rank-title{
+  margin-top:3px;
+  font-size:14px;
+}
+
+.daily-ranking:nth-child(n+2)
+.rank-meta{
+  font-size:10px;
+}
+
+.daily-ranking:nth-child(n+2)
+.score-row{
+  margin-top:7px;
+}
+
+.daily-ranking:nth-child(n+2)
+.score{
+  font-size:25px;
+}
+
+.daily-ranking:nth-child(n+2)
+.badge{
+  padding:3px 7px;
+  font-size:9px;
+}
+
+.daily-ranking:nth-child(n+2)
+.best-time{
+  margin-top:3px;
+  font-size:10px;
+}
+
+.daily-ranking:nth-child(n+2)
+.rank-stats{
+  margin-top:8px;
+  gap:5px;
+}
+
+.daily-ranking:nth-child(n+2)
+.chip{
+  padding:3px 6px;
+  font-size:9px;
+}
+
+
+/* 明天 / 後天第一名 */
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child{
+  min-height:0;
+
+  padding:8px 10px;
+
+  transform:none;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child:hover{
+  transform:translateY(-3px);
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child
+.rank-title{
+  margin-top:5px;
+  font-size:17px;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child
+.score{
+  font-size:30px;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child
+.rank-no{
+  padding:4px 8px;
+  font-size:11px;
+}
+
+.daily-ranking:nth-child(n+2)
+.daily-ranking-grid
+.rank-card:first-child::before{
+  top:12px;
+  bottom:12px;
+  width:3px;
+}
+
+
+/* 手機 */
+
+@media(max-width:560px){
+
+  .daily-ranking:nth-child(n+2)
+  .rank-card{
+    min-height:0;
+    padding:8px 10px;
+  }
+
+  .daily-ranking:nth-child(n+2)
+  .rank-title{
+    font-size:15px;
+  }
+
+  .daily-ranking:nth-child(n+2)
+  .score{
+    font-size:27px;
+  }
+
+}
+/* =====================================================
+   SPOT JUMP HIGHLIGHT
+   ===================================================== */
+
+.spot-card.spot-jump-highlight{
+  border-color:
+    rgba(0,169,143,.58);
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 0 0 3px rgba(0,169,143,.12),
+    0 22px 56px rgba(20,139,146,.20);
+}
+
+/* BEST 下水時間 */
+.tide-best-line{
+  vector-effect:
+    non-scaling-stroke;
+}
+/* =====================================================
+   TIDE LABEL CLEANUP
+   ===================================================== */
+
+.tide-time-label{
+  font-size:11px;
+  font-weight:900;
+  fill:#284f63;
+
+  paint-order:normal;
+  stroke:none;
+}
+
+.tide-type-label{
+  font-size:9px;
+  font-weight:900;
+
+  paint-order:normal;
+  stroke:none;
+}
+
+.tide-type-high{
+  fill:#0b84aa;
+}
+
+.tide-type-low{
+  fill:#00977f;
+}
+
+.tide-best-label{
+  fill:#008c78;
+  font-size:8px;
+  font-weight:950;
+  letter-spacing:.04em;
+}
+
+.tide-best-line{
+  stroke:#00a98f;
+  stroke-width:1.5;
+  stroke-dasharray:4 4;
+  opacity:.55;
+}
+/* =====================================================
+   COMPACT CLOSED SPOT CARD
+   ===================================================== */
+
+/* 收合時：隱藏六格詳細資訊 */
+.spot-card:not([open])
+.best-dashboard-grid{
+  display:none;
+}
+
+
+/* 收合時 Dashboard 變成單列摘要 */
+.spot-card:not([open])
+.best-dashboard{
+  margin-top:10px;
+
+  border-radius:14px;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.95),
+    0 6px 18px rgba(39,104,129,.07);
+}
+
+
+/* 收合時最佳時間列縮窄 */
+.spot-card:not([open])
+.best-dashboard-head{
+  padding:9px 12px;
+
+  border-bottom:0;
+}
+
+
+/* 收合時「建議下水」小一點 */
+.spot-card:not([open])
+.best-dashboard-label{
+  font-size:9px;
+}
+
+
+/* 收合時時間 */
+.spot-card:not([open])
+.best-dashboard-time{
+  margin-top:1px;
+
+  font-size:18px;
+}
+
+
+/* 收合時分數 */
+.spot-card:not([open])
+.best-dashboard-score > span:first-child{
+  font-size:19px;
+}
+
+
+/* 整個 summary 也稍微縮短 */
+.spot-card:not([open])
+.spot-summary{
+  padding:15px 17px;
+}
+
+
+/* 浪點名稱稍微收斂 */
+.spot-card:not([open])
+.spot-name{
+  font-size:22px;
+}
+
+
+/* 卡片之間距離縮短 */
+.spot-list{
+  gap:13px;
+}
+
+
+/* 手機 */
+@media(max-width:560px){
+
+  .spot-card:not([open])
+  .spot-summary{
+    padding:13px 14px;
+  }
+
+  .spot-card:not([open])
+  .spot-name{
+    font-size:20px;
+  }
+
+  .spot-card:not([open])
+  .best-dashboard-time{
+    font-size:17px;
+  }
+
+}
