@@ -1609,95 +1609,122 @@ footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
 .surf-cursor.is-cutting-back
 .surf-cursor-rider{
   animation:
-    surfer-cutback
-    .72s
-    cubic-bezier(.16,.78,.22,1);
+    surfer-wave-cutback
+    .86s
+    cubic-bezier(.18,.72,.24,1);
 }
 
 .surf-cursor.facing-left.is-cutting-back
 .surf-cursor-rider{
   animation-name:
-    surfer-cutback-left;
+    surfer-wave-cutback-left;
 }
 
-@keyframes surfer-cutback{
+@keyframes surfer-wave-cutback{
 
+  /* 波谷準備加速 */
   0%{
     transform:
-      rotate(0deg)
       translate(0, 0)
+      rotate(0deg)
       scale(1);
   }
 
-  28%{
+  /* 壓到波谷 */
+  18%{
     transform:
-      rotate(-55deg)
-      translate(-5px, -9px)
-      scale(1.10);
-  }
-
-  52%{
-    transform:
-      rotate(-105deg)
-      translate(-10px, -15px)
-      scale(1.20);
-  }
-
-  76%{
-    transform:
-      rotate(35deg)
-      translate(5px, 4px)
+      translate(-8px, 9px)
+      rotate(12deg)
       scale(.96);
   }
 
+  /* 沿浪壁上衝 */
+  40%{
+    transform:
+      translate(7px, -25px)
+      rotate(-48deg)
+      scale(1.10);
+  }
+
+  /* 波峰轉板 */
+  58%{
+    transform:
+      translate(20px, -31px)
+      rotate(-118deg)
+      scale(1.18);
+  }
+
+  /* 畫弧線往下 */
+  78%{
+    transform:
+      translate(12px, -5px)
+      rotate(38deg)
+      scale(1.02);
+  }
+
+  /* 回到波谷 */
   100%{
     transform:
-      rotate(0deg)
       translate(0, 0)
+      rotate(0deg)
       scale(1);
   }
 
 }
 
-@keyframes surfer-cutback-left{
+@keyframes surfer-wave-cutback-left{
 
+  /* 波谷準備加速 */
   0%{
     transform:
-      scaleX(-1)
-      rotate(0deg)
       translate(0, 0)
+      rotate(0deg)
+      scaleX(-1)
       scale(1);
   }
 
-  28%{
+  /* 壓到波谷 */
+  18%{
     transform:
+      translate(8px, 9px)
+      rotate(-12deg)
       scaleX(-1)
-      rotate(-55deg)
-      translate(-5px, -9px)
-      scale(1.10);
-  }
-
-  52%{
-    transform:
-      scaleX(-1)
-      rotate(-105deg)
-      translate(-10px, -15px)
-      scale(1.20);
-  }
-
-  76%{
-    transform:
-      scaleX(-1)
-      rotate(35deg)
-      translate(5px, 4px)
       scale(.96);
   }
 
+  /* 沿浪壁上衝 */
+  40%{
+    transform:
+      translate(-7px, -25px)
+      rotate(48deg)
+      scaleX(-1)
+      scale(1.10);
+  }
+
+  /* 波峰轉板 */
+  58%{
+    transform:
+      translate(-20px, -31px)
+      rotate(118deg)
+      scaleX(-1)
+      scale(1.18);
+  }
+
+  /* 畫弧線往下 */
+  78%{
+    transform:
+      translate(-12px, -5px)
+      rotate(-38deg)
+      scaleX(-1)
+      scale(1.02);
+  }
+
+  /* 回到波谷 */
   100%{
     transform:
-      scaleX(-1)
-      rotate(0deg)
       translate(0, 0)
+      rotate(0deg)
+      scaleX(-1)
       scale(1);
   }
 
