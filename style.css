@@ -1610,8 +1610,8 @@ footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
 .surf-cursor-rider{
   animation:
     surfer-cutback
-    .55s
-    cubic-bezier(.2,.8,.25,1);
+    .72s
+    cubic-bezier(.16,.78,.22,1);
 }
 
 .surf-cursor.facing-left.is-cutting-back
@@ -1625,28 +1625,35 @@ footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
   0%{
     transform:
       rotate(0deg)
-      translateY(0)
+      translate(0, 0)
       scale(1);
   }
 
-  35%{
+  28%{
     transform:
-      rotate(-38deg)
-      translateY(-7px)
-      scale(1.08);
+      rotate(-55deg)
+      translate(-5px, -9px)
+      scale(1.10);
   }
 
-  65%{
+  52%{
     transform:
-      rotate(22deg)
-      translateY(2px)
+      rotate(-105deg)
+      translate(-10px, -15px)
+      scale(1.20);
+  }
+
+  76%{
+    transform:
+      rotate(35deg)
+      translate(5px, 4px)
       scale(.96);
   }
 
   100%{
     transform:
       rotate(0deg)
-      translateY(0)
+      translate(0, 0)
       scale(1);
   }
 
@@ -1658,23 +1665,31 @@ footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
     transform:
       scaleX(-1)
       rotate(0deg)
-      translateY(0)
+      translate(0, 0)
       scale(1);
   }
 
-  35%{
+  28%{
     transform:
       scaleX(-1)
-      rotate(-38deg)
-      translateY(-7px)
-      scale(1.08);
+      rotate(-55deg)
+      translate(-5px, -9px)
+      scale(1.10);
   }
 
-  65%{
+  52%{
     transform:
       scaleX(-1)
-      rotate(22deg)
-      translateY(2px)
+      rotate(-105deg)
+      translate(-10px, -15px)
+      scale(1.20);
+  }
+
+  76%{
+    transform:
+      scaleX(-1)
+      rotate(35deg)
+      translate(5px, 4px)
       scale(.96);
   }
 
@@ -1682,7 +1697,7 @@ footer{padding:28px 4px 0;color:var(--muted);font-size:11px;line-height:1.7}
     transform:
       scaleX(-1)
       rotate(0deg)
-      translateY(0)
+      translate(0, 0)
       scale(1);
   }
 
