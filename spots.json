@@ -78,6 +78,22 @@
       "kind": "沙灘浪型｜沙底｜左右跑"
     }
   },
+  
+  "Hualien-Jiqi": {
+    "name": "磯崎",
+    "area": "東部",
+    "region": "花蓮縣｜豐濱鄉",
+    "bestTide": "中潮 → 滿潮",
+    "cwa": {
+      "geocode": "10015080",
+      "coastalId": "10015080C01",
+      "county": "花蓮縣"
+    },
+    "info": {
+      "facing": "東",
+      "kind": "沙灘浪型｜鵝卵石底｜左右跑"
+    }
+  },
 
   "Hualien-Beibin": {
     "name": "北濱",
