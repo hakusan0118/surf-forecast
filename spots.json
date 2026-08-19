@@ -79,6 +79,22 @@
       "kind": "沙灘浪型｜沙底｜左右跑"
     }
   },
+  "Yilan-Shuangshi": {
+    "name": "🦁🦁 雙獅",
+    "displayOrder": 120,
+    "area": "北部",
+    "region": "宜蘭縣｜頭城鎮",
+    "bestTide": "中潮 → 滿潮前",
+    "cwa": {
+      "geocode": "10002040",
+      "coastalId": "10002040C01",
+      "county": "宜蘭縣"
+    },
+    "info": {
+      "facing": "東",
+      "kind": "沙灘浪型｜沙底｜左右跑"
+    }
+  },
   "Hualien-Jiqi": {
     "name": "磯崎",
     "displayOrder": 80,
