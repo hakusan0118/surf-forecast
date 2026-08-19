@@ -6,6 +6,19 @@ const regionFilterEl = document.getElementById("region-filter");
 let allLocations = [];
 let spotConfig = {};
 
+const spotDisplayOrder = [
+  "Miaoli-Yuanli",
+  "Tainan-Jiangjun",
+  "Kaohsiung-Yongan",
+  "Kaohsiung-Qijin",
+  "Pingtung-Nanwan",
+  "Pingtung-Jialeshui",
+  "Hualien-Jiqi",
+  "Hualien-Beibin",
+  "Hualien-EnvironmentalPark",
+  "Yilan-Wushi"
+];
+
 
 function esc(v){
   return String(v ?? "—").replace(/[&<>"']/g, c => ({
@@ -1577,9 +1590,23 @@ Promise.all([
       : "資料更新時間未知";
 
 
-  allLocations =
+   allLocations =
     (data.locations || [])
-      .map(enrichLocation);
+      .map(enrichLocation)
+      .sort((a, b) => {
+
+        const aIndex =
+          spotDisplayOrder.indexOf(a.name);
+
+        const bIndex =
+          spotDisplayOrder.indexOf(b.name);
+
+        return (
+          (aIndex === -1 ? 999 : aIndex) -
+          (bIndex === -1 ? 999 : bIndex)
+        );
+
+      });
 
 
   renderRanking(
