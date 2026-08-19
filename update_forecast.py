@@ -248,7 +248,9 @@ def extract_tides(
     wanted_dates
 ):
     """
-    只保留浪況使用到的前三天。
+    輸出預報三天，並額外保留前後一天的潮汐，
+    讓跨午夜的潮汐判定仍有前後兩個極值。
+
     潮高使用 AboveLocalMSL，
     即相對當地平均海平面，單位 cm。
     """
@@ -263,11 +265,40 @@ def extract_tides(
         periods.get("Daily")
     )
 
-    for daily in daily_rows:
+    daily_rows.sort(
+        key=lambda row: row.get("Date") or ""
+    )
+
+    wanted_set = set(wanted_dates)
+
+    wanted_indexes = [
+        index
+        for index, daily in enumerate(daily_rows)
+        if daily.get("Date") in wanted_set
+    ]
+
+    if not wanted_indexes:
+        return output
+
+    first_index = max(
+        0,
+        min(wanted_indexes) - 1
+    )
+
+    last_index = min(
+        len(daily_rows) - 1,
+        max(wanted_indexes) + 1
+    )
+
+    context_rows = daily_rows[
+        first_index:last_index + 1
+    ]
+
+    for daily in context_rows:
 
         date = daily.get("Date")
 
-        if date not in wanted_dates:
+        if not date:
             continue
 
         events = []
@@ -308,6 +339,7 @@ def extract_tides(
 
         output.append({
             "date": date,
+
             "lunar_date":
                 daily.get("LunarDate"),
 
