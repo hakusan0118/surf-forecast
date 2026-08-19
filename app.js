@@ -365,9 +365,93 @@ function renderRanking(locations){
     }).join("");
 }
 
-  function tideChart(tideDay, chartId, bestTime){
+ function tideChart(
+  tideDay,
+  chartId,
+  bestTime,
+  allTides = []
+){
 
-  const events = tideDay?.events || [];
+  const dayEvents =
+    (tideDay?.events || [])
+      .map(event => ({
+        ...event,
+        event_date: tideDay?.date
+      }));
+
+  const allEvents =
+    (allTides || [])
+      .flatMap(day =>
+        (day.events || []).map(event => ({
+          ...event,
+          event_date: day.date
+        }))
+      )
+      .filter(event => event.datetime)
+      .sort(
+        (a, b) =>
+          Date.parse(a.datetime) -
+          Date.parse(b.datetime)
+      );
+
+  let events = dayEvents.slice();
+
+  if(
+    events.length === 1 &&
+    tideDay?.date
+  ){
+
+    const currentTime =
+      Date.parse(events[0].datetime);
+
+    const previousEvent =
+      allEvents
+        .filter(
+          event =>
+            Date.parse(event.datetime) <
+            currentTime
+        )
+        .at(-1);
+
+    const nextEvent =
+      allEvents.find(
+        event =>
+          Date.parse(event.datetime) >
+          currentTime
+      );
+
+    events = [
+      previousEvent,
+      ...events,
+      nextEvent
+    ].filter(Boolean);
+  }
+
+  const dayStart =
+    tideDay?.date
+      ? Date.parse(
+          `${tideDay.date}T00:00:00+08:00`
+        )
+      : null;
+
+  events = events
+    .map(event => ({
+      ...event,
+
+      chart_minute:
+        dayStart !== null &&
+        event.datetime
+          ? (
+              Date.parse(event.datetime) -
+              dayStart
+            ) / 60000
+          : null
+    }))
+    .sort(
+      (a, b) =>
+        Date.parse(a.datetime) -
+        Date.parse(b.datetime)
+    );
 
   if(events.length < 2){
     return `
@@ -414,28 +498,39 @@ function renderRanking(locations){
     return h * 60 + m;
   };
 
+  const eventMinute = event =>
+    Number.isFinite(event.chart_minute)
+      ? event.chart_minute
+      : minutes(event.time);
+
   const firstEventMinute =
-    minutes(events[0].time);
+    eventMinute(events[0]);
 
   const lastEventMinute =
-    minutes(
-      events[events.length - 1].time
+    eventMinute(
+      events[events.length - 1]
     );
 
-  const mobileTimeRange =
+  const chartTimeRange =
     Math.max(
       1,
       lastEventMinute -
       firstEventMinute
     );
 
-  const xFor = time => {
+  const hasCrossDayEvent =
+    events.some(
+      event =>
+        eventMinute(event) < 0 ||
+        eventMinute(event) >= 1440
+    );
 
-    const timeMinute =
-      minutes(time);
+  const xForMinute = timeMinute => {
 
-    if(isMobile){
-
+    if(
+      isMobile ||
+      hasCrossDayEvent
+    ){
       return (
         padX +
         (
@@ -443,7 +538,7 @@ function renderRanking(locations){
             timeMinute -
             firstEventMinute
           ) /
-          mobileTimeRange
+          chartTimeRange
         ) *
         (width - padX * 2)
       );
@@ -456,6 +551,9 @@ function renderRanking(locations){
     );
   };
 
+  const xFor = time =>
+    xForMinute(minutes(time));
+
   const yFor = value =>
     padTop +
     ((maxH - value) / range) *
@@ -464,7 +562,7 @@ function renderRanking(locations){
   const points = events.map(e => ({
     ...e,
     value: Number(e.height_cm),
-    x: xFor(e.time),
+    x: xForMinute(eventMinute(e)),
     y: yFor(Number(e.height_cm))
   }));
   const bestX =
@@ -535,6 +633,13 @@ const bestMarker =
     const isHigh =
       p.type === "滿潮";
 
+    const datePrefix =
+      p.event_date < tideDay.date
+        ? "前日"
+        : p.event_date > tideDay.date
+          ? "翌日"
+          : "";
+
     const labelY =
       isHigh
         ? p.y + 20
@@ -574,7 +679,7 @@ const bestMarker =
           y="${height - 7}"
           text-anchor="middle"
           class="tide-type-label ${isHigh ? "tide-type-high" : "tide-type-low"}">
-          ${esc(p.type)}
+          ${esc(`${datePrefix}${p.type}`)}
         </text>
 
       </g>
