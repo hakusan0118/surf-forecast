@@ -1242,7 +1242,7 @@ function feedbackFormHtml(loc){
         <fieldset class="feedback-group">
           <legend>板型</legend>
           <div class="feedback-choice-row">
-            ${["長板","中尺寸板","短板"]
+            ${["長板","中尺寸","短板"]
               .map(
                 (value, index) => `
                   <label class="feedback-choice">
