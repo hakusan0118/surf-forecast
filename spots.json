@@ -158,5 +158,21 @@
       "facing": "東南",
       "kind": "河口 / 定點起浪｜沙和石頭底｜左右跑"
     }
+  },
+
+  "Pingtung-Jiupeng": {
+    "name": "九棚",
+    "area": "南部",
+    "region": "屏東縣｜牡丹鄉",
+    "bestTide": "中潮",
+    "cwa": {
+      "geocode": "10013330",
+      "coastalId": "1001333C01",
+      "county": "屏東縣"
+    },
+    "info": {
+      "facing": "東北",
+      "kind": "沙灘浪型 / 定點起浪｜沙和石頭底｜左右跑"
+    }
   }
 }
