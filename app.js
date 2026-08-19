@@ -1717,10 +1717,7 @@ function bindFeedbackForms(){
                   "note"
                 ) || "",
 
-              website:
-                formData.get(
-                  "website"
-                ) || "",
+              website: "",
 
               device_id:
                 feedbackDeviceId(),
