@@ -2013,8 +2013,6 @@ const b = (
 
           ${dayPanels}
 
-          ${feedbackFormHtml(loc)}
-
         </div>
       </details>
     `;
