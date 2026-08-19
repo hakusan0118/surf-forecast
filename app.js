@@ -1153,9 +1153,9 @@ function feedbackTimeOptions(){
 
   const roundedMinutes =
     Math.max(
-      0,
+      270,
       Math.min(
-        1410,
+        1110,
         Math.round(
           currentMinutes / 30
         ) * 30
@@ -1163,9 +1163,10 @@ function feedbackTimeOptions(){
     );
 
   return Array.from(
-    {length: 48},
+    {length: 29},
     (_, index) => {
       const total =
+        270 +
         index * 30;
 
       const hour =
