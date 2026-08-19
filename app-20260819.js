@@ -852,7 +852,9 @@ const daylightHtml = `
     <div class="day-best">
       最佳 ${esc(dayBest?.time)} · ${dayBest?.score ?? 0} 分
     </div>
-  </div>
+   </div>
+
+  ${daylightHtml}
 
   ${tideChart(
     tideDay,
