@@ -5,6 +5,10 @@ const errorEl = document.getElementById("error");
 const regionFilterEl = document.getElementById("region-filter");
 let allLocations = [];
 let spotConfig = {};
+let forecastUpdated = "";
+
+const FEEDBACK_API_URL =
+  "https://script.google.com/macros/s/AKfycbw2WTgE3kzPPlqK2AJJNEJbhKC7Q1ALt5EXkHVoAmxODI2LpMsEsSOWA8xlciI9X-6KUg/exec";
 
 function esc(v){
   return String(v ?? "—").replace(/[&<>"']/g, c => ({
@@ -1048,6 +1052,736 @@ function updateSpotDashboard(
   }
 
 }
+function taiwanDateString(offsetDays = 0){
+  const date =
+    new Date(
+      Date.now() +
+      offsetDays * 86400000
+    );
+
+  const parts =
+    new Intl.DateTimeFormat(
+      "en-US",
+      {
+        timeZone: "Asia/Taipei",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }
+    )
+      .formatToParts(date);
+
+  const values =
+    Object.fromEntries(
+      parts.map(
+        part => [
+          part.type,
+          part.value
+        ]
+      )
+    );
+
+  return (
+    `${values.year}-` +
+    `${values.month}-` +
+    `${values.day}`
+  );
+}
+
+function feedbackDateOptions(){
+  return Array.from(
+    {length: 7},
+    (_, index) => {
+      const value =
+        taiwanDateString(
+          -index
+        );
+
+      const date =
+        new Date(
+          `${value}T00:00:00+08:00`
+        );
+
+      const label =
+        new Intl.DateTimeFormat(
+          "zh-TW",
+          {
+            timeZone: "Asia/Taipei",
+            month: "numeric",
+            day: "numeric",
+            weekday: "short"
+          }
+        ).format(date);
+
+      return `
+        <option value="${value}">
+          ${label}
+        </option>
+      `;
+    }
+  ).join("");
+}
+
+function feedbackTimeOptions(){
+  const nowParts =
+    new Intl.DateTimeFormat(
+      "en-US",
+      {
+        timeZone: "Asia/Taipei",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      }
+    )
+      .formatToParts(
+        new Date()
+      );
+
+  const values =
+    Object.fromEntries(
+      nowParts.map(
+        part => [
+          part.type,
+          part.value
+        ]
+      )
+    );
+
+  const currentMinutes =
+    Number(values.hour) * 60 +
+    Number(values.minute);
+
+  const roundedMinutes =
+    Math.max(
+      0,
+      Math.min(
+        1410,
+        Math.round(
+          currentMinutes / 30
+        ) * 30
+      )
+    );
+
+  return Array.from(
+    {length: 48},
+    (_, index) => {
+      const total =
+        index * 30;
+
+      const hour =
+        String(
+          Math.floor(
+            total / 60
+          )
+        ).padStart(2, "0");
+
+      const minute =
+        String(
+          total % 60
+        ).padStart(2, "0");
+
+      const value =
+        `${hour}:${minute}`;
+
+      return `
+        <option
+          value="${value}"
+          ${total === roundedMinutes ? "selected" : ""}
+        >
+          ${value}
+        </option>
+      `;
+    }
+  ).join("");
+}
+
+function feedbackFormHtml(loc){
+  return `
+    <section class="feedback-panel">
+      <div class="feedback-head">
+        <div>
+          <div class="feedback-eyebrow">
+            ACTUAL SURF REPORT
+          </div>
+          <h3>回報浪況</h3>
+          <p>
+            分享你在
+            <strong>${esc(loc.profile.name)}</strong>
+            實際看到或衝到的浪況
+          </p>
+        </div>
+      </div>
+
+      <form
+        class="feedback-form"
+        data-location="${esc(loc.name)}"
+      >
+        <div class="feedback-grid">
+          <label class="feedback-field">
+            <span>下水日期</span>
+            <select
+              name="surf_date"
+              required
+            >
+              ${feedbackDateOptions()}
+            </select>
+          </label>
+
+          <label class="feedback-field">
+            <span>下水時間</span>
+            <select
+              name="surf_time"
+              required
+            >
+              ${feedbackTimeOptions()}
+            </select>
+          </label>
+        </div>
+
+        <fieldset class="feedback-group">
+          <legend>板型</legend>
+          <div class="feedback-choice-row">
+            ${["長板","中尺寸板","短板"]
+              .map(
+                (value, index) => `
+                  <label class="feedback-choice">
+                    <input
+                      type="radio"
+                      name="board_type"
+                      value="${value}"
+                      ${index === 1 ? "checked" : ""}
+                      required
+                    >
+                    <span>${value}</span>
+                  </label>
+                `
+              )
+              .join("")}
+          </div>
+        </fieldset>
+
+        <fieldset class="feedback-group">
+          <legend>實際浪況</legend>
+          <div class="feedback-rating-row">
+            ${[
+              "不能玩",
+              "浪況差",
+              "普通可玩",
+              "不錯",
+              "好浪"
+            ]
+              .map(
+                value => `
+                  <label class="feedback-choice feedback-rating">
+                    <input
+                      type="radio"
+                      name="actual_rating"
+                      value="${value}"
+                      required
+                    >
+                    <span>${value}</span>
+                  </label>
+                `
+              )
+              .join("")}
+          </div>
+        </fieldset>
+
+        <fieldset class="feedback-group">
+          <legend>回報依據</legend>
+          <div class="feedback-choice-row">
+            ${["親自下水","岸上觀察"]
+              .map(
+                (value, index) => `
+                  <label class="feedback-choice">
+                    <input
+                      type="radio"
+                      name="report_basis"
+                      value="${value}"
+                      ${index === 0 ? "checked" : ""}
+                      required
+                    >
+                    <span>${value}</span>
+                  </label>
+                `
+              )
+              .join("")}
+          </div>
+        </fieldset>
+
+        <fieldset class="feedback-group">
+          <legend>
+            哪裡不理想？
+            <small>可複選、也可不選</small>
+          </legend>
+          <div class="feedback-issue-row">
+            ${[
+              "太小",
+              "浪軟",
+              "風亂",
+              "潮汐不對",
+              "浪向不進",
+              "整排關門"
+            ]
+              .map(
+                value => `
+                  <label class="feedback-choice feedback-issue">
+                    <input
+                      type="checkbox"
+                      name="issue_tags"
+                      value="${value}"
+                    >
+                    <span>${value}</span>
+                  </label>
+                `
+              )
+              .join("")}
+          </div>
+        </fieldset>
+
+        <label class="feedback-field feedback-note">
+          <span>補充說明 <small>選填</small></span>
+          <textarea
+            name="note"
+            rows="2"
+            maxlength="300"
+            placeholder="例如：早上七點浪面乾淨，但滿潮後變軟"
+          ></textarea>
+        </label>
+
+        <label class="feedback-honeypot" aria-hidden="true">
+          <span>網站</span>
+          <input
+            type="text"
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+          >
+        </label>
+
+        <div class="feedback-actions">
+          <button
+            type="submit"
+            class="feedback-submit"
+          >
+            送出浪況回報
+          </button>
+
+          <div
+            class="feedback-message"
+            role="status"
+            aria-live="polite"
+          ></div>
+        </div>
+      </form>
+    </section>
+  `;
+}
+
+function timeToMinutes(value){
+  const [hour, minute] =
+    String(value)
+      .split(":")
+      .map(Number);
+
+  return (
+    hour * 60 +
+    minute
+  );
+}
+
+function nearestForecastSlot(slots, actualTime){
+  const actualMinutes =
+    timeToMinutes(
+      actualTime
+    );
+
+  return (
+    (slots || [])
+      .slice()
+      .sort(
+        (a, b) => {
+          const aMinutes =
+            timeToMinutes(
+              a.time
+            );
+
+          const bMinutes =
+            timeToMinutes(
+              b.time
+            );
+
+          const aDistance =
+            Math.abs(
+              aMinutes -
+              actualMinutes
+            );
+
+          const bDistance =
+            Math.abs(
+              bMinutes -
+              actualMinutes
+            );
+
+          if(
+            aDistance !==
+            bDistance
+          ){
+            return (
+              aDistance -
+              bDistance
+            );
+          }
+
+          const aIsEarlier =
+            aMinutes <=
+            actualMinutes;
+
+          const bIsEarlier =
+            bMinutes <=
+            actualMinutes;
+
+          if(
+            aIsEarlier !==
+            bIsEarlier
+          ){
+            return (
+              aIsEarlier
+                ? -1
+                : 1
+            );
+          }
+
+          return (
+            aMinutes -
+            bMinutes
+          );
+        }
+      )[0] || null
+  );
+}
+
+async function feedbackForecastFor(locationName, date, time){
+  const currentLocation =
+    allLocations.find(
+      location =>
+        location.name ===
+        locationName
+    );
+
+  let slots =
+    (currentLocation?.forecast || [])
+      .filter(
+        slot =>
+          slot.date === date
+      );
+
+  let updated =
+    forecastUpdated;
+
+  if(!slots.length){
+    const response =
+      await fetch(
+        `./data/history/${date}.json`,
+        {
+          cache: "no-store"
+        }
+      );
+
+    if(!response.ok){
+      throw new Error(
+        "這一天尚無可配對的歷史預報"
+      );
+    }
+
+    const history =
+      await response.json();
+
+    const historyLocation =
+      (history.locations || [])
+        .find(
+          location =>
+            location.name ===
+            locationName
+        );
+
+    slots =
+      historyLocation?.forecast ||
+      [];
+
+    updated =
+      history.updated || "";
+  }
+
+  const slot =
+    nearestForecastSlot(
+      slots,
+      time
+    );
+
+  if(!slot){
+    throw new Error(
+      "找不到接近下水時間的預報資料"
+    );
+  }
+
+  return {
+    slot,
+    updated
+  };
+}
+
+function feedbackDeviceId(){
+  const storageKey =
+    "surfFeedbackDeviceId";
+
+  try {
+    let value =
+      localStorage.getItem(
+        storageKey
+      );
+
+    if(!value){
+      value =
+        crypto.randomUUID
+          ? crypto.randomUUID()
+          : (
+              `${Date.now()}-` +
+              Math.random()
+                .toString(36)
+                .slice(2)
+            );
+
+      localStorage.setItem(
+        storageKey,
+        value
+      );
+    }
+
+    return value;
+
+  } catch(error) {
+    return (
+      `${Date.now()}-` +
+      Math.random()
+        .toString(36)
+        .slice(2)
+    );
+  }
+}
+
+function bindFeedbackForms(){
+  document
+    .querySelectorAll(
+      ".feedback-form"
+    )
+    .forEach(form => {
+      form.addEventListener(
+        "submit",
+        async event => {
+          event.preventDefault();
+
+          const submitButton =
+            form.querySelector(
+              ".feedback-submit"
+            );
+
+          const message =
+            form.querySelector(
+              ".feedback-message"
+            );
+
+          const formData =
+            new FormData(form);
+
+          const locationName =
+            form.dataset.location;
+
+          const location =
+            allLocations.find(
+              item =>
+                item.name ===
+                locationName
+            );
+
+          if(!location){
+            message.textContent =
+              "找不到浪點資料";
+            message.className =
+              "feedback-message error";
+            return;
+          }
+
+          submitButton.disabled =
+            true;
+
+          submitButton.textContent =
+            "送出中…";
+
+          message.textContent =
+            "";
+          message.className =
+            "feedback-message";
+
+          try {
+            const surfDate =
+              formData.get(
+                "surf_date"
+              );
+
+            const surfTime =
+              formData.get(
+                "surf_time"
+              );
+
+            const matched =
+              await feedbackForecastFor(
+                locationName,
+                surfDate,
+                surfTime
+              );
+
+            const slot =
+              matched.slot;
+
+            const payload = {
+              surf_date:
+                surfDate,
+
+              surf_time:
+                surfTime,
+
+              spot_code:
+                locationName,
+
+              spot_name:
+                location.profile.name,
+
+              board_type:
+                formData.get(
+                  "board_type"
+                ),
+
+              actual_rating:
+                formData.get(
+                  "actual_rating"
+                ),
+
+              report_basis:
+                formData.get(
+                  "report_basis"
+                ),
+
+              issue_tags:
+                formData.getAll(
+                  "issue_tags"
+                ),
+
+              note:
+                formData.get(
+                  "note"
+                ) || "",
+
+              website:
+                formData.get(
+                  "website"
+                ) || "",
+
+              device_id:
+                feedbackDeviceId(),
+
+              forecast: {
+                date:
+                  slot.date,
+
+                time:
+                  slot.time,
+
+                wave_height:
+                  slot.wave_height,
+
+                wave_period:
+                  slot.wave_period,
+
+                wind_kts:
+                  slot.wind_kts,
+
+                wind_direction:
+                  slot.wind_direction,
+
+                wave_direction:
+                  slot.wave_direction,
+
+                tide_status:
+                  slot.tide_status,
+
+                score:
+                  slot.score,
+
+                rating:
+                  slot.rating,
+
+                updated:
+                  matched.updated
+              }
+            };
+
+            const response =
+              await fetch(
+                FEEDBACK_API_URL,
+                {
+                  method: "POST",
+
+                  headers: {
+                    "Content-Type":
+                      "text/plain;charset=utf-8"
+                  },
+
+                  body:
+                    JSON.stringify(
+                      payload
+                    )
+                }
+              );
+
+            const result =
+              await response.json();
+
+            if(!result.ok){
+              throw new Error(
+                result.error ||
+                "回報失敗"
+              );
+            }
+
+            message.textContent =
+              result.updated
+                ? "已更新你的浪況回報，謝謝！"
+                : "浪況回報成功，謝謝！";
+
+            message.className =
+              "feedback-message success";
+
+          } catch(error) {
+            message.textContent =
+              error?.message ||
+              "回報失敗，請稍後再試";
+
+            message.className =
+              "feedback-message error";
+
+          } finally {
+            submitButton.disabled =
+              false;
+
+            submitButton.textContent =
+              "送出浪況回報";
+          }
+        }
+      );
+    });
+}
+
 function renderSpots(locations){
   forecastEl.innerHTML = locations.map((loc, spotIndex)=>{
     const p = loc.profile;
@@ -1247,6 +1981,8 @@ const b = (
 
           ${dayPanels}
 
+          ${feedbackFormHtml(loc)}
+
         </div>
       </details>
     `;
@@ -1339,6 +2075,8 @@ if(card && loc){
     );
 
   });
+
+  bindFeedbackForms();
 }
 function openSpotForecast(locationName, date){
 
@@ -1566,6 +2304,9 @@ Promise.all([
 
   spotConfig = spots || {};
 
+
+  forecastUpdated =
+    data.updated || "";
 
   updatedEl.textContent =
     data.updated
