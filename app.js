@@ -664,6 +664,7 @@ function dayGrid(
   items,
   daylight,
   tideDay,
+  allTides,
   chartId
 ){
   const slots = items
@@ -749,12 +750,12 @@ const daylightHtml = `
     </div>
   </div>
 
-  ${daylightHtml}
   ${tideChart(
-  tideDay,
-  chartId,
-  dayBest?.time
-)}
+    tideDay,
+    chartId,
+    dayBest?.time,
+    allTides
+  )}
     <div class="forecast-grid" style="--slot-count:${slots.length}">
       <div class="cell label headcell">項目</div>
       ${slots.map(t=>{
@@ -1014,11 +1015,12 @@ const b = (
       data-date="${esc(date)}"
       ${i===0 ? "" : "hidden"}>
 
-      ${dayGrid(
+         ${dayGrid(
         date,
         items,
         daylight,
         tideDay,
+        loc.tides || [],
         `${spotIndex}-${i}-${date}`
       )}
 
