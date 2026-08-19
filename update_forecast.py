@@ -3,7 +3,7 @@ import os
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 # =========================================================
@@ -491,6 +491,294 @@ def extract_daylight(
         })
 
     return output
+
+
+# =========================================================
+# 每日預報歷史
+# =========================================================
+
+HISTORY_DIR = os.path.join(
+    BASE_DIR,
+    "data",
+    "history",
+)
+
+
+def update_forecast_history(output):
+    os.makedirs(
+        HISTORY_DIR,
+        exist_ok=True,
+    )
+
+    locations_by_date = {}
+
+    for location in output.get(
+        "locations",
+        []
+    ):
+        for slot in location.get(
+            "forecast",
+            []
+        ):
+            slot_date = slot.get("date")
+
+            if not slot_date:
+                continue
+
+            locations_by_date.setdefault(
+                slot_date,
+                {}
+            )
+
+            locations_by_date[
+                slot_date
+            ].setdefault(
+                location.get("name"),
+                {
+                    "name":
+                        location.get("name"),
+
+                    "geocode":
+                        location.get("geocode"),
+
+                    "county":
+                        location.get("county"),
+
+                    "forecast": [],
+                }
+            )
+
+            locations_by_date[
+                slot_date
+            ][
+                location.get("name")
+            ][
+                "forecast"
+            ].append(slot)
+
+    written_dates = []
+
+    for slot_date, new_locations in (
+        locations_by_date.items()
+    ):
+        try:
+            datetime.strptime(
+                slot_date,
+                "%Y-%m-%d",
+            )
+        except ValueError:
+            continue
+
+        history_path = os.path.join(
+            HISTORY_DIR,
+            f"{slot_date}.json",
+        )
+
+        old_locations = {}
+
+        try:
+            with open(
+                history_path,
+                "r",
+                encoding="utf-8",
+            ) as f:
+                previous_history = (
+                    json.load(f)
+                )
+
+            old_locations = {
+                location.get("name"):
+                    location
+
+                for location in (
+                    previous_history.get(
+                        "locations",
+                        []
+                    )
+                )
+
+                if location.get("name")
+            }
+
+        except (
+            FileNotFoundError,
+            json.JSONDecodeError,
+            TypeError,
+        ):
+            old_locations = {}
+
+        merged_locations = {}
+
+        for name in (
+            set(old_locations)
+            | set(new_locations)
+        ):
+            old_location = (
+                old_locations.get(
+                    name,
+                    {}
+                )
+            )
+
+            new_location = (
+                new_locations.get(
+                    name,
+                    {}
+                )
+            )
+
+            slots_by_time = {
+                slot.get("time"):
+                    slot
+
+                for slot in (
+                    old_location.get(
+                        "forecast",
+                        []
+                    )
+                )
+
+                if slot.get("time")
+            }
+
+            for slot in (
+                new_location.get(
+                    "forecast",
+                    []
+                )
+            ):
+                if slot.get("time"):
+                    slots_by_time[
+                        slot.get("time")
+                    ] = slot
+
+            merged_locations[name] = {
+                "name":
+                    name,
+
+                "geocode":
+                    new_location.get(
+                        "geocode"
+                    )
+                    or old_location.get(
+                        "geocode"
+                    ),
+
+                "county":
+                    new_location.get(
+                        "county"
+                    )
+                    or old_location.get(
+                        "county"
+                    ),
+
+                "forecast":
+                    sorted(
+                        slots_by_time.values(),
+                        key=lambda slot:
+                            slot.get(
+                                "time",
+                                ""
+                            ),
+                    ),
+            }
+
+        history_output = {
+            "date":
+                slot_date,
+
+            "updated":
+                output.get("updated"),
+
+            "locations":
+                sorted(
+                    merged_locations.values(),
+                    key=lambda location:
+                        location.get(
+                            "name",
+                            ""
+                        ),
+                ),
+        }
+
+        with open(
+            history_path,
+            "w",
+            encoding="utf-8",
+        ) as f:
+            json.dump(
+                history_output,
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+
+        written_dates.append(
+            slot_date
+        )
+
+        print(
+            "Updated "
+            f"data/history/{slot_date}.json"
+        )
+
+    # 僅保留最近90天。
+    history_dates = []
+
+    for filename in os.listdir(
+        HISTORY_DIR
+    ):
+        if not filename.endswith(
+            ".json"
+        ):
+            continue
+
+        try:
+            file_date = datetime.strptime(
+                filename[:-5],
+                "%Y-%m-%d",
+            ).date()
+
+            history_dates.append(
+                (
+                    file_date,
+                    filename,
+                )
+            )
+
+        except ValueError:
+            continue
+
+    if history_dates:
+        newest_date = max(
+            file_date
+            for file_date, _ in (
+                history_dates
+            )
+        )
+
+        cutoff_date = (
+            newest_date
+            - timedelta(days=89)
+        )
+
+        for file_date, filename in (
+            history_dates
+        ):
+            if file_date < cutoff_date:
+                os.remove(
+                    os.path.join(
+                        HISTORY_DIR,
+                        filename,
+                    )
+                )
+
+                print(
+                    "Removed expired history "
+                    f"data/history/{filename}"
+                )
+
+    return written_dates
 
 
 # =========================================================
@@ -1117,6 +1405,11 @@ def main():
     print(
         "Updated "
         "data/surf_forecast.json"
+    )
+
+
+    update_forecast_history(
+        output
     )
 
 
