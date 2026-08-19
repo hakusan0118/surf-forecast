@@ -1,6 +1,7 @@
 {
   "Miaoli-Yuanli": {
     "name": "松柏港",
+    "displayOrder": 10,
     "area": "西部",
     "region": "苗栗縣｜苑裡鎮",
     "bestTide": "中潮 → 滿潮",
@@ -14,9 +15,9 @@
       "kind": "沙灘浪型"
     }
   },
-
   "Tainan-Jiangjun": {
     "name": "將軍",
+    "displayOrder": 20,
     "area": "西部",
     "region": "臺南市｜將軍區",
     "bestTide": "中潮",
@@ -30,9 +31,9 @@
       "kind": "沙灘浪型"
     }
   },
-
   "Kaohsiung-Yongan": {
     "name": "永安",
+    "displayOrder": 30,
     "area": "南部",
     "region": "高雄市｜永安區",
     "bestTide": "中潮",
@@ -46,9 +47,9 @@
       "kind": "特殊條件浪點"
     }
   },
-
   "Kaohsiung-Qijin": {
     "name": "旗津",
+    "displayOrder": 40,
     "area": "南部",
     "region": "高雄市｜旗津區",
     "bestTide": "乾潮 → 中潮",
@@ -62,9 +63,9 @@
       "kind": "沙灘浪型"
     }
   },
-
   "Yilan-Wushi": {
     "name": "烏石港",
+    "displayOrder": 110,
     "area": "北部",
     "region": "宜蘭縣｜頭城鎮",
     "bestTide": "中潮",
@@ -78,9 +79,9 @@
       "kind": "沙灘浪型｜沙底｜左右跑"
     }
   },
-  
   "Hualien-Jiqi": {
     "name": "磯崎",
+    "displayOrder": 80,
     "area": "東部",
     "region": "花蓮縣｜豐濱鄉",
     "bestTide": "中潮 → 滿潮",
@@ -94,9 +95,9 @@
       "kind": "沙灘浪型｜鵝卵石底｜左右跑"
     }
   },
-
   "Hualien-Beibin": {
     "name": "北濱",
+    "displayOrder": 90,
     "area": "東部",
     "region": "花蓮縣｜花蓮市",
     "bestTide": "乾潮 → 中潮",
@@ -110,9 +111,9 @@
       "kind": "河口｜沙和石頭底｜左右跑"
     }
   },
-
   "Hualien-EnvironmentalPark": {
     "name": "環保公園",
+    "displayOrder": 100,
     "area": "東部",
     "region": "花蓮縣｜花蓮市",
     "bestTide": "滿潮前後 2–3 小時",
@@ -127,9 +128,9 @@
       "level": "中階 +"
     }
   },
-
   "Pingtung-Nanwan": {
     "name": "南灣",
+    "displayOrder": 50,
     "area": "南部",
     "region": "屏東縣｜恆春鎮",
     "bestTide": "乾潮 → 中潮",
@@ -143,9 +144,9 @@
       "kind": "沙灘浪型｜礁盤沙底｜右跑"
     }
   },
-
   "Pingtung-Jialeshui": {
     "name": "佳樂水",
+    "displayOrder": 60,
     "area": "南部",
     "region": "屏東縣｜滿州鄉",
     "bestTide": "中潮",
@@ -159,9 +160,9 @@
       "kind": "河口 / 定點起浪｜沙和石頭底｜左右跑"
     }
   },
-
   "Pingtung-Jiupeng": {
     "name": "九棚",
+    "displayOrder": 70,
     "area": "南部",
     "region": "屏東縣｜牡丹鄉",
     "bestTide": "中潮",
