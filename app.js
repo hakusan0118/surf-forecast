@@ -1470,17 +1470,22 @@ async function feedbackForecastFor(locationName, date, time){
         locationName
     );
 
-  let slots =
+  const currentSlots =
     (currentLocation?.forecast || [])
       .filter(
         slot =>
           slot.date === date
-      );
+      )
+      .map(slot => ({
+        ...slot,
+        feedback_updated:
+          forecastUpdated
+      }));
 
-  let updated =
-    forecastUpdated;
+  let historySlots = [];
+  let historyUpdated = "";
 
-  if(!slots.length){
+  try {
     const response =
       await fetch(
         `./data/history/${date}.json`,
@@ -1489,46 +1494,75 @@ async function feedbackForecastFor(locationName, date, time){
         }
       );
 
-    if(!response.ok){
-      throw new Error(
-        "這一天尚無可配對的歷史預報"
-      );
+    if(response.ok){
+      const history =
+        await response.json();
+
+      const historyLocation =
+        (history.locations || [])
+          .find(
+            location =>
+              location.name ===
+              locationName
+          );
+
+      historyUpdated =
+        history.updated || "";
+
+      historySlots =
+        (historyLocation?.forecast || [])
+          .filter(
+            slot =>
+              slot.date === date
+          )
+          .map(slot => ({
+            ...slot,
+            feedback_updated:
+              historyUpdated
+          }));
     }
 
-    const history =
-      await response.json();
-
-    const historyLocation =
-      (history.locations || [])
-        .find(
-          location =>
-            location.name ===
-            locationName
-        );
-
-    slots =
-      historyLocation?.forecast ||
-      [];
-
-    updated =
-      history.updated || "";
+  } catch(error) {
+    // 即時預報仍可使用時，不因歷史檔暫時讀取失敗而阻止回報。
   }
+
+  const slotsByTime =
+    new Map();
+
+  historySlots.forEach(
+    slot =>
+      slotsByTime.set(
+        slot.time,
+        slot
+      )
+  );
+
+  currentSlots.forEach(
+    slot =>
+      slotsByTime.set(
+        slot.time,
+        slot
+      )
+  );
 
   const slot =
     nearestForecastSlot(
-      slots,
+      [...slotsByTime.values()],
       time
     );
 
   if(!slot){
     throw new Error(
-      "找不到接近下水時間的預報資料"
+      "這一天尚無可配對的歷史預報"
     );
   }
 
   return {
     slot,
-    updated
+    updated:
+      slot.feedback_updated ||
+      historyUpdated ||
+      forecastUpdated
   };
 }
 
