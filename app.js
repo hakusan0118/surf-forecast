@@ -1347,8 +1347,8 @@ function feedbackFormHtml(loc){
               "浪軟",
               "風亂",
               "潮汐不對",
-              "浪向不進",
-              "整排關門"
+              "浪向不對",
+              "蓋整排"
             ]
               .map(
                 value => `
