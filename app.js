@@ -7,8 +7,34 @@ let allLocations = [];
 let spotConfig = {};
 let forecastUpdated = "";
 
-const FEEDBACK_API_URL =
-  "https://script.google.com/macros/s/AKfycbw2WTgE3kzPPlqK2AJJNEJbhKC7Q1ALt5EXkHVoAmxODI2LpMsEsSOWA8xlciI9X-6KUg/exec";
+const SUPABASE_URL =
+  "https://ltbkraovbvxdkgzyrubv.supabase.co";
+
+const SUPABASE_PUBLISHABLE_KEY =
+  "sb_publishable_7q3wHrnFcFVgRzU7hY00fA_cZ5MJR0M";
+
+const FEEDBACK_RATINGS = {
+  "不能玩": {
+    code: "Unsurfable",
+    score: 0
+  },
+  "浪況差": {
+    code: "Poor",
+    score: 25
+  },
+  "普通可玩": {
+    code: "Fair",
+    score: 50
+  },
+  "不錯": {
+    code: "Good",
+    score: 75
+  },
+  "好浪": {
+    code: "Epic",
+    score: 100
+  }
+};
 
 function esc(v){
   return String(v ?? "—").replace(/[&<>"']/g, c => ({
@@ -1679,7 +1705,23 @@ function bindFeedbackForms(){
             const slot =
               matched.slot;
 
-            const payload = {
+            const actualRating =
+              formData.get(
+                "actual_rating"
+              );
+
+            const rating =
+              FEEDBACK_RATINGS[
+                actualRating
+              ];
+
+            if(!rating){
+              throw new Error(
+                "浪況評價資料錯誤"
+              );
+            }
+
+            const feedbackRow = {
               surf_date:
                 surfDate,
 
@@ -1698,9 +1740,13 @@ function bindFeedbackForms(){
                 ),
 
               actual_rating:
-                formData.get(
-                  "actual_rating"
-                ),
+                actualRating,
+
+              rating_code:
+                rating.code,
+
+              rating_score:
+                rating.score,
 
               report_basis:
                 formData.get(
@@ -1717,79 +1763,126 @@ function bindFeedbackForms(){
                   "note"
                 ) || "",
 
-              website: "",
+              forecast_date:
+                slot.date,
 
-              device_id:
-                feedbackDeviceId(),
+              forecast_time:
+                slot.time,
 
-              forecast: {
-                date:
-                  slot.date,
+              wave_height:
+                Number(
+                  slot.wave_height
+                ),
 
-                time:
-                  slot.time,
+              wave_period:
+                Number(
+                  slot.wave_period
+                ),
 
-                wave_height:
-                  slot.wave_height,
+              wind_kts:
+                Number(
+                  slot.wind_kts
+                ),
 
-                wave_period:
-                  slot.wave_period,
+              wind_direction:
+                slot.wind_direction ||
+                null,
 
-                wind_kts:
-                  slot.wind_kts,
+              wave_direction:
+                slot.wave_direction ||
+                null,
 
-                wind_direction:
-                  slot.wind_direction,
+              tide_status:
+                slot.tide_status ||
+                null,
 
-                wave_direction:
-                  slot.wave_direction,
+              forecast_score:
+                Number(
+                  slot.score
+                ),
 
-                tide_status:
-                  slot.tide_status,
+              forecast_rating:
+                slot.rating ||
+                null,
 
-                score:
-                  slot.score,
+              forecast_updated:
+                matched.updated ||
+                null,
 
-                rating:
-                  slot.rating,
-
-                updated:
-                  matched.updated
-              }
+              anonymous_device_id:
+                feedbackDeviceId()
             };
 
             const response =
               await fetch(
-                FEEDBACK_API_URL,
+                `${SUPABASE_URL}/rest/v1/surf_feedback`,
                 {
                   method: "POST",
 
                   headers: {
+                    "apikey":
+                      SUPABASE_PUBLISHABLE_KEY,
+
                     "Content-Type":
-                      "text/plain;charset=utf-8"
+                      "application/json",
+
+                    "Prefer":
+                      "return=minimal"
                   },
 
                   body:
                     JSON.stringify(
-                      payload
+                      feedbackRow
                     )
                 }
               );
 
-            const result =
-              await response.json();
+            if(!response.ok){
+              const responseText =
+                await response.text();
 
-            if(!result.ok){
+              let errorMessage =
+                "回報失敗";
+
+              try {
+                const errorData =
+                  JSON.parse(
+                    responseText
+                  );
+
+                errorMessage =
+                  errorData.message ||
+                  errorData.details ||
+                  errorMessage;
+
+              } catch(error) {
+                if(responseText){
+                  errorMessage =
+                    responseText
+                      .replace(
+                        /<[^>]*>/g,
+                        " "
+                      )
+                      .replace(
+                        /\s+/g,
+                        " "
+                      )
+                      .trim()
+                      .slice(
+                        0,
+                        120
+                      ) ||
+                    errorMessage;
+                }
+              }
+
               throw new Error(
-                result.error ||
-                "回報失敗"
+                errorMessage
               );
             }
 
             message.textContent =
-              result.updated
-                ? "已更新你的浪況回報，謝謝！"
-                : "浪況回報成功，謝謝！";
+              "浪況回報成功，謝謝！";
 
             message.className =
               "feedback-message success";
@@ -2012,6 +2105,8 @@ const b = (
           </div>
 
           ${dayPanels}
+
+          ${feedbackFormHtml(loc)}
 
         </div>
       </details>
