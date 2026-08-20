@@ -1306,7 +1306,11 @@ function feedbackFormHtml(loc){
                       value="${value}"
                       required
                     >
-                    <span>${value}</span>
+                    <span>
+                      ${value === "好浪"
+                        ? "好浪 🤙🏿"
+                        : value}
+                    </span>
                   </label>
                 `
               )
