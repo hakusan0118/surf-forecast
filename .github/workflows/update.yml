@@ -2,7 +2,10 @@ name: Update Surf Forecast
 
 on:
   schedule:
+    # GitHub Actions cron uses UTC.
+    # The two schedules interleave to run every 90 minutes.
     - cron: "15 */3 * * *"
+    - cron: "45 1-23/3 * * *"
   workflow_dispatch:
 
 permissions:
