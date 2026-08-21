@@ -3,7 +3,7 @@ import os
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 
 # =========================================================
@@ -782,6 +782,186 @@ def update_forecast_history(output):
 
 
 # =========================================================
+# 每日清晨預報快照
+# =========================================================
+
+MORNING_HISTORY_DIR = os.path.join(
+    BASE_DIR,
+    "data",
+    "morning_history",
+)
+
+
+def save_morning_forecast_snapshot(output):
+    taipei_timezone = timezone(
+        timedelta(hours=8)
+    )
+
+    now_taipei = datetime.now(
+        taipei_timezone
+    )
+
+    # 正常排程為06:15；若GitHub Actions延遲，
+    # 允許在09:00前的第一個成功執行補存。
+    if not (
+        6 <= now_taipei.hour < 9
+    ):
+        print(
+            "Morning snapshot skipped "
+            "(outside 06:00-09:00 Asia/Taipei)"
+        )
+        return None
+
+    snapshot_date = (
+        now_taipei
+        .date()
+        .isoformat()
+    )
+
+    os.makedirs(
+        MORNING_HISTORY_DIR,
+        exist_ok=True,
+    )
+
+    snapshot_path = os.path.join(
+        MORNING_HISTORY_DIR,
+        f"{snapshot_date}.json",
+    )
+
+    # 每日快照一旦建立便不再覆寫。
+    if os.path.exists(
+        snapshot_path
+    ):
+        print(
+            "Morning snapshot already exists: "
+            f"data/morning_history/{snapshot_date}.json"
+        )
+        return snapshot_path
+
+    snapshot_locations = []
+
+    for location in output.get(
+        "locations",
+        []
+    ):
+        day_slots = [
+            dict(slot)
+
+            for slot in location.get(
+                "forecast",
+                []
+            )
+
+            if slot.get("date")
+            == snapshot_date
+        ]
+
+        if not day_slots:
+            continue
+
+        day_slots.sort(
+            key=lambda slot:
+                slot.get(
+                    "time",
+                    ""
+                )
+        )
+
+        snapshot_locations.append({
+            "name":
+                location.get("name"),
+
+            "geocode":
+                location.get("geocode"),
+
+            "county":
+                location.get("county"),
+
+            "forecast":
+                day_slots,
+        })
+
+    snapshot_locations.sort(
+        key=lambda location:
+            location.get(
+                "name",
+                ""
+            )
+    )
+
+    snapshot_output = {
+        "date":
+            snapshot_date,
+
+        "snapshot_at":
+            now_taipei.isoformat(
+                timespec="seconds"
+            ),
+
+        "forecast_updated":
+            output.get("updated"),
+
+        "locations":
+            snapshot_locations,
+    }
+
+    with open(
+        snapshot_path,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        json.dump(
+            snapshot_output,
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print(
+        "Created morning snapshot "
+        f"data/morning_history/{snapshot_date}.json"
+    )
+
+    # 保留400天，足以進行完整年度分析並保有緩衝。
+    cutoff_date = (
+        now_taipei.date()
+        - timedelta(days=399)
+    )
+
+    for filename in os.listdir(
+        MORNING_HISTORY_DIR
+    ):
+        if not filename.endswith(
+            ".json"
+        ):
+            continue
+
+        try:
+            file_date = datetime.strptime(
+                filename[:-5],
+                "%Y-%m-%d",
+            ).date()
+
+        except ValueError:
+            continue
+
+        if file_date < cutoff_date:
+            os.remove(
+                os.path.join(
+                    MORNING_HISTORY_DIR,
+                    filename,
+                )
+            )
+
+            print(
+                "Removed expired morning snapshot "
+                f"data/morning_history/{filename}"
+            )
+
+    return snapshot_path
+
+
+# =========================================================
 # 主程式
 # =========================================================
 
@@ -1409,6 +1589,11 @@ def main():
 
 
     update_forecast_history(
+        output
+    )
+
+
+    save_morning_forecast_snapshot(
         output
     )
 
