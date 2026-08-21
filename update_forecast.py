@@ -801,14 +801,14 @@ def save_morning_forecast_snapshot(output):
         taipei_timezone
     )
 
-    # 正常排程為06:15；若GitHub Actions延遲，
-    # 允許在09:00前的第一個成功執行補存。
+    # 每天05:00後的第一個成功排程建立快照；
+    # 若GitHub Actions延遲，允許在08:00前補存。
     if not (
-        6 <= now_taipei.hour < 9
+        5 <= now_taipei.hour < 8
     ):
         print(
             "Morning snapshot skipped "
-            "(outside 06:00-09:00 Asia/Taipei)"
+            "(outside 05:00-08:00 Asia/Taipei)"
         )
         return None
 
