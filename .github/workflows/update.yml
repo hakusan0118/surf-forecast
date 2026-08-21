@@ -48,7 +48,11 @@ jobs:
         run: |
           git config user.name "surf-forecast-bot"
           git config user.email "surf-forecast-bot@users.noreply.github.com"
-          git add data/surf_forecast.json data/history data/morning_history
+          git add data/surf_forecast.json data/history
+
+          if [ -d data/morning_history ]; then
+            git add data/morning_history
+          fi
 
           if git diff --cached --quiet; then
             echo "No forecast changes"
