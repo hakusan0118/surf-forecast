@@ -2450,6 +2450,11 @@ Promise.all([
 
   allLocations =
     (data.locations || [])
+      .filter(location =>
+        Boolean(
+          spotConfig[location.name]
+        )
+      )
       .map(enrichLocation)
       .sort((a, b) => {
 
