@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated": "2026-08-31T00:14:58+08:00",
+  "updated": "2026-08-31T05:08:30+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -126,7 +126,7 @@
           "wind_direction": "偏西風",
           "wave_height": "1.6",
           "wave_direction": "偏南",
-          "wave_period": "7.5",
+          "wave_period": "7.4",
           "score": 78,
           "rating": "Good",
           "tide_status": "中潮"
@@ -426,7 +426,7 @@
           "wind_direction": "偏南風",
           "wave_height": "3.0",
           "wave_direction": "西南",
-          "wave_period": "8.2",
+          "wave_period": "8.3",
           "score": 65,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -648,7 +648,7 @@
           "wind_direction": "西南風",
           "wave_height": "2.0",
           "wave_direction": "偏南",
-          "wave_period": "7.2",
+          "wave_period": "7.1",
           "score": 62,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -746,7 +746,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.7",
           "wave_direction": "偏南",
-          "wave_period": "6.5",
+          "wave_period": "6.4",
           "score": 41,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -870,7 +870,7 @@
           "wind_direction": "西南風",
           "wave_height": "3.8",
           "wave_direction": "西南",
-          "wave_period": "8.3",
+          "wave_period": "8.4",
           "score": 46,
           "rating": "Poor",
           "tide_status": "中潮"
@@ -1040,7 +1040,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "東南",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -1151,7 +1151,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "東南",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 72,
           "rating": "Good",
           "tide_status": "漲潮"
