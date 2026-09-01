@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T18:14:16+08:00",
+  "updated": "2026-09-01T23:00:27+08:00",
   "source": "F-D0047-095",
   "tide_source": "F-A0021-001",
   "tide_updated": "2026-09-01T00:07:02+08:00",
@@ -12,110 +12,6 @@
       "county": "苗栗縣",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "偏東風",
-          "wave_height": "0.7",
-          "wave_direction": "西南",
-          "wave_period": "6.6",
-          "score": 67,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "東北風",
-          "wave_height": "0.8",
-          "wave_direction": "西南",
-          "wave_period": "6.8",
-          "score": 67,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "8",
-          "beaufort": "3",
-          "wind_direction": "東北風",
-          "wave_height": "0.6",
-          "wave_direction": "西南",
-          "wave_period": "6.8",
-          "score": 51,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "偏東風",
-          "wave_height": "0.6",
-          "wave_direction": "西南",
-          "wave_period": "6.9",
-          "score": 69,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "3",
-          "beaufort": "<= 1",
-          "wind_direction": "西南風",
-          "wave_height": "0.7",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 72,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "偏南風",
-          "wave_height": "0.7",
-          "wave_direction": "西南",
-          "wave_period": "7.2",
-          "score": 56,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "11",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "0.7",
-          "wave_direction": "西南",
-          "wave_period": "7.2",
-          "score": 52,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "偏東風",
-          "wave_height": "0.8",
-          "wave_direction": "西南",
-          "wave_period": "6.3",
-          "score": 69,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
           "wind_kts": "6",
@@ -123,7 +19,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.8",
           "wave_direction": "西南",
-          "wave_period": "6.7",
+          "wave_period": "6.6",
           "score": 63,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -227,7 +123,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.0",
           "wave_direction": "西北",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 82,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -240,7 +136,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.9",
           "wave_direction": "偏西",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 74,
           "rating": "Good",
           "tide_status": "滿潮"
@@ -278,9 +174,9 @@
           "beaufort": "4",
           "wind_direction": "東南風",
           "wave_height": "1.2",
-          "wave_direction": "西北",
-          "wave_period": "7.0",
-          "score": 77,
+          "wave_direction": "偏北",
+          "wave_period": "6.9",
+          "score": 75,
           "rating": "Good",
           "tide_status": "中潮"
         },
@@ -292,8 +188,8 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏北",
-          "wave_period": "5.8",
-          "score": 53,
+          "wave_period": "6.4",
+          "score": 57,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
@@ -305,8 +201,8 @@
           "wind_direction": "西北風",
           "wave_height": "1.7",
           "wave_direction": "偏北",
-          "wave_period": "5.9",
-          "score": 51,
+          "wave_period": "6.3",
+          "score": 55,
           "rating": "Fair",
           "tide_status": "中潮"
         },
@@ -314,6 +210,110 @@
           "date": "2026-09-03",
           "time": "21:00",
           "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "東北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏北",
+          "wave_period": "5.7",
+          "score": 60,
+          "rating": "Fair",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "東北風",
+          "wave_height": "1.2",
+          "wave_direction": "偏北",
+          "wave_period": "5.7",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "偏東風",
+          "wave_height": "1.1",
+          "wave_direction": "偏北",
+          "wave_period": "5.9",
+          "score": 84,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "5",
+          "beaufort": "2",
+          "wind_direction": "東北風",
+          "wave_height": "1.1",
+          "wave_direction": "偏北",
+          "wave_period": "6.0",
+          "score": 87,
+          "rating": "Good",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "東北風",
+          "wave_height": "1.0",
+          "wave_direction": "偏北",
+          "wave_period": "6.0",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "東北風",
+          "wave_height": "0.9",
+          "wave_direction": "偏北",
+          "wave_period": "5.9",
+          "score": 71,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.0",
+          "wave_direction": "偏北",
+          "wave_period": "5.6",
+          "score": 55,
+          "rating": "Fair",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "14",
+          "beaufort": "4",
+          "wind_direction": "東北風",
+          "wave_height": "1.3",
+          "wave_direction": "偏北",
+          "wave_period": "5.5",
+          "score": 63,
+          "rating": "Fair",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "14",
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "1.4",
@@ -449,16 +449,40 @@
               "height_cm": "-105"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "04:02",
+              "datetime": "2026-09-05T04:02:00+08:00",
+              "type": "滿潮",
+              "height_cm": "190"
+            },
+            {
+              "time": "10:31",
+              "datetime": "2026-09-05T10:31:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-180"
+            },
+            {
+              "time": "17:14",
+              "datetime": "2026-09-05T17:14:00+08:00",
+              "type": "滿潮",
+              "height_cm": "168"
+            },
+            {
+              "time": "23:23",
+              "datetime": "2026-09-05T23:23:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-77"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:14",
-          "lights_off": "18:39",
-          "sunrise": "05:38",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:15",
@@ -472,6 +496,13 @@
           "lights_off": "18:37",
           "sunrise": "05:38",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:16",
+          "lights_off": "18:36",
+          "sunrise": "05:39",
+          "sunset": "18:13"
         }
       ]
     },
@@ -481,116 +512,12 @@
       "county": "臺南市",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.3",
-          "wave_direction": "西南",
-          "wave_period": "6.9",
-          "score": 58,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "18",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.3",
-          "wave_direction": "西南",
-          "wave_period": "6.9",
-          "score": 66,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "17",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.3",
-          "wave_direction": "西南",
-          "wave_period": "7.1",
-          "score": 63,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.5",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 63,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "2.0",
-          "wave_direction": "西南",
-          "wave_period": "7.1",
-          "score": 68,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "20",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.1",
-          "wave_direction": "西南",
-          "wave_period": "7.1",
-          "score": 66,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "東南風",
-          "wave_height": "2.0",
-          "wave_direction": "西南",
-          "wave_period": "7.5",
-          "score": 59,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "東南風",
-          "wave_height": "2.0",
-          "wave_direction": "西南",
-          "wave_period": "7.7",
-          "score": 64,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
           "wind_kts": "18",
           "beaufort": "5",
           "wind_direction": "東南風",
-          "wave_height": "1.9",
+          "wave_height": "2.1",
           "wave_direction": "西南",
           "wave_period": "7.7",
           "score": 59,
@@ -696,7 +623,7 @@
           "wind_direction": "東南風",
           "wave_height": "2.4",
           "wave_direction": "西南",
-          "wave_period": "8.9",
+          "wave_period": "8.8",
           "score": 58,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -709,7 +636,7 @@
           "wind_direction": "東南風",
           "wave_height": "2.3",
           "wave_direction": "西南",
-          "wave_period": "8.5",
+          "wave_period": "8.7",
           "score": 61,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -722,7 +649,7 @@
           "wind_direction": "東南風",
           "wave_height": "2.2",
           "wave_direction": "西南",
-          "wave_period": "8.2",
+          "wave_period": "8.5",
           "score": 66,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -748,7 +675,7 @@
           "wind_direction": "偏南風",
           "wave_height": "2.0",
           "wave_direction": "西南",
-          "wave_period": "7.9",
+          "wave_period": "7.7",
           "score": 68,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -761,7 +688,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.9",
           "wave_direction": "西南",
-          "wave_period": "7.8",
+          "wave_period": "7.6",
           "score": 68,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -774,7 +701,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.8",
           "wave_direction": "西南",
-          "wave_period": "7.7",
+          "wave_period": "7.6",
           "score": 78,
           "rating": "Good",
           "tide_status": "退潮"
@@ -787,8 +714,112 @@
           "wind_direction": "偏南風",
           "wave_height": "1.8",
           "wave_direction": "西南",
-          "wave_period": "7.6",
+          "wave_period": "7.5",
           "score": 79,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "1.7",
+          "wave_direction": "西南",
+          "wave_period": "7.3",
+          "score": 84,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "1.6",
+          "wave_direction": "西南",
+          "wave_period": "7.2",
+          "score": 73,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "東南風",
+          "wave_height": "1.6",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 77,
+          "rating": "Good",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "東南風",
+          "wave_height": "1.6",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "東北風",
+          "wave_height": "1.4",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 85,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "西南",
+          "wave_period": "7.0",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.3",
+          "wave_direction": "西南",
+          "wave_period": "6.8",
+          "score": 76,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "東北風",
+          "wave_height": "1.3",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 78,
           "rating": "Good",
           "tide_status": "乾潮"
         }
@@ -918,16 +949,40 @@
               "height_cm": "10"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "03:24",
+              "datetime": "2026-09-05T03:24:00+08:00",
+              "type": "滿潮",
+              "height_cm": "100"
+            },
+            {
+              "time": "10:16",
+              "datetime": "2026-09-05T10:16:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-50"
+            },
+            {
+              "time": "17:19",
+              "datetime": "2026-09-05T17:19:00+08:00",
+              "type": "滿潮",
+              "height_cm": "66"
+            },
+            {
+              "time": "22:08",
+              "datetime": "2026-09-05T22:08:00+08:00",
+              "type": "乾潮",
+              "height_cm": "19"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:19",
-          "lights_off": "18:40",
-          "sunrise": "05:41",
-          "sunset": "18:17"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:19",
@@ -941,6 +996,13 @@
           "lights_off": "18:38",
           "sunrise": "05:42",
           "sunset": "18:15"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:20",
+          "lights_off": "18:37",
+          "sunrise": "05:42",
+          "sunset": "18:14"
         }
       ]
     },
@@ -950,116 +1012,12 @@
       "county": "高雄市",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "18",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "3.0",
-          "wave_direction": "西南",
-          "wave_period": "7.2",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "18",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.9",
-          "wave_direction": "西南",
-          "wave_period": "7.1",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "18",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "3.7",
-          "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "18",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "4.0",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "2.8",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "2.8",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "11",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "2.9",
-          "wave_direction": "西南",
-          "wave_period": "7.6",
-          "score": 74,
-          "rating": "Good",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "12",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "2.8",
-          "wave_direction": "西南",
-          "wave_period": "7.8",
-          "score": 74,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
           "wind_kts": "17",
           "beaufort": "5",
           "wind_direction": "東南風",
-          "wave_height": "2.7",
+          "wave_height": "2.9",
           "wave_direction": "西南",
           "wave_period": "7.7",
           "score": 65,
@@ -1178,7 +1136,7 @@
           "wind_direction": "東南風",
           "wave_height": "3.4",
           "wave_direction": "西南",
-          "wave_period": "8.3",
+          "wave_period": "8.4",
           "score": 73,
           "rating": "Good",
           "tide_status": "中潮"
@@ -1191,7 +1149,7 @@
           "wind_direction": "偏南風",
           "wave_height": "3.2",
           "wave_direction": "西南",
-          "wave_period": "8.1",
+          "wave_period": "8.2",
           "score": 65,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -1217,7 +1175,7 @@
           "wind_direction": "偏南風",
           "wave_height": "2.8",
           "wave_direction": "西南",
-          "wave_period": "7.7",
+          "wave_period": "7.6",
           "score": 70,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -1230,7 +1188,7 @@
           "wind_direction": "偏南風",
           "wave_height": "2.7",
           "wave_direction": "西南",
-          "wave_period": "7.6",
+          "wave_period": "7.5",
           "score": 70,
           "rating": "Good",
           "tide_status": "退潮"
@@ -1260,6 +1218,110 @@
           "score": 82,
           "rating": "Good",
           "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "2.4",
+          "wave_direction": "西南",
+          "wave_period": "7.4",
+          "score": 69,
+          "rating": "Fair",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "東南風",
+          "wave_height": "2.3",
+          "wave_direction": "西南",
+          "wave_period": "7.3",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "東南風",
+          "wave_height": "2.3",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 79,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "東南風",
+          "wave_height": "2.2",
+          "wave_direction": "西南",
+          "wave_period": "7.0",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏南風",
+          "wave_height": "1.8",
+          "wave_direction": "西南",
+          "wave_period": "7.0",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "1.8",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.7",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "7",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.7",
+          "wave_direction": "西南",
+          "wave_period": "6.8",
+          "score": 77,
+          "rating": "Good",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "高雄市永安區",
@@ -1369,16 +1431,28 @@
               "height_cm": "-17"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "中",
+          "events": [
+            {
+              "time": "01:33",
+              "datetime": "2026-09-05T01:33:00+08:00",
+              "type": "滿潮",
+              "height_cm": "60"
+            },
+            {
+              "time": "09:42",
+              "datetime": "2026-09-05T09:42:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-21"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:18",
-          "lights_off": "18:39",
-          "sunrise": "05:41",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:19",
@@ -1392,6 +1466,13 @@
           "lights_off": "18:37",
           "sunrise": "05:42",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:19",
+          "lights_off": "18:36",
+          "sunrise": "05:42",
+          "sunset": "18:13"
         }
       ]
     },
@@ -1401,116 +1482,12 @@
       "county": "高雄市",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "3.3",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 41,
-          "rating": "Poor",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "3.2",
-          "wave_direction": "西南",
-          "wave_period": "7.3",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "偏南風",
-          "wave_height": "4.1",
-          "wave_direction": "西南",
-          "wave_period": "7.5",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "4.1",
-          "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 38,
-          "rating": "Poor",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "3.0",
-          "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 43,
-          "rating": "Poor",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "3.1",
-          "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "9",
-          "beaufort": "3",
-          "wind_direction": "偏南風",
-          "wave_height": "3.1",
-          "wave_direction": "西南",
-          "wave_period": "7.8",
-          "score": 57,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "12",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "3.0",
-          "wave_direction": "西南",
-          "wave_period": "7.9",
-          "score": 54,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
           "wind_kts": "16",
           "beaufort": "5",
           "wind_direction": "東南風",
-          "wave_height": "2.9",
+          "wave_height": "3.0",
           "wave_direction": "西南",
           "wave_period": "7.8",
           "score": 45,
@@ -1629,7 +1606,7 @@
           "wind_direction": "偏南風",
           "wave_height": "3.6",
           "wave_direction": "西南",
-          "wave_period": "8.4",
+          "wave_period": "8.5",
           "score": 49,
           "rating": "Poor",
           "tide_status": "中潮"
@@ -1642,7 +1619,7 @@
           "wind_direction": "偏南風",
           "wave_height": "3.4",
           "wave_direction": "西南",
-          "wave_period": "8.2",
+          "wave_period": "8.3",
           "score": 49,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -1668,7 +1645,7 @@
           "wind_direction": "偏南風",
           "wave_height": "3.0",
           "wave_direction": "西南",
-          "wave_period": "7.9",
+          "wave_period": "7.7",
           "score": 40,
           "rating": "Poor",
           "tide_status": "滿潮"
@@ -1694,7 +1671,7 @@
           "wind_direction": "偏南風",
           "wave_height": "2.8",
           "wave_direction": "西南",
-          "wave_period": "7.6",
+          "wave_period": "7.7",
           "score": 57,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -1709,6 +1686,110 @@
           "wave_direction": "西南",
           "wave_period": "7.6",
           "score": 61,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "偏南風",
+          "wave_height": "2.5",
+          "wave_direction": "西南",
+          "wave_period": "7.5",
+          "score": 48,
+          "rating": "Poor",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "東南風",
+          "wave_height": "2.5",
+          "wave_direction": "西南",
+          "wave_period": "7.4",
+          "score": 48,
+          "rating": "Poor",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "2.4",
+          "wave_direction": "西南",
+          "wave_period": "7.2",
+          "score": 51,
+          "rating": "Fair",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏南風",
+          "wave_height": "2.3",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 60,
+          "rating": "Fair",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "1.9",
+          "wave_direction": "西南",
+          "wave_period": "7.0",
+          "score": 62,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "1.9",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 55,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.9",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 60,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "7",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.8",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 69,
           "rating": "Fair",
           "tide_status": "漲潮"
         }
@@ -1820,16 +1901,28 @@
               "height_cm": "-2"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "中",
+          "events": [
+            {
+              "time": "01:19",
+              "datetime": "2026-09-05T01:19:00+08:00",
+              "type": "滿潮",
+              "height_cm": "66"
+            },
+            {
+              "time": "10:08",
+              "datetime": "2026-09-05T10:08:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-8"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:18",
-          "lights_off": "18:39",
-          "sunrise": "05:41",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:19",
@@ -1843,6 +1936,13 @@
           "lights_off": "18:37",
           "sunrise": "05:42",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:19",
+          "lights_off": "18:36",
+          "sunrise": "05:42",
+          "sunset": "18:13"
         }
       ]
     },
@@ -1851,110 +1951,6 @@
       "geocode": "10002040",
       "county": "宜蘭縣",
       "forecast": [
-        {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "1.6",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 48,
-          "rating": "Poor",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "17",
-          "beaufort": "5",
-          "wind_direction": "東南風",
-          "wave_height": "1.8",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "14",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "5.9",
-          "score": 55,
-          "rating": "Fair",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "5.9",
-          "score": 51,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "10",
-          "beaufort": "3",
-          "wind_direction": "東南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "6.3",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "東南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "6.5",
-          "score": 61,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏東風",
-          "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "6.9",
-          "score": 68,
-          "rating": "Fair",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏東風",
-          "wave_height": "1.0",
-          "wave_direction": "東南",
-          "wave_period": "7.1",
-          "score": 62,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
         {
           "date": "2026-09-02",
           "time": "00:00",
@@ -2080,7 +2076,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.7",
           "wave_direction": "東南",
-          "wave_period": "6.9",
+          "wave_period": "6.8",
           "score": 62,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -2093,7 +2089,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.6",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
+          "wave_period": "6.7",
           "score": 56,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2106,7 +2102,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.6",
           "score": 56,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2119,7 +2115,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.6",
           "score": 49,
           "rating": "Poor",
           "tide_status": "滿潮"
@@ -2132,7 +2128,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
+          "wave_period": "6.8",
           "score": 62,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -2145,7 +2141,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -2158,10 +2154,114 @@
           "wind_direction": "西北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "8.0",
-          "score": 87,
+          "wave_period": "7.7",
+          "score": 84,
           "rating": "Good",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "1",
+          "beaufort": "<= 1",
+          "wind_direction": "西北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "西北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.3",
+          "score": 72,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 76,
+          "rating": "Good",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.6",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 68,
+          "rating": "Fair",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 75,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "東北",
+          "wave_period": "7.8",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.6",
+          "wave_direction": "東北",
+          "wave_period": "7.6",
+          "score": 66,
+          "rating": "Fair",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "宜蘭縣頭城鎮",
@@ -2289,16 +2389,22 @@
               "height_cm": "56"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "07:06",
+              "datetime": "2026-09-05T07:06:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-45"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:11",
-          "lights_off": "18:35",
-          "sunrise": "05:34",
-          "sunset": "18:12"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:11",
@@ -2312,6 +2418,13 @@
           "lights_off": "18:33",
           "sunrise": "05:35",
           "sunset": "18:10"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:12",
+          "lights_off": "18:32",
+          "sunrise": "05:35",
+          "sunset": "18:09"
         }
       ]
     },
@@ -2320,110 +2433,6 @@
       "geocode": "10002040",
       "county": "宜蘭縣",
       "forecast": [
-        {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "1.6",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 50,
-          "rating": "Fair",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "17",
-          "beaufort": "5",
-          "wind_direction": "東南風",
-          "wave_height": "1.8",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "14",
-          "beaufort": "4",
-          "wind_direction": "東南風",
-          "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "5.9",
-          "score": 57,
-          "rating": "Fair",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "5.9",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "10",
-          "beaufort": "3",
-          "wind_direction": "東南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "6.3",
-          "score": 69,
-          "rating": "Fair",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "東南風",
-          "wave_height": "1.4",
-          "wave_direction": "東南",
-          "wave_period": "6.5",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏東風",
-          "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "6.9",
-          "score": 78,
-          "rating": "Good",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏東風",
-          "wave_height": "1.0",
-          "wave_direction": "東南",
-          "wave_period": "7.1",
-          "score": 77,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
         {
           "date": "2026-09-02",
           "time": "00:00",
@@ -2549,7 +2558,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.7",
           "wave_direction": "東南",
-          "wave_period": "6.9",
+          "wave_period": "6.8",
           "score": 73,
           "rating": "Good",
           "tide_status": "退潮"
@@ -2562,7 +2571,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.6",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
+          "wave_period": "6.7",
           "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2575,7 +2584,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.6",
           "score": 57,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2588,7 +2597,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.6",
           "score": 51,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -2601,7 +2610,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
+          "wave_period": "6.8",
           "score": 52,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -2614,7 +2623,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -2627,10 +2636,114 @@
           "wind_direction": "西北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "8.0",
-          "score": 91,
-          "rating": "Epic",
+          "wave_period": "7.7",
+          "score": 88,
+          "rating": "Good",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "1",
+          "beaufort": "<= 1",
+          "wind_direction": "西北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "西北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.3",
+          "score": 71,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "13",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 66,
+          "rating": "Fair",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.6",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 71,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "東北",
+          "wave_period": "7.8",
+          "score": 75,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏北風",
+          "wave_height": "1.6",
+          "wave_direction": "東北",
+          "wave_period": "7.6",
+          "score": 70,
+          "rating": "Good",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "宜蘭縣頭城鎮",
@@ -2758,16 +2871,22 @@
               "height_cm": "56"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "07:06",
+              "datetime": "2026-09-05T07:06:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-45"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:11",
-          "lights_off": "18:35",
-          "sunrise": "05:34",
-          "sunset": "18:12"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:11",
@@ -2781,6 +2900,13 @@
           "lights_off": "18:33",
           "sunrise": "05:35",
           "sunset": "18:10"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:12",
+          "lights_off": "18:32",
+          "sunrise": "05:35",
+          "sunset": "18:09"
         }
       ]
     },
@@ -2789,110 +2915,6 @@
       "geocode": "10015050",
       "county": "花蓮縣",
       "forecast": [
-        {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "偏西風",
-          "wave_height": "2.0",
-          "wave_direction": "偏南",
-          "wave_period": "6.3",
-          "score": 82,
-          "rating": "Good",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏南風",
-          "wave_height": "2.0",
-          "wave_direction": "偏南",
-          "wave_period": "6.6",
-          "score": 66,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "3",
-          "beaufort": "<= 1",
-          "wind_direction": "西南風",
-          "wave_height": "2.3",
-          "wave_direction": "偏南",
-          "wave_period": "6.7",
-          "score": 84,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "4",
-          "beaufort": "2",
-          "wind_direction": "偏東風",
-          "wave_height": "2.4",
-          "wave_direction": "偏南",
-          "wave_period": "6.6",
-          "score": 75,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "東北風",
-          "wave_height": "1.6",
-          "wave_direction": "偏南",
-          "wave_period": "7.3",
-          "score": 86,
-          "rating": "Good",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "偏北風",
-          "wave_height": "1.7",
-          "wave_direction": "偏南",
-          "wave_period": "7.4",
-          "score": 85,
-          "rating": "Good",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "西北風",
-          "wave_height": "1.5",
-          "wave_direction": "東南",
-          "wave_period": "7.3",
-          "score": 94,
-          "rating": "Epic",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "西南風",
-          "wave_height": "1.6",
-          "wave_direction": "東南",
-          "wave_period": "7.4",
-          "score": 85,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
         {
           "date": "2026-09-02",
           "time": "00:00",
@@ -3005,7 +3027,7 @@
           "wind_direction": "偏北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.2",
+          "wave_period": "7.1",
           "score": 82,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3031,7 +3053,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 94,
           "rating": "Epic",
           "tide_status": "漲潮"
@@ -3044,7 +3066,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 69,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -3057,7 +3079,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 72,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3070,7 +3092,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.9",
           "wave_direction": "東南",
-          "wave_period": "7.7",
+          "wave_period": "7.5",
           "score": 71,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -3082,9 +3104,9 @@
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "1.9",
-          "wave_direction": "東南",
-          "wave_period": "7.9",
-          "score": 69,
+          "wave_direction": "偏東",
+          "wave_period": "7.6",
+          "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3100,6 +3122,110 @@
           "score": 69,
           "rating": "Fair",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西北風",
+          "wave_height": "1.9",
+          "wave_direction": "偏東",
+          "wave_period": "7.6",
+          "score": 76,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "5",
+          "beaufort": "2",
+          "wind_direction": "偏西風",
+          "wave_height": "1.9",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 86,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "西北風",
+          "wave_height": "1.8",
+          "wave_direction": "偏東",
+          "wave_period": "8.1",
+          "score": 93,
+          "rating": "Epic",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "東北風",
+          "wave_height": "1.8",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 95,
+          "rating": "Epic",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "4",
+          "beaufort": "2",
+          "wind_direction": "東北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 86,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "3",
+          "beaufort": "<= 1",
+          "wind_direction": "東北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 93,
+          "rating": "Epic",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "偏北風",
+          "wave_height": "1.4",
+          "wave_direction": "偏東",
+          "wave_period": "7.8",
+          "score": 88,
+          "rating": "Good",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "花蓮縣吉安鄉",
@@ -3227,16 +3353,34 @@
               "height_cm": "81"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "06:38",
+              "datetime": "2026-09-05T06:38:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-8"
+            },
+            {
+              "time": "14:08",
+              "datetime": "2026-09-05T14:08:00+08:00",
+              "type": "滿潮",
+              "height_cm": "47"
+            },
+            {
+              "time": "17:31",
+              "datetime": "2026-09-05T17:31:00+08:00",
+              "type": "乾潮",
+              "height_cm": "41"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:12",
-          "lights_off": "18:35",
-          "sunrise": "05:35",
-          "sunset": "18:12"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:12",
@@ -3250,6 +3394,13 @@
           "lights_off": "18:33",
           "sunrise": "05:36",
           "sunset": "18:10"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:13",
+          "lights_off": "18:32",
+          "sunrise": "05:36",
+          "sunset": "18:09"
         }
       ]
     },
@@ -3258,110 +3409,6 @@
       "geocode": "10015010",
       "county": "花蓮縣",
       "forecast": [
-        {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "西北風",
-          "wave_height": "2.0",
-          "wave_direction": "偏南",
-          "wave_period": "6.3",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "8",
-          "beaufort": "3",
-          "wind_direction": "偏南風",
-          "wave_height": "2.1",
-          "wave_direction": "偏南",
-          "wave_period": "6.7",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "3",
-          "beaufort": "<= 1",
-          "wind_direction": "西南風",
-          "wave_height": "2.3",
-          "wave_direction": "偏南",
-          "wave_period": "6.8",
-          "score": 79,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "4",
-          "beaufort": "2",
-          "wind_direction": "偏東風",
-          "wave_height": "2.4",
-          "wave_direction": "偏南",
-          "wave_period": "6.6",
-          "score": 79,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "5",
-          "beaufort": "2",
-          "wind_direction": "東北風",
-          "wave_height": "1.6",
-          "wave_direction": "偏南",
-          "wave_period": "7.4",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "7",
-          "beaufort": "3",
-          "wind_direction": "偏北風",
-          "wave_height": "1.7",
-          "wave_direction": "偏南",
-          "wave_period": "7.5",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "偏北風",
-          "wave_height": "1.6",
-          "wave_direction": "東南",
-          "wave_period": "7.4",
-          "score": 84,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "6",
-          "beaufort": "2",
-          "wind_direction": "西南風",
-          "wave_height": "1.6",
-          "wave_direction": "東南",
-          "wave_period": "7.4",
-          "score": 78,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
         {
           "date": "2026-09-02",
           "time": "00:00",
@@ -3409,7 +3456,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.6",
           "wave_direction": "東南",
-          "wave_period": "7.2",
+          "wave_period": "7.3",
           "score": 94,
           "rating": "Epic",
           "tide_status": "滿潮"
@@ -3448,7 +3495,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.8",
           "wave_direction": "東南",
-          "wave_period": "7.2",
+          "wave_period": "7.1",
           "score": 64,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -3500,7 +3547,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 45,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -3513,7 +3560,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.4",
+          "wave_period": "7.3",
           "score": 74,
           "rating": "Good",
           "tide_status": "滿潮"
@@ -3526,7 +3573,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.5",
+          "wave_period": "7.3",
           "score": 74,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3539,7 +3586,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.9",
           "wave_direction": "東南",
-          "wave_period": "7.7",
+          "wave_period": "7.5",
           "score": 45,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -3551,9 +3598,9 @@
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "1.9",
-          "wave_direction": "東南",
-          "wave_period": "7.9",
-          "score": 61,
+          "wave_direction": "偏東",
+          "wave_period": "7.5",
+          "score": 59,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3565,10 +3612,114 @@
           "wind_direction": "東北風",
           "wave_height": "1.9",
           "wave_direction": "偏東",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 60,
           "rating": "Fair",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "西北風",
+          "wave_height": "1.9",
+          "wave_direction": "偏東",
+          "wave_period": "7.6",
+          "score": 84,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "6",
+          "beaufort": "2",
+          "wind_direction": "偏西風",
+          "wave_height": "1.9",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 45,
+          "rating": "Poor",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "5",
+          "beaufort": "2",
+          "wind_direction": "西北風",
+          "wave_height": "1.8",
+          "wave_direction": "偏東",
+          "wave_period": "8.1",
+          "score": 45,
+          "rating": "Poor",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "5",
+          "beaufort": "2",
+          "wind_direction": "東北風",
+          "wave_height": "1.8",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 95,
+          "rating": "Epic",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "3",
+          "beaufort": "<= 1",
+          "wind_direction": "東北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "8.2",
+          "score": 95,
+          "rating": "Epic",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "東北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 45,
+          "rating": "Poor",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "7.9",
+          "score": 45,
+          "rating": "Poor",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "偏北風",
+          "wave_height": "1.5",
+          "wave_direction": "偏東",
+          "wave_period": "7.8",
+          "score": 92,
+          "rating": "Epic",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "花蓮縣花蓮市",
@@ -3696,16 +3847,34 @@
               "height_cm": "81"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "06:38",
+              "datetime": "2026-09-05T06:38:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-8"
+            },
+            {
+              "time": "14:08",
+              "datetime": "2026-09-05T14:08:00+08:00",
+              "type": "滿潮",
+              "height_cm": "47"
+            },
+            {
+              "time": "17:31",
+              "datetime": "2026-09-05T17:31:00+08:00",
+              "type": "乾潮",
+              "height_cm": "41"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:12",
-          "lights_off": "18:35",
-          "sunrise": "05:35",
-          "sunset": "18:12"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:12",
@@ -3719,6 +3888,13 @@
           "lights_off": "18:33",
           "sunrise": "05:36",
           "sunset": "18:10"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:13",
+          "lights_off": "18:32",
+          "sunrise": "05:36",
+          "sunset": "18:09"
         }
       ]
     },
@@ -3728,140 +3904,36 @@
       "county": "屏東縣",
       "forecast": [
         {
-          "date": "2026-09-01",
+          "date": "2026-09-02",
           "time": "00:00",
-          "wind_kts": "21",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "3.5",
+          "wind_kts": "15",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "3.2",
           "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 39,
-          "rating": "Poor",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "22",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "3.4",
-          "wave_direction": "西南",
-          "wave_period": "7.5",
-          "score": 43,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "22",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "4.0",
-          "wave_direction": "西南",
-          "wave_period": "7.5",
-          "score": 43,
-          "rating": "Poor",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "22",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "3.9",
-          "wave_direction": "西南",
-          "wave_period": "7.4",
-          "score": 36,
-          "rating": "Poor",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "17",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "3.4",
-          "wave_direction": "西南",
-          "wave_period": "7.5",
+          "wave_period": "7.8",
           "score": 41,
           "rating": "Poor",
           "tide_status": "退潮"
         },
         {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "3.4",
-          "wave_direction": "西南",
-          "wave_period": "7.6",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "3.2",
-          "wave_direction": "西南",
-          "wave_period": "7.7",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "中潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "3.2",
-          "wave_direction": "西南",
-          "wave_period": "7.8",
-          "score": 42,
-          "rating": "Poor",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-02",
-          "time": "00:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "偏南風",
-          "wave_height": "3.1",
-          "wave_direction": "西南",
-          "wave_period": "7.8",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "退潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "03:00",
-          "wind_kts": "16",
+          "wind_kts": "18",
           "beaufort": "5",
           "wind_direction": "偏南風",
           "wave_height": "3.1",
           "wave_direction": "西南",
           "wave_period": "7.8",
-          "score": 45,
+          "score": 43,
           "rating": "Poor",
           "tide_status": "乾潮"
         },
         {
           "date": "2026-09-02",
           "time": "06:00",
-          "wind_kts": "19",
-          "beaufort": "5",
+          "wind_kts": "21",
+          "beaufort": "6",
           "wind_direction": "偏南風",
           "wave_height": "3.3",
           "wave_direction": "西南",
@@ -3873,8 +3945,8 @@
         {
           "date": "2026-09-02",
           "time": "09:00",
-          "wind_kts": "20",
-          "beaufort": "5",
+          "wind_kts": "22",
+          "beaufort": "6",
           "wind_direction": "偏南風",
           "wave_height": "3.7",
           "wave_direction": "西南",
@@ -3886,7 +3958,7 @@
         {
           "date": "2026-09-02",
           "time": "12:00",
-          "wind_kts": "21",
+          "wind_kts": "23",
           "beaufort": "6",
           "wind_direction": "偏南風",
           "wave_height": "4.0",
@@ -3899,7 +3971,7 @@
         {
           "date": "2026-09-02",
           "time": "15:00",
-          "wind_kts": "21",
+          "wind_kts": "23",
           "beaufort": "6",
           "wind_direction": "西南風",
           "wave_height": "4.3",
@@ -3982,9 +4054,9 @@
           "wind_direction": "西南風",
           "wave_height": "3.5",
           "wave_direction": "西南",
-          "wave_period": "8.0",
-          "score": 50,
-          "rating": "Fair",
+          "wave_period": "7.9",
+          "score": 47,
+          "rating": "Poor",
           "tide_status": "漲潮"
         },
         {
@@ -4008,7 +4080,7 @@
           "wind_direction": "西南風",
           "wave_height": "3.3",
           "wave_direction": "西南",
-          "wave_period": "7.6",
+          "wave_period": "7.7",
           "score": 43,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -4036,6 +4108,110 @@
           "wave_direction": "西南",
           "wave_period": "7.6",
           "score": 51,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "2.9",
+          "wave_direction": "西南",
+          "wave_period": "7.5",
+          "score": 45,
+          "rating": "Poor",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "2.8",
+          "wave_direction": "西南",
+          "wave_period": "7.4",
+          "score": 53,
+          "rating": "Fair",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "偏南風",
+          "wave_height": "2.7",
+          "wave_direction": "西南",
+          "wave_period": "7.2",
+          "score": 49,
+          "rating": "Poor",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "12",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "2.6",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 51,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "2.2",
+          "wave_direction": "西南",
+          "wave_period": "7.1",
+          "score": 60,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "2.2",
+          "wave_direction": "西南",
+          "wave_period": "7.0",
+          "score": 58,
+          "rating": "Fair",
+          "tide_status": "中潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏西風",
+          "wave_height": "2.1",
+          "wave_direction": "西南",
+          "wave_period": "6.9",
+          "score": 60,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "偏西風",
+          "wave_height": "2.0",
+          "wave_direction": "西南",
+          "wave_period": "6.8",
+          "score": 60,
           "rating": "Fair",
           "tide_status": "漲潮"
         }
@@ -4153,16 +4329,22 @@
               "height_cm": "60"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "中",
+          "events": [
+            {
+              "time": "08:51",
+              "datetime": "2026-09-05T08:51:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-37"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:18",
-          "lights_off": "18:38",
-          "sunrise": "05:40",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:18",
@@ -4176,6 +4358,13 @@
           "lights_off": "18:36",
           "sunrise": "05:41",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:19",
+          "lights_off": "18:35",
+          "sunrise": "05:41",
+          "sunset": "18:13"
         }
       ]
     },
@@ -4185,113 +4374,9 @@
       "county": "屏東縣",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "17",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "2.6",
-          "wave_direction": "偏南",
-          "wave_period": "6.9",
-          "score": 51,
-          "rating": "Fair",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "2.6",
-          "wave_direction": "偏南",
-          "wave_period": "7.1",
-          "score": 49,
-          "rating": "Poor",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "21",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "3.3",
-          "wave_direction": "偏南",
-          "wave_period": "7.1",
-          "score": 54,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "21",
-          "beaufort": "6",
-          "wind_direction": "西南風",
-          "wave_height": "3.1",
-          "wave_direction": "偏南",
-          "wave_period": "7.2",
-          "score": 49,
-          "rating": "Poor",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "15",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "2.0",
-          "wave_direction": "偏南",
-          "wave_period": "7.3",
-          "score": 61,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "2.1",
-          "wave_direction": "偏南",
-          "wave_period": "7.2",
-          "score": 56,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "14",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "2.2",
-          "wave_direction": "偏南",
-          "wave_period": "7.5",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "2.1",
-          "wave_direction": "偏南",
-          "wave_period": "7.3",
-          "score": 60,
-          "rating": "Fair",
-          "tide_status": "滿潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
-          "wind_kts": "12",
+          "wind_kts": "14",
           "beaufort": "4",
           "wind_direction": "西南風",
           "wave_height": "2.1",
@@ -4304,47 +4389,47 @@
         {
           "date": "2026-09-02",
           "time": "03:00",
-          "wind_kts": "14",
-          "beaufort": "4",
+          "wind_kts": "16",
+          "beaufort": "5",
           "wind_direction": "偏南風",
           "wave_height": "2.1",
           "wave_direction": "偏南",
           "wave_period": "7.1",
-          "score": 50,
-          "rating": "Fair",
+          "score": 46,
+          "rating": "Poor",
           "tide_status": "乾潮"
         },
         {
           "date": "2026-09-02",
           "time": "06:00",
-          "wind_kts": "14",
-          "beaufort": "4",
+          "wind_kts": "16",
+          "beaufort": "5",
           "wind_direction": "偏南風",
           "wave_height": "2.2",
           "wave_direction": "偏南",
           "wave_period": "6.9",
-          "score": 55,
+          "score": 51,
           "rating": "Fair",
           "tide_status": "中潮"
         },
         {
           "date": "2026-09-02",
           "time": "09:00",
-          "wind_kts": "17",
+          "wind_kts": "19",
           "beaufort": "5",
           "wind_direction": "西南風",
           "wave_height": "2.3",
           "wave_direction": "偏南",
           "wave_period": "7.0",
-          "score": 56,
+          "score": 54,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
         {
           "date": "2026-09-02",
           "time": "12:00",
-          "wind_kts": "15",
-          "beaufort": "4",
+          "wind_kts": "17",
+          "beaufort": "5",
           "wind_direction": "西南風",
           "wave_height": "2.5",
           "wave_direction": "偏南",
@@ -4356,14 +4441,14 @@
         {
           "date": "2026-09-02",
           "time": "15:00",
-          "wind_kts": "17",
+          "wind_kts": "19",
           "beaufort": "5",
           "wind_direction": "西南風",
           "wave_height": "2.8",
           "wave_direction": "偏南",
           "wave_period": "7.4",
-          "score": 51,
-          "rating": "Fair",
+          "score": 49,
+          "rating": "Poor",
           "tide_status": "乾潮"
         },
         {
@@ -4413,7 +4498,7 @@
           "wind_direction": "西南風",
           "wave_height": "2.6",
           "wave_direction": "偏南",
-          "wave_period": "7.9",
+          "wave_period": "7.8",
           "score": 51,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4465,7 +4550,7 @@
           "wind_direction": "西南風",
           "wave_height": "2.3",
           "wave_direction": "偏南",
-          "wave_period": "7.4",
+          "wave_period": "7.5",
           "score": 60,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4478,7 +4563,7 @@
           "wind_direction": "西南風",
           "wave_height": "2.2",
           "wave_direction": "偏南",
-          "wave_period": "7.6",
+          "wave_period": "7.8",
           "score": 65,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4491,10 +4576,114 @@
           "wind_direction": "偏西風",
           "wave_height": "2.2",
           "wave_direction": "東南",
-          "wave_period": "8.1",
+          "wave_period": "8.2",
           "score": 73,
           "rating": "Good",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "2.2",
+          "wave_direction": "東南",
+          "wave_period": "8.3",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "偏南風",
+          "wave_height": "2.2",
+          "wave_direction": "東南",
+          "wave_period": "8.2",
+          "score": 68,
+          "rating": "Fair",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "2.2",
+          "wave_direction": "東南",
+          "wave_period": "8.1",
+          "score": 73,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "2.1",
+          "wave_direction": "東南",
+          "wave_period": "8.1",
+          "score": 78,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "10",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.5",
+          "wave_direction": "東南",
+          "wave_period": "8.1",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "11",
+          "beaufort": "4",
+          "wind_direction": "西南風",
+          "wave_height": "1.4",
+          "wave_direction": "東南",
+          "wave_period": "8.0",
+          "score": 74,
+          "rating": "Good",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "8",
+          "beaufort": "3",
+          "wind_direction": "西北風",
+          "wave_height": "1.4",
+          "wave_direction": "東南",
+          "wave_period": "8.0",
+          "score": 84,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "5",
+          "beaufort": "2",
+          "wind_direction": "東北風",
+          "wave_height": "1.3",
+          "wave_direction": "東南",
+          "wave_period": "7.9",
+          "score": 91,
+          "rating": "Epic",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "屏東縣滿州鄉",
@@ -4622,16 +4811,22 @@
               "height_cm": "70"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "06:40",
+              "datetime": "2026-09-05T06:40:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-22"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:18",
-          "lights_off": "18:38",
-          "sunrise": "05:40",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:18",
@@ -4645,6 +4840,13 @@
           "lights_off": "18:36",
           "sunrise": "05:41",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:19",
+          "lights_off": "18:35",
+          "sunrise": "05:41",
+          "sunset": "18:13"
         }
       ]
     },
@@ -4654,126 +4856,22 @@
       "county": "屏東縣",
       "forecast": [
         {
-          "date": "2026-09-01",
-          "time": "00:00",
-          "wind_kts": "14",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "2.2",
-          "wave_direction": "偏南",
-          "wave_period": "6.9",
-          "score": 56,
-          "rating": "Fair",
-          "tide_status": null
-        },
-        {
-          "date": "2026-09-01",
-          "time": "03:00",
-          "wind_kts": "16",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "2.2",
-          "wave_direction": "偏南",
-          "wave_period": "7.0",
-          "score": 50,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "06:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "3.0",
-          "wave_direction": "偏南",
-          "wave_period": "7.0",
-          "score": 50,
-          "rating": "Fair",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "09:00",
-          "wind_kts": "19",
-          "beaufort": "5",
-          "wind_direction": "西南風",
-          "wave_height": "2.8",
-          "wave_direction": "偏南",
-          "wave_period": "7.1",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "滿潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "12:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "1.6",
-          "wave_direction": "偏南",
-          "wave_period": "7.1",
-          "score": 67,
-          "rating": "Fair",
-          "tide_status": "退潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "15:00",
-          "wind_kts": "14",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "1.6",
-          "wave_direction": "偏南",
-          "wave_period": "7.0",
-          "score": 59,
-          "rating": "Fair",
-          "tide_status": "乾潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "18:00",
-          "wind_kts": "13",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "1.8",
-          "wave_direction": "東南",
-          "wave_period": "7.5",
-          "score": 73,
-          "rating": "Good",
-          "tide_status": "漲潮"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "21:00",
-          "wind_kts": "11",
-          "beaufort": "4",
-          "wind_direction": "西南風",
-          "wave_height": "1.8",
-          "wave_direction": "東南",
-          "wave_period": "7.2",
-          "score": 74,
-          "rating": "Good",
-          "tide_status": "滿潮"
-        },
-        {
           "date": "2026-09-02",
           "time": "00:00",
-          "wind_kts": "8",
+          "wind_kts": "9",
           "beaufort": "3",
           "wind_direction": "西南風",
           "wave_height": "1.8",
           "wave_direction": "東南",
           "wave_period": "7.0",
-          "score": 84,
+          "score": 79,
           "rating": "Good",
           "tide_status": "中潮"
         },
         {
           "date": "2026-09-02",
           "time": "03:00",
-          "wind_kts": "9",
+          "wind_kts": "10",
           "beaufort": "3",
           "wind_direction": "西南風",
           "wave_height": "1.7",
@@ -4786,7 +4884,7 @@
         {
           "date": "2026-09-02",
           "time": "06:00",
-          "wind_kts": "9",
+          "wind_kts": "10",
           "beaufort": "3",
           "wind_direction": "偏南風",
           "wave_height": "1.8",
@@ -4799,7 +4897,7 @@
         {
           "date": "2026-09-02",
           "time": "09:00",
-          "wind_kts": "12",
+          "wind_kts": "13",
           "beaufort": "4",
           "wind_direction": "西南風",
           "wave_height": "1.9",
@@ -4812,20 +4910,20 @@
         {
           "date": "2026-09-02",
           "time": "12:00",
-          "wind_kts": "11",
+          "wind_kts": "12",
           "beaufort": "4",
           "wind_direction": "偏南風",
           "wave_height": "2.0",
           "wave_direction": "東南",
           "wave_period": "7.1",
-          "score": 64,
+          "score": 60,
           "rating": "Fair",
           "tide_status": "中潮"
         },
         {
           "date": "2026-09-02",
           "time": "15:00",
-          "wind_kts": "13",
+          "wind_kts": "14",
           "beaufort": "4",
           "wind_direction": "偏南風",
           "wave_height": "2.3",
@@ -4869,7 +4967,7 @@
           "wind_direction": "西南風",
           "wave_height": "2.3",
           "wave_direction": "東南",
-          "wave_period": "7.7",
+          "wave_period": "7.6",
           "score": 67,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4921,7 +5019,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東南",
-          "wave_period": "7.6",
+          "wave_period": "7.8",
           "score": 62,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4947,7 +5045,7 @@
           "wind_direction": "東南風",
           "wave_height": "1.9",
           "wave_direction": "東南",
-          "wave_period": "7.7",
+          "wave_period": "7.8",
           "score": 60,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4960,10 +5058,114 @@
           "wind_direction": "東南風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "8.2",
+          "wave_period": "8.3",
           "score": 58,
           "rating": "Fair",
           "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "00:00",
+          "wind_kts": "7",
+          "beaufort": "3",
+          "wind_direction": "偏南風",
+          "wave_height": "2.0",
+          "wave_direction": "偏東",
+          "wave_period": "8.5",
+          "score": 67,
+          "rating": "Fair",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "03:00",
+          "wind_kts": "6",
+          "beaufort": "2",
+          "wind_direction": "西南風",
+          "wave_height": "2.0",
+          "wave_direction": "偏東",
+          "wave_period": "8.5",
+          "score": 77,
+          "rating": "Good",
+          "tide_status": "退潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "06:00",
+          "wind_kts": "6",
+          "beaufort": "2",
+          "wind_direction": "西南風",
+          "wave_height": "2.0",
+          "wave_direction": "偏東",
+          "wave_period": "8.4",
+          "score": 69,
+          "rating": "Fair",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "09:00",
+          "wind_kts": "7",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.9",
+          "wave_direction": "偏東",
+          "wave_period": "8.4",
+          "score": 77,
+          "rating": "Good",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "12:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.3",
+          "wave_direction": "偏東",
+          "wave_period": "8.4",
+          "score": 75,
+          "rating": "Good",
+          "tide_status": "滿潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "15:00",
+          "wind_kts": "9",
+          "beaufort": "3",
+          "wind_direction": "西南風",
+          "wave_height": "1.2",
+          "wave_direction": "偏東",
+          "wave_period": "8.3",
+          "score": 68,
+          "rating": "Fair",
+          "tide_status": "乾潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "18:00",
+          "wind_kts": "6",
+          "beaufort": "2",
+          "wind_direction": "東南風",
+          "wave_height": "1.1",
+          "wave_direction": "偏東",
+          "wave_period": "8.1",
+          "score": 69,
+          "rating": "Fair",
+          "tide_status": "漲潮"
+        },
+        {
+          "date": "2026-09-04",
+          "time": "21:00",
+          "wind_kts": "2",
+          "beaufort": "<= 1",
+          "wind_direction": "東北風",
+          "wave_height": "1.1",
+          "wave_direction": "偏東",
+          "wave_period": "8.0",
+          "score": 91,
+          "rating": "Epic",
+          "tide_status": "漲潮"
         }
       ],
       "tide_location_name": "屏東縣牡丹鄉",
@@ -5091,16 +5293,22 @@
               "height_cm": "72"
             }
           ]
+        },
+        {
+          "date": "2026-09-05",
+          "lunar_date": "2026-07-24",
+          "tide_range": "小",
+          "events": [
+            {
+              "time": "06:38",
+              "datetime": "2026-09-05T06:38:00+08:00",
+              "type": "乾潮",
+              "height_cm": "-23"
+            }
+          ]
         }
       ],
       "daylight": [
-        {
-          "date": "2026-09-01",
-          "lights_on": "05:18",
-          "lights_off": "18:38",
-          "sunrise": "05:40",
-          "sunset": "18:16"
-        },
         {
           "date": "2026-09-02",
           "lights_on": "05:18",
@@ -5114,6 +5322,13 @@
           "lights_off": "18:36",
           "sunrise": "05:41",
           "sunset": "18:14"
+        },
+        {
+          "date": "2026-09-04",
+          "lights_on": "05:19",
+          "lights_off": "18:35",
+          "sunrise": "05:41",
+          "sunset": "18:13"
         }
       ]
     }
