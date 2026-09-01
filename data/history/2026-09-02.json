@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated": "2026-09-01T23:00:27+08:00",
+  "updated": "2026-09-02T00:15:01+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -16,9 +16,9 @@
           "wave_height": "1.6",
           "wave_direction": "東南",
           "wave_period": "7.3",
-          "score": 92,
+          "score": 93,
           "rating": "Epic",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -127,9 +127,9 @@
           "wave_height": "1.6",
           "wave_direction": "東南",
           "wave_period": "7.4",
-          "score": 90,
-          "rating": "Epic",
-          "tide_status": "中潮"
+          "score": 84,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -240,7 +240,7 @@
           "wave_period": "7.8",
           "score": 45,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -253,7 +253,7 @@
           "wave_period": "7.6",
           "score": 41,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -349,9 +349,9 @@
           "wave_height": "2.9",
           "wave_direction": "西南",
           "wave_period": "7.7",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "滿潮"
+          "score": 70,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -364,7 +364,7 @@
           "wave_period": "7.5",
           "score": 70,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -460,9 +460,9 @@
           "wave_height": "0.8",
           "wave_direction": "西南",
           "wave_period": "6.6",
-          "score": 63,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -571,9 +571,9 @@
           "wave_height": "2.1",
           "wave_direction": "偏南",
           "wave_period": "7.2",
-          "score": 68,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -682,9 +682,9 @@
           "wave_height": "1.8",
           "wave_direction": "東南",
           "wave_period": "7.0",
-          "score": 79,
+          "score": 77,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -795,7 +795,7 @@
           "wave_period": "7.8",
           "score": 41,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -1015,9 +1015,9 @@
           "wave_height": "1.1",
           "wave_direction": "東南",
           "wave_period": "7.3",
-          "score": 81,
+          "score": 79,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
@@ -1126,9 +1126,9 @@
           "wave_height": "1.1",
           "wave_direction": "東南",
           "wave_period": "7.3",
-          "score": 70,
-          "rating": "Good",
-          "tide_status": "中潮"
+          "score": 67,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-02",
