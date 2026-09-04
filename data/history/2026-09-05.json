@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updated": "2026-09-04T22:47:02+08:00",
+  "updated": "2026-09-05T00:14:19+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -16,9 +16,9 @@
           "wave_height": "1.4",
           "wave_direction": "偏東",
           "wave_period": "7.5",
-          "score": 77,
+          "score": 81,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -31,7 +31,7 @@
           "wave_period": "7.4",
           "score": 81,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -127,9 +127,9 @@
           "wave_height": "1.4",
           "wave_direction": "偏東",
           "wave_period": "7.5",
-          "score": 85,
+          "score": 75,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -140,9 +140,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "7.4",
-          "score": 71,
-          "rating": "Good",
-          "tide_status": "中潮"
+          "score": 68,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -238,9 +238,9 @@
           "wave_height": "1.5",
           "wave_direction": "西南",
           "wave_period": "6.8",
-          "score": 91,
+          "score": 90,
           "rating": "Epic",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -349,9 +349,9 @@
           "wave_height": "1.4",
           "wave_direction": "西南",
           "wave_period": "6.8",
-          "score": 33,
+          "score": 29,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -460,9 +460,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏北",
           "wave_period": "5.8",
-          "score": 86,
+          "score": 84,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -571,9 +571,9 @@
           "wave_height": "1.1",
           "wave_direction": "偏東",
           "wave_period": "7.9",
-          "score": 82,
+          "score": 83,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -584,9 +584,9 @@
           "wave_height": "1.1",
           "wave_direction": "偏東",
           "wave_period": "7.8",
-          "score": 85,
+          "score": 83,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -682,9 +682,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "8.1",
-          "score": 91,
+          "score": 92,
           "rating": "Epic",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -695,9 +695,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏東",
           "wave_period": "7.9",
-          "score": 90,
-          "rating": "Epic",
-          "tide_status": "中潮"
+          "score": 89,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -793,9 +793,9 @@
           "wave_height": "1.6",
           "wave_direction": "西南",
           "wave_period": "6.9",
-          "score": 56,
+          "score": 61,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -806,9 +806,9 @@
           "wave_height": "1.5",
           "wave_direction": "西南",
           "wave_period": "6.7",
-          "score": 54,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -819,9 +819,9 @@
           "wave_height": "1.5",
           "wave_direction": "西南",
           "wave_period": "6.5",
-          "score": 54,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -904,9 +904,9 @@
           "wave_height": "1.1",
           "wave_direction": "西南",
           "wave_period": "6.7",
-          "score": 89,
+          "score": 88,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -1015,9 +1015,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "7.6",
-          "score": 74,
+          "score": 75,
           "rating": "Good",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -1028,9 +1028,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "7.5",
-          "score": 73,
+          "score": 70,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -1126,9 +1126,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "7.6",
-          "score": 71,
+          "score": 77,
           "rating": "Good",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
@@ -1139,9 +1139,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "7.5",
-          "score": 75,
+          "score": 72,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-05",
