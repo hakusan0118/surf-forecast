@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updated": "2026-09-05T22:49:41+08:00",
+  "updated": "2026-09-06T00:14:52+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -238,9 +238,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏西",
           "wave_period": "5.4",
-          "score": 55,
+          "score": 50,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
@@ -349,9 +349,9 @@
           "wave_height": "0.9",
           "wave_direction": "西南",
           "wave_period": "5.6",
-          "score": 24,
+          "score": 19,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
@@ -460,9 +460,9 @@
           "wave_height": "1.4",
           "wave_direction": "偏北",
           "wave_period": "5.9",
-          "score": 54,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
@@ -473,9 +473,9 @@
           "wave_height": "1.4",
           "wave_direction": "偏北",
           "wave_period": "5.9",
-          "score": 63,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
@@ -904,9 +904,9 @@
           "wave_height": "0.9",
           "wave_direction": "西北",
           "wave_period": "5.0",
-          "score": 45,
+          "score": 42,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
@@ -917,9 +917,9 @@
           "wave_height": "1.1",
           "wave_direction": "西北",
           "wave_period": "5.0",
-          "score": 42,
+          "score": 39,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-06",
