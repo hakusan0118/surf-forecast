@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated": "2026-09-09T00:15:11+08:00",
+  "updated": "2026-09-09T05:06:29+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -372,10 +372,10 @@
           "wind_kts": "6",
           "beaufort": "2",
           "wind_direction": "西北風",
-          "wave_height": "0.5",
+          "wave_height": "0.6",
           "wave_direction": "西南",
-          "wave_period": "6.3",
-          "score": 11,
+          "wave_period": "6.2",
+          "score": 13,
           "rating": "Poor",
           "tide_status": "滿潮"
         },
@@ -942,7 +942,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.6",
           "wave_direction": "偏西",
-          "wave_period": "5.3",
+          "wave_period": "5.2",
           "score": 68,
           "rating": "Fair",
           "tide_status": "滿潮"
