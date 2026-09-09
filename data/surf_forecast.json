@@ -2,7 +2,7 @@
   "updated": "2026-09-09T18:35:24+08:00",
   "source": "F-D0047-095",
   "tide_source": "F-A0021-001",
-  "tide_updated": "2026-09-09T00:07:02+08:00",
+  "tide_updated": "2026-09-10T00:07:02+08:00",
   "daylight_source": "A-B0062-001",
   "daylight_updated": null,
   "locations": [
@@ -33,9 +33,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏北",
           "wave_period": "5.2",
-          "score": 58,
+          "score": 63,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -46,9 +46,9 @@
           "wave_height": "0.8",
           "wave_direction": "偏北",
           "wave_period": "5.4",
-          "score": 73,
+          "score": 70,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -59,9 +59,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏北",
           "wave_period": "4.9",
-          "score": 58,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -72,9 +72,9 @@
           "wave_height": "1.4",
           "wave_direction": "偏北",
           "wave_period": "4.9",
-          "score": 46,
+          "score": 47,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -85,9 +85,9 @@
           "wave_height": "1.8",
           "wave_direction": "偏北",
           "wave_period": "5.3",
-          "score": 44,
+          "score": 48,
           "rating": "Poor",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -98,9 +98,9 @@
           "wave_height": "1.8",
           "wave_direction": "偏北",
           "wave_period": "5.3",
-          "score": 63,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -111,9 +111,9 @@
           "wave_height": "1.8",
           "wave_direction": "偏北",
           "wave_period": "5.5",
-          "score": 61,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -124,9 +124,9 @@
           "wave_height": "1.7",
           "wave_direction": "偏北",
           "wave_period": "5.5",
-          "score": 57,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -137,9 +137,9 @@
           "wave_height": "1.5",
           "wave_direction": "偏北",
           "wave_period": "5.6",
-          "score": 57,
+          "score": 59,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -327,37 +327,6 @@
       "tide_location_name": "苗栗縣苑裡鎮",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "03:31",
-              "datetime": "2026-09-09T03:31:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-129"
-            },
-            {
-              "time": "09:15",
-              "datetime": "2026-09-09T09:15:00+08:00",
-              "type": "滿潮",
-              "height_cm": "222"
-            },
-            {
-              "time": "15:56",
-              "datetime": "2026-09-09T15:56:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-225"
-            },
-            {
-              "time": "22:06",
-              "datetime": "2026-09-09T22:06:00+08:00",
-              "type": "滿潮",
-              "height_cm": "235"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -502,9 +471,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏西",
           "wave_period": "5.6",
-          "score": 56,
+          "score": 60,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -515,9 +484,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏西",
           "wave_period": "5.3",
-          "score": 64,
+          "score": 63,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -528,9 +497,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏西",
           "wave_period": "5.2",
-          "score": 68,
-          "rating": "Fair",
-          "tide_status": "滿潮"
+          "score": 73,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -543,7 +512,7 @@
           "wave_period": "5.4",
           "score": 73,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -554,9 +523,9 @@
           "wave_height": "0.9",
           "wave_direction": "西北",
           "wave_period": "4.3",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "乾潮"
+          "score": 50,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -567,9 +536,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏北",
           "wave_period": "4.6",
-          "score": 47,
+          "score": 41,
           "rating": "Poor",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -580,9 +549,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏北",
           "wave_period": "4.9",
-          "score": 42,
+          "score": 44,
           "rating": "Poor",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -595,7 +564,7 @@
           "wave_period": "5.6",
           "score": 66,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -796,37 +765,6 @@
       "tide_location_name": "臺南市將軍區",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "01:51",
-              "datetime": "2026-09-09T01:51:00+08:00",
-              "type": "乾潮",
-              "height_cm": "13"
-            },
-            {
-              "time": "08:14",
-              "datetime": "2026-09-09T08:14:00+08:00",
-              "type": "滿潮",
-              "height_cm": "105"
-            },
-            {
-              "time": "14:41",
-              "datetime": "2026-09-09T14:41:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-56"
-            },
-            {
-              "time": "21:56",
-              "datetime": "2026-09-09T21:56:00+08:00",
-              "type": "滿潮",
-              "height_cm": "85"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -984,9 +922,9 @@
           "wave_height": "0.6",
           "wave_direction": "西南",
           "wave_period": "6.2",
-          "score": 13,
+          "score": 12,
           "rating": "Poor",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -997,9 +935,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.0",
-          "score": 16,
+          "score": 10,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1010,9 +948,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.0",
-          "score": 16,
+          "score": 10,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1023,9 +961,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.0",
-          "score": 16,
+          "score": 10,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1036,9 +974,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.2",
-          "score": 16,
+          "score": 10,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1049,9 +987,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.0",
-          "score": 11,
+          "score": 10,
           "rating": "Poor",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -1265,31 +1203,6 @@
       "tide_location_name": "高雄市永安區",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "06:04",
-              "datetime": "2026-09-09T06:04:00+08:00",
-              "type": "滿潮",
-              "height_cm": "73"
-            },
-            {
-              "time": "13:33",
-              "datetime": "2026-09-09T13:33:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-30"
-            },
-            {
-              "time": "20:10",
-              "datetime": "2026-09-09T20:10:00+08:00",
-              "type": "滿潮",
-              "height_cm": "24"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -1447,9 +1360,9 @@
           "wave_height": "0.6",
           "wave_direction": "西南",
           "wave_period": "6.3",
-          "score": 67,
-          "rating": "Fair",
-          "tide_status": "滿潮"
+          "score": 73,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1460,9 +1373,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.2",
-          "score": 64,
+          "score": 67,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1473,9 +1386,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.1",
-          "score": 52,
-          "rating": "Fair",
-          "tide_status": "乾潮"
+          "score": 49,
+          "rating": "Poor",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1486,9 +1399,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.1",
-          "score": 54,
-          "rating": "Fair",
-          "tide_status": "漲潮"
+          "score": 49,
+          "rating": "Poor",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1499,9 +1412,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.2",
-          "score": 51,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1512,9 +1425,9 @@
           "wave_height": "0.5",
           "wave_direction": "西南",
           "wave_period": "6.2",
-          "score": 74,
+          "score": 78,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -1527,7 +1440,7 @@
           "wave_period": "6.1",
           "score": 84,
           "rating": "Good",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -1540,7 +1453,7 @@
           "wave_period": "6.0",
           "score": 78,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -1728,37 +1641,6 @@
       "tide_location_name": "高雄市旗津區",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "05:47",
-              "datetime": "2026-09-09T05:47:00+08:00",
-              "type": "滿潮",
-              "height_cm": "86"
-            },
-            {
-              "time": "13:14",
-              "datetime": "2026-09-09T13:14:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-19"
-            },
-            {
-              "time": "19:15",
-              "datetime": "2026-09-09T19:15:00+08:00",
-              "type": "滿潮",
-              "height_cm": "29"
-            },
-            {
-              "time": "23:49",
-              "datetime": "2026-09-09T23:49:00+08:00",
-              "type": "乾潮",
-              "height_cm": "8"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -1910,9 +1792,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "7.0",
-          "score": 66,
+          "score": 65,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1923,9 +1805,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.8",
-          "score": 63,
+          "score": 62,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1936,9 +1818,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 58,
+          "score": 62,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1949,9 +1831,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.5",
-          "score": 66,
+          "score": 62,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1962,9 +1844,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.5",
-          "score": 56,
+          "score": 60,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -1975,9 +1857,9 @@
           "wave_height": "1.1",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 69,
+          "score": 65,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -1988,9 +1870,9 @@
           "wave_height": "1.1",
           "wave_direction": "東北",
           "wave_period": "6.4",
-          "score": 67,
-          "rating": "Fair",
-          "tide_status": "乾潮"
+          "score": 72,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2003,7 +1885,7 @@
           "wave_period": "6.3",
           "score": 70,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2191,37 +2073,6 @@
       "tide_location_name": "宜蘭縣頭城鎮",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:37",
-              "datetime": "2026-09-09T04:37:00+08:00",
-              "type": "滿潮",
-              "height_cm": "75"
-            },
-            {
-              "time": "11:30",
-              "datetime": "2026-09-09T11:30:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-70"
-            },
-            {
-              "time": "18:03",
-              "datetime": "2026-09-09T18:03:00+08:00",
-              "type": "滿潮",
-              "height_cm": "61"
-            },
-            {
-              "time": "23:36",
-              "datetime": "2026-09-09T23:36:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-14"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -2375,7 +2226,7 @@
           "wave_period": "7.0",
           "score": 69,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2386,9 +2237,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.8",
-          "score": 57,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2399,9 +2250,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 61,
+          "score": 66,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2412,9 +2263,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.5",
-          "score": 60,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2425,9 +2276,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.5",
-          "score": 55,
+          "score": 54,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2438,9 +2289,9 @@
           "wave_height": "1.1",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 72,
-          "rating": "Good",
-          "tide_status": "中潮"
+          "score": 69,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2451,9 +2302,9 @@
           "wave_height": "1.1",
           "wave_direction": "東北",
           "wave_period": "6.4",
-          "score": 65,
-          "rating": "Fair",
-          "tide_status": "乾潮"
+          "score": 70,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2464,9 +2315,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.3",
-          "score": 75,
+          "score": 74,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2654,37 +2505,6 @@
       "tide_location_name": "宜蘭縣頭城鎮",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:37",
-              "datetime": "2026-09-09T04:37:00+08:00",
-              "type": "滿潮",
-              "height_cm": "75"
-            },
-            {
-              "time": "11:30",
-              "datetime": "2026-09-09T11:30:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-70"
-            },
-            {
-              "time": "18:03",
-              "datetime": "2026-09-09T18:03:00+08:00",
-              "type": "滿潮",
-              "height_cm": "61"
-            },
-            {
-              "time": "23:36",
-              "datetime": "2026-09-09T23:36:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-14"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -2836,9 +2656,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "7.1",
-          "score": 66,
+          "score": 69,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2849,9 +2669,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "7.0",
-          "score": 72,
+          "score": 75,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2862,9 +2682,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 63,
+          "score": 61,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2875,9 +2695,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "6.2",
-          "score": 58,
+          "score": 53,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2888,9 +2708,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "6.1",
-          "score": 55,
+          "score": 60,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -2901,9 +2721,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.1",
-          "score": 54,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2914,9 +2734,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.1",
-          "score": 58,
+          "score": 55,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -2927,9 +2747,9 @@
           "wave_height": "1.1",
           "wave_direction": "東北",
           "wave_period": "6.2",
-          "score": 60,
+          "score": 55,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3117,37 +2937,6 @@
       "tide_location_name": "花蓮縣吉安鄉",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:36",
-              "datetime": "2026-09-09T04:36:00+08:00",
-              "type": "滿潮",
-              "height_cm": "109"
-            },
-            {
-              "time": "11:14",
-              "datetime": "2026-09-09T11:14:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-42"
-            },
-            {
-              "time": "17:38",
-              "datetime": "2026-09-09T17:38:00+08:00",
-              "type": "滿潮",
-              "height_cm": "90"
-            },
-            {
-              "time": "23:10",
-              "datetime": "2026-09-09T23:10:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-3"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -3273,7 +3062,7 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "7.0",
-          "score": 66,
+          "score": 63,
           "rating": "Fair",
           "tide_status": null
         },
@@ -3286,7 +3075,7 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "7.1",
-          "score": 80,
+          "score": 70,
           "rating": "Good",
           "tide_status": null
         },
@@ -3299,9 +3088,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "7.1",
-          "score": 74,
-          "rating": "Good",
-          "tide_status": "退潮"
+          "score": 64,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3312,9 +3101,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "7.0",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "退潮"
+          "score": 64,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3325,9 +3114,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 45,
+          "score": 47,
           "rating": "Poor",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3338,9 +3127,9 @@
           "wave_height": "1.6",
           "wave_direction": "東北",
           "wave_period": "6.2",
-          "score": 56,
-          "rating": "Fair",
-          "tide_status": "漲潮"
+          "score": 46,
+          "rating": "Poor",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3351,9 +3140,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "6.0",
-          "score": 66,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3364,9 +3153,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.1",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "退潮"
+          "score": 52,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3377,9 +3166,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.1",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
+          "score": 57,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3392,7 +3181,7 @@
           "wave_period": "6.2",
           "score": 61,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3580,37 +3369,6 @@
       "tide_location_name": "花蓮縣花蓮市",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:36",
-              "datetime": "2026-09-09T04:36:00+08:00",
-              "type": "滿潮",
-              "height_cm": "109"
-            },
-            {
-              "time": "11:14",
-              "datetime": "2026-09-09T11:14:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-42"
-            },
-            {
-              "time": "17:38",
-              "datetime": "2026-09-09T17:38:00+08:00",
-              "type": "滿潮",
-              "height_cm": "90"
-            },
-            {
-              "time": "23:10",
-              "datetime": "2026-09-09T23:10:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-3"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -3762,9 +3520,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏南",
           "wave_period": "6.5",
-          "score": 60,
+          "score": 66,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3775,9 +3533,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏南",
           "wave_period": "6.5",
-          "score": 69,
+          "score": 68,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3788,9 +3546,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏南",
           "wave_period": "6.3",
-          "score": 69,
+          "score": 68,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3801,9 +3559,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏南",
           "wave_period": "6.4",
-          "score": 68,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3814,9 +3572,9 @@
           "wave_height": "0.6",
           "wave_direction": "偏南",
           "wave_period": "6.1",
-          "score": 59,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -3827,9 +3585,9 @@
           "wave_height": "0.7",
           "wave_direction": "東南",
           "wave_period": "5.3",
-          "score": 60,
+          "score": 62,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3840,9 +3598,9 @@
           "wave_height": "0.7",
           "wave_direction": "東南",
           "wave_period": "4.8",
-          "score": 59,
+          "score": 57,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -3853,9 +3611,9 @@
           "wave_height": "0.7",
           "wave_direction": "偏東",
           "wave_period": "4.8",
-          "score": 55,
+          "score": 50,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4043,37 +3801,6 @@
       "tide_location_name": "屏東縣恆春鎮",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:52",
-              "datetime": "2026-09-09T04:52:00+08:00",
-              "type": "滿潮",
-              "height_cm": "80"
-            },
-            {
-              "time": "12:24",
-              "datetime": "2026-09-09T12:24:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-50"
-            },
-            {
-              "time": "18:15",
-              "datetime": "2026-09-09T18:15:00+08:00",
-              "type": "滿潮",
-              "height_cm": "23"
-            },
-            {
-              "time": "22:53",
-              "datetime": "2026-09-09T22:53:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-11"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -4225,9 +3952,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.7",
-          "score": 57,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4238,9 +3965,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.5",
-          "score": 56,
+          "score": 54,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4251,9 +3978,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.4",
-          "score": 51,
+          "score": 54,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4264,9 +3991,9 @@
           "wave_height": "1.3",
           "wave_direction": "東北",
           "wave_period": "6.3",
-          "score": 54,
+          "score": 52,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4277,9 +4004,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "6.0",
-          "score": 47,
-          "rating": "Poor",
-          "tide_status": "滿潮"
+          "score": 50,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4290,9 +4017,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "5.7",
-          "score": 47,
+          "score": 44,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4303,9 +4030,9 @@
           "wave_height": "1.7",
           "wave_direction": "東北",
           "wave_period": "5.6",
-          "score": 42,
+          "score": 44,
           "rating": "Poor",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4316,9 +4043,9 @@
           "wave_height": "1.8",
           "wave_direction": "東北",
           "wave_period": "5.7",
-          "score": 47,
+          "score": 44,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4506,37 +4233,6 @@
       "tide_location_name": "屏東縣滿州鄉",
       "tides": [
         {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:18",
-              "datetime": "2026-09-09T04:18:00+08:00",
-              "type": "滿潮",
-              "height_cm": "88"
-            },
-            {
-              "time": "11:24",
-              "datetime": "2026-09-09T11:24:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-55"
-            },
-            {
-              "time": "17:24",
-              "datetime": "2026-09-09T17:24:00+08:00",
-              "type": "滿潮",
-              "height_cm": "46"
-            },
-            {
-              "time": "22:59",
-              "datetime": "2026-09-09T22:59:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-25"
-            }
-          ]
-        },
-        {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
           "tide_range": "大",
@@ -4688,9 +4384,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.9",
-          "score": 67,
+          "score": 65,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4701,9 +4397,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.7",
-          "score": 67,
+          "score": 65,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4714,9 +4410,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.6",
-          "score": 44,
+          "score": 49,
           "rating": "Poor",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4727,9 +4423,9 @@
           "wave_height": "1.2",
           "wave_direction": "東北",
           "wave_period": "6.4",
-          "score": 62,
+          "score": 60,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4742,7 +4438,7 @@
           "wave_period": "6.0",
           "score": 51,
           "rating": "Fair",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-09",
@@ -4753,9 +4449,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "5.6",
-          "score": 47,
+          "score": 43,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4766,9 +4462,9 @@
           "wave_height": "1.6",
           "wave_direction": "東北",
           "wave_period": "5.6",
-          "score": 39,
+          "score": 43,
           "rating": "Poor",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4779,9 +4475,9 @@
           "wave_height": "1.5",
           "wave_direction": "東北",
           "wave_period": "5.7",
-          "score": 47,
+          "score": 43,
           "rating": "Poor",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-09-10",
@@ -4968,37 +4664,6 @@
       ],
       "tide_location_name": "屏東縣牡丹鄉",
       "tides": [
-        {
-          "date": "2026-09-09",
-          "lunar_date": "2026-07-28",
-          "tide_range": "大",
-          "events": [
-            {
-              "time": "04:22",
-              "datetime": "2026-09-09T04:22:00+08:00",
-              "type": "滿潮",
-              "height_cm": "90"
-            },
-            {
-              "time": "11:22",
-              "datetime": "2026-09-09T11:22:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-56"
-            },
-            {
-              "time": "17:28",
-              "datetime": "2026-09-09T17:28:00+08:00",
-              "type": "滿潮",
-              "height_cm": "47"
-            },
-            {
-              "time": "22:57",
-              "datetime": "2026-09-09T22:57:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-25"
-            }
-          ]
-        },
         {
           "date": "2026-09-10",
           "lunar_date": "2026-07-29",
