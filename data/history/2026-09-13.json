@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated": "2026-09-12T00:14:47+08:00",
+  "updated": "2026-09-12T04:50:51+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -92,10 +92,10 @@
           "beaufort": "3",
           "wind_direction": "東北風",
           "wave_height": "0.8",
-          "wave_direction": "東北",
-          "wave_period": "6.5",
-          "score": 45,
-          "rating": "Poor",
+          "wave_direction": "偏東",
+          "wave_period": "6.4",
+          "score": 56,
+          "rating": "Fair",
           "tide_status": "漲潮"
         },
         {
@@ -104,7 +104,7 @@
           "wind_kts": "9",
           "beaufort": "3",
           "wind_direction": "偏北風",
-          "wave_height": "0.8",
+          "wave_height": "0.9",
           "wave_direction": "偏東",
           "wave_period": "6.3",
           "score": 61,
@@ -204,7 +204,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.9",
           "wave_direction": "東北",
-          "wave_period": "6.4",
+          "wave_period": "6.3",
           "score": 48,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -216,9 +216,9 @@
           "beaufort": "3",
           "wind_direction": "偏北風",
           "wave_height": "0.9",
-          "wave_direction": "東北",
-          "wave_period": "6.3",
-          "score": 58,
+          "wave_direction": "偏東",
+          "wave_period": "6.2",
+          "score": 62,
           "rating": "Fair",
           "tide_status": "退潮"
         }
@@ -759,7 +759,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.0",
           "wave_direction": "東北",
-          "wave_period": "6.3",
+          "wave_period": "6.2",
           "score": 62,
           "rating": "Fair",
           "tide_status": "漲潮"
