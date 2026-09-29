@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T00:14:39+08:00",
+  "updated": "2026-09-30T05:09:01+08:00",
   "source": "F-D0047-095",
   "tide_source": "F-A0021-001",
   "tide_updated": "2026-09-30T00:07:02+08:00",
@@ -45,7 +45,7 @@
           "wind_direction": "偏南風",
           "wave_height": "0.4",
           "wave_direction": "偏西",
-          "wave_period": "3.8",
+          "wave_period": "3.7",
           "score": 49,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -97,7 +97,7 @@
           "wind_direction": "西南風",
           "wave_height": "0.3",
           "wave_direction": "西南",
-          "wave_period": "3.7",
+          "wave_period": "3.6",
           "score": 24,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -108,7 +108,7 @@
           "wind_kts": "4",
           "beaufort": "2",
           "wind_direction": "西南風",
-          "wave_height": "0.3",
+          "wave_height": "0.2",
           "wave_direction": "偏西",
           "wave_period": "3.7",
           "score": 62,
@@ -2062,10 +2062,10 @@
           "beaufort": "<= 1",
           "wind_direction": "西南風",
           "wave_height": "0.3",
-          "wave_direction": "東北",
+          "wave_direction": "偏東",
           "wave_period": "6.5",
-          "score": 66,
-          "rating": "Fair",
+          "score": 70,
+          "rating": "Good",
           "tide_status": "漲潮"
         },
         {
@@ -2531,7 +2531,7 @@
           "beaufort": "<= 1",
           "wind_direction": "西南風",
           "wave_height": "0.3",
-          "wave_direction": "東北",
+          "wave_direction": "偏東",
           "wave_period": "6.5",
           "score": 71,
           "rating": "Good",
@@ -3418,9 +3418,9 @@
           "wind_direction": "東北風",
           "wave_height": "0.4",
           "wave_direction": "東北",
-          "wave_period": "6.9",
-          "score": 69,
-          "rating": "Fair",
+          "wave_period": "7.0",
+          "score": 71,
+          "rating": "Good",
           "tide_status": "漲潮"
         },
         {
@@ -3456,7 +3456,7 @@
           "beaufort": "2",
           "wind_direction": "偏北風",
           "wave_height": "0.3",
-          "wave_direction": "東北",
+          "wave_direction": "偏東",
           "wave_period": "6.7",
           "score": 45,
           "rating": "Poor",
@@ -4176,7 +4176,7 @@
           "wind_direction": "偏西風",
           "wave_height": "0.6",
           "wave_direction": "東北",
-          "wave_period": "8.4",
+          "wave_period": "8.5",
           "score": 86,
           "rating": "Good",
           "tide_status": "漲潮"
