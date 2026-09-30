@@ -1,6 +1,7 @@
 {
   "date": "2026-10-01",
-  "updated": "2026-10-01T04:38:12+08:00",
+  "snapshot_at": "2026-10-01T05:01:31+08:00",
+  "forecast_updated": "2026-10-01T04:38:12+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
