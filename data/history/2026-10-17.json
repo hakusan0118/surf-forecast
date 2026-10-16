@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-16T18:13:52+08:00",
+  "updated": "2026-10-17T00:14:56+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -18,7 +18,7 @@
           "wave_period": "6.0",
           "score": 78,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -127,9 +127,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "6.0",
-          "score": 76,
+          "score": 70,
           "rating": "Good",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -238,9 +238,9 @@
           "wave_height": "0.4",
           "wave_direction": "西北",
           "wave_period": "3.7",
-          "score": 52,
+          "score": 53,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -251,9 +251,9 @@
           "wave_height": "0.4",
           "wave_direction": "西北",
           "wave_period": "3.7",
-          "score": 56,
+          "score": 53,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -264,9 +264,9 @@
           "wave_height": "0.4",
           "wave_direction": "偏西",
           "wave_period": "3.6",
-          "score": 62,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -349,9 +349,9 @@
           "wave_height": "0.3",
           "wave_direction": "西北",
           "wave_period": "3.6",
-          "score": 7,
+          "score": 6,
           "rating": "Poor",
-          "tide_status": "滿潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -362,9 +362,9 @@
           "wave_height": "0.3",
           "wave_direction": "西北",
           "wave_period": "3.6",
-          "score": 15,
+          "score": 6,
           "rating": "Poor",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -375,9 +375,9 @@
           "wave_height": "0.3",
           "wave_direction": "偏西",
           "wave_period": "3.8",
-          "score": 12,
+          "score": 6,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -400,7 +400,7 @@
           "wind_direction": "偏西風",
           "wave_height": "0.2",
           "wave_direction": "西北",
-          "wave_period": "3.7",
+          "wave_period": "3.6",
           "score": 11,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -460,9 +460,9 @@
           "wave_height": "0.9",
           "wave_direction": "偏北",
           "wave_period": "4.7",
-          "score": 83,
+          "score": 81,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -571,9 +571,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "5.7",
-          "score": 55,
+          "score": 50,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -682,9 +682,9 @@
           "wave_height": "1.4",
           "wave_direction": "東北",
           "wave_period": "5.7",
-          "score": 52,
-          "rating": "Fair",
-          "tide_status": "中潮"
+          "score": 47,
+          "rating": "Poor",
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -793,9 +793,9 @@
           "wave_height": "0.8",
           "wave_direction": "偏東",
           "wave_period": "4.1",
-          "score": 54,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -806,9 +806,9 @@
           "wave_height": "0.8",
           "wave_direction": "偏東",
           "wave_period": "4.0",
-          "score": 54,
+          "score": 56,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -903,10 +903,10 @@
           "wind_direction": "東北風",
           "wave_height": "0.6",
           "wave_direction": "偏北",
-          "wave_period": "4.1",
-          "score": 56,
+          "wave_period": "4.2",
+          "score": 54,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -1015,9 +1015,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "5.0",
-          "score": 62,
+          "score": 61,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -1028,9 +1028,9 @@
           "wave_height": "1.1",
           "wave_direction": "偏東",
           "wave_period": "4.9",
-          "score": 59,
+          "score": 58,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -1126,9 +1126,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "5.0",
-          "score": 52,
+          "score": 50,
           "rating": "Fair",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
@@ -1139,9 +1139,9 @@
           "wave_height": "1.1",
           "wave_direction": "偏東",
           "wave_period": "4.9",
-          "score": 49,
+          "score": 47,
           "rating": "Poor",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-17",
