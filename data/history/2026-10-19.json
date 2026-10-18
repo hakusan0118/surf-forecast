@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updated": "2026-10-19T00:14:21+08:00",
+  "updated": "2026-10-19T05:04:55+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -93,7 +93,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "6.6",
+          "wave_period": "6.7",
           "score": 78,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -262,7 +262,7 @@
           "beaufort": "2",
           "wind_direction": "偏北風",
           "wave_height": "0.1",
-          "wave_direction": "偏南",
+          "wave_direction": "西南",
           "wave_period": "3.9",
           "score": 63,
           "rating": "Fair",
@@ -275,9 +275,9 @@
           "beaufort": "2",
           "wind_direction": "偏北風",
           "wave_height": "0.1",
-          "wave_direction": "西南",
+          "wave_direction": "偏西",
           "wave_period": "3.7",
-          "score": 67,
+          "score": 60,
           "rating": "Fair",
           "tide_status": "乾潮"
         },
@@ -288,9 +288,9 @@
           "beaufort": "3",
           "wind_direction": "西北風",
           "wave_height": "0.1",
-          "wave_direction": "西南",
+          "wave_direction": "偏西",
           "wave_period": "3.6",
-          "score": 59,
+          "score": 52,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -302,7 +302,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.1",
           "wave_direction": "西北",
-          "wave_period": "3.5",
+          "wave_period": "3.4",
           "score": 38,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -413,7 +413,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.1",
           "wave_direction": "西北",
-          "wave_period": "2.4",
+          "wave_period": "2.5",
           "score": 9,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -942,7 +942,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.1",
           "wave_direction": "偏北",
-          "wave_period": "3.3",
+          "wave_period": "3.2",
           "score": 48,
           "rating": "Poor",
           "tide_status": "退潮"
