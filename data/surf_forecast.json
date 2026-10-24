@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-24T23:00:50+08:00",
+  "updated": "2026-10-25T00:14:40+08:00",
   "source": "F-D0047-095",
   "tide_source": "F-A0021-001",
-  "tide_updated": "2026-10-24T00:07:02+08:00",
+  "tide_updated": "2026-10-25T00:07:02+08:00",
   "daylight_source": "A-B0062-001",
   "daylight_updated": null,
   "locations": [
@@ -20,9 +20,9 @@
           "wave_height": "1.6",
           "wave_direction": "偏北",
           "wave_period": "7.4",
-          "score": 84,
+          "score": 89,
           "rating": "Good",
-          "tide_status": "退潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -327,37 +327,6 @@
       "tide_location_name": "苗栗縣苑裡鎮",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "03:17",
-              "datetime": "2026-10-24T03:17:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-200"
-            },
-            {
-              "time": "09:23",
-              "datetime": "2026-10-24T09:23:00+08:00",
-              "type": "滿潮",
-              "height_cm": "230"
-            },
-            {
-              "time": "15:44",
-              "datetime": "2026-10-24T15:44:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-210"
-            },
-            {
-              "time": "21:41",
-              "datetime": "2026-10-24T21:41:00+08:00",
-              "type": "滿潮",
-              "height_cm": "238"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -514,9 +483,9 @@
           "wave_height": "0.8",
           "wave_direction": "西北",
           "wave_period": "4.1",
-          "score": 45,
+          "score": 39,
           "rating": "Poor",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -820,37 +789,6 @@
       ],
       "tide_location_name": "臺南市將軍區",
       "tides": [
-        {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "02:09",
-              "datetime": "2026-10-24T02:09:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-31"
-            },
-            {
-              "time": "08:46",
-              "datetime": "2026-10-24T08:46:00+08:00",
-              "type": "滿潮",
-              "height_cm": "85"
-            },
-            {
-              "time": "14:28",
-              "datetime": "2026-10-24T14:28:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-36"
-            },
-            {
-              "time": "21:05",
-              "datetime": "2026-10-24T21:05:00+08:00",
-              "type": "滿潮",
-              "height_cm": "89"
-            }
-          ]
-        },
         {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
@@ -1321,37 +1259,6 @@
       "tide_location_name": "高雄市永安區",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "小",
-          "events": [
-            {
-              "time": "00:30",
-              "datetime": "2026-10-24T00:30:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-17"
-            },
-            {
-              "time": "06:39",
-              "datetime": "2026-10-24T06:39:00+08:00",
-              "type": "滿潮",
-              "height_cm": "33"
-            },
-            {
-              "time": "12:55",
-              "datetime": "2026-10-24T12:55:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-19"
-            },
-            {
-              "time": "18:55",
-              "datetime": "2026-10-24T18:55:00+08:00",
-              "type": "滿潮",
-              "height_cm": "34"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "中",
@@ -1821,31 +1728,6 @@
       "tide_location_name": "高雄市旗津區",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "小",
-          "events": [
-            {
-              "time": "05:59",
-              "datetime": "2026-10-24T05:59:00+08:00",
-              "type": "滿潮",
-              "height_cm": "48"
-            },
-            {
-              "time": "12:20",
-              "datetime": "2026-10-24T12:20:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-4"
-            },
-            {
-              "time": "18:27",
-              "datetime": "2026-10-24T18:27:00+08:00",
-              "type": "滿潮",
-              "height_cm": "48"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "中",
@@ -2008,9 +1890,9 @@
           "wave_height": "1.7",
           "wave_direction": "東南",
           "wave_period": "7.6",
-          "score": 68,
-          "rating": "Fair",
-          "tide_status": "乾潮"
+          "score": 73,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -2023,7 +1905,7 @@
           "wave_period": "7.3",
           "score": 73,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -2315,37 +2197,6 @@
       "tide_location_name": "宜蘭縣頭城鎮",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "05:00",
-              "datetime": "2026-10-24T05:00:00+08:00",
-              "type": "滿潮",
-              "height_cm": "45"
-            },
-            {
-              "time": "11:07",
-              "datetime": "2026-10-24T11:07:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-43"
-            },
-            {
-              "time": "17:11",
-              "datetime": "2026-10-24T17:11:00+08:00",
-              "type": "滿潮",
-              "height_cm": "53"
-            },
-            {
-              "time": "23:32",
-              "datetime": "2026-10-24T23:32:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-61"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -2502,9 +2353,9 @@
           "wave_height": "1.7",
           "wave_direction": "東南",
           "wave_period": "7.6",
-          "score": 61,
+          "score": 66,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -2515,9 +2366,9 @@
           "wave_height": "1.5",
           "wave_direction": "東南",
           "wave_period": "7.3",
-          "score": 67,
+          "score": 66,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -2809,37 +2660,6 @@
       "tide_location_name": "宜蘭縣頭城鎮",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "05:00",
-              "datetime": "2026-10-24T05:00:00+08:00",
-              "type": "滿潮",
-              "height_cm": "45"
-            },
-            {
-              "time": "11:07",
-              "datetime": "2026-10-24T11:07:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-43"
-            },
-            {
-              "time": "17:11",
-              "datetime": "2026-10-24T17:11:00+08:00",
-              "type": "滿潮",
-              "height_cm": "53"
-            },
-            {
-              "time": "23:32",
-              "datetime": "2026-10-24T23:32:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-61"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -2996,9 +2816,9 @@
           "wave_height": "1.5",
           "wave_direction": "東南",
           "wave_period": "7.8",
-          "score": 63,
+          "score": 61,
           "rating": "Fair",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -3009,9 +2829,9 @@
           "wave_height": "1.5",
           "wave_direction": "東南",
           "wave_period": "7.3",
-          "score": 68,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -3303,37 +3123,6 @@
       "tide_location_name": "花蓮縣吉安鄉",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "04:45",
-              "datetime": "2026-10-24T04:45:00+08:00",
-              "type": "滿潮",
-              "height_cm": "87"
-            },
-            {
-              "time": "10:48",
-              "datetime": "2026-10-24T10:48:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-20"
-            },
-            {
-              "time": "16:55",
-              "datetime": "2026-10-24T16:55:00+08:00",
-              "type": "滿潮",
-              "height_cm": "93"
-            },
-            {
-              "time": "23:07",
-              "datetime": "2026-10-24T23:07:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-39"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -3490,9 +3279,9 @@
           "wave_height": "1.6",
           "wave_direction": "東南",
           "wave_period": "7.8",
-          "score": 45,
-          "rating": "Poor",
-          "tide_status": "乾潮"
+          "score": 55,
+          "rating": "Fair",
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -3505,7 +3294,7 @@
           "wave_period": "7.3",
           "score": 68,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -3797,37 +3586,6 @@
       "tide_location_name": "花蓮縣花蓮市",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "04:45",
-              "datetime": "2026-10-24T04:45:00+08:00",
-              "type": "滿潮",
-              "height_cm": "87"
-            },
-            {
-              "time": "10:48",
-              "datetime": "2026-10-24T10:48:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-20"
-            },
-            {
-              "time": "16:55",
-              "datetime": "2026-10-24T16:55:00+08:00",
-              "type": "滿潮",
-              "height_cm": "92"
-            },
-            {
-              "time": "23:07",
-              "datetime": "2026-10-24T23:07:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-39"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -3984,9 +3742,9 @@
           "wave_height": "1.0",
           "wave_direction": "西南",
           "wave_period": "6.1",
-          "score": 71,
+          "score": 70,
           "rating": "Good",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -3997,9 +3755,9 @@
           "wave_height": "1.0",
           "wave_direction": "西南",
           "wave_period": "5.9",
-          "score": 53,
+          "score": 50,
           "rating": "Fair",
-          "tide_status": "中潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -4291,37 +4049,6 @@
       "tide_location_name": "屏東縣恆春鎮",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "小",
-          "events": [
-            {
-              "time": "05:07",
-              "datetime": "2026-10-24T05:07:00+08:00",
-              "type": "滿潮",
-              "height_cm": "43"
-            },
-            {
-              "time": "11:10",
-              "datetime": "2026-10-24T11:10:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-22"
-            },
-            {
-              "time": "17:13",
-              "datetime": "2026-10-24T17:13:00+08:00",
-              "type": "滿潮",
-              "height_cm": "48"
-            },
-            {
-              "time": "23:46",
-              "datetime": "2026-10-24T23:46:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-38"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "中",
@@ -4478,9 +4205,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "8.6",
-          "score": 75,
+          "score": 81,
           "rating": "Good",
-          "tide_status": "乾潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -4493,7 +4220,7 @@
           "wave_period": "8.0",
           "score": 72,
           "rating": "Good",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -4785,37 +4512,6 @@
       "tide_location_name": "屏東縣滿州鄉",
       "tides": [
         {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "05:01",
-              "datetime": "2026-10-24T05:01:00+08:00",
-              "type": "滿潮",
-              "height_cm": "70"
-            },
-            {
-              "time": "11:15",
-              "datetime": "2026-10-24T11:15:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-12"
-            },
-            {
-              "time": "17:06",
-              "datetime": "2026-10-24T17:06:00+08:00",
-              "type": "滿潮",
-              "height_cm": "71"
-            },
-            {
-              "time": "23:25",
-              "datetime": "2026-10-24T23:25:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-27"
-            }
-          ]
-        },
-        {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
           "tide_range": "大",
@@ -4972,9 +4668,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "8.6",
-          "score": 69,
-          "rating": "Fair",
-          "tide_status": "乾潮"
+          "score": 83,
+          "rating": "Good",
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -4985,9 +4681,9 @@
           "wave_height": "1.0",
           "wave_direction": "偏東",
           "wave_period": "7.8",
-          "score": 66,
+          "score": 64,
           "rating": "Fair",
-          "tide_status": "漲潮"
+          "tide_status": null
         },
         {
           "date": "2026-10-25",
@@ -5278,37 +4974,6 @@
       ],
       "tide_location_name": "屏東縣牡丹鄉",
       "tides": [
-        {
-          "date": "2026-10-24",
-          "lunar_date": "2026-09-15",
-          "tide_range": "中",
-          "events": [
-            {
-              "time": "05:05",
-              "datetime": "2026-10-24T05:05:00+08:00",
-              "type": "滿潮",
-              "height_cm": "72"
-            },
-            {
-              "time": "11:13",
-              "datetime": "2026-10-24T11:13:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-12"
-            },
-            {
-              "time": "17:10",
-              "datetime": "2026-10-24T17:10:00+08:00",
-              "type": "滿潮",
-              "height_cm": "72"
-            },
-            {
-              "time": "23:23",
-              "datetime": "2026-10-24T23:23:00+08:00",
-              "type": "乾潮",
-              "height_cm": "-28"
-            }
-          ]
-        },
         {
           "date": "2026-10-25",
           "lunar_date": "2026-09-16",
