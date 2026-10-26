@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updated": "2026-10-27T00:14:35+08:00",
+  "updated": "2026-10-27T04:40:54+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -93,7 +93,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.1",
           "wave_direction": "東北",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 42,
           "rating": "Poor",
           "tide_status": "滿潮"
@@ -204,7 +204,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.2",
           "wave_direction": "東北",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 50,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -902,9 +902,9 @@
           "beaufort": "3",
           "wind_direction": "偏北風",
           "wave_height": "1.1",
-          "wave_direction": "西北",
+          "wave_direction": "偏北",
           "wave_period": "6.2",
-          "score": 53,
+          "score": 52,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
@@ -1040,7 +1040,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.3",
           "wave_direction": "東北",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 49,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1092,7 +1092,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.9",
           "wave_direction": "東北",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 52,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -1151,7 +1151,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.3",
           "wave_direction": "東北",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 45,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1203,7 +1203,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.9",
           "wave_direction": "東北",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 45,
           "rating": "Poor",
           "tide_status": "滿潮"
