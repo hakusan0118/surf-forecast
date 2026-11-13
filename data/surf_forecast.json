@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T12:14:58+08:00",
+  "updated": "2026-11-13T18:14:26+08:00",
   "source": "F-D0047-095",
   "tide_source": "F-A0021-001",
   "tide_updated": "2026-11-13T00:07:02+08:00",
@@ -97,7 +97,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.5",
           "wave_direction": "偏北",
-          "wave_period": "4.6",
+          "wave_period": "4.4",
           "score": 68,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -110,7 +110,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.5",
           "wave_direction": "偏北",
-          "wave_period": "4.7",
+          "wave_period": "4.2",
           "score": 74,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -123,7 +123,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.4",
           "wave_direction": "偏北",
-          "wave_period": "4.5",
+          "wave_period": "4.2",
           "score": 72,
           "rating": "Good",
           "tide_status": "滿潮"
@@ -136,7 +136,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.4",
           "wave_direction": "偏北",
-          "wave_period": "4.2",
+          "wave_period": "4.1",
           "score": 68,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -175,7 +175,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.4",
           "wave_direction": "偏北",
-          "wave_period": "3.9",
+          "wave_period": "3.8",
           "score": 66,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -188,7 +188,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.4",
           "wave_direction": "偏北",
-          "wave_period": "3.9",
+          "wave_period": "3.4",
           "score": 40,
           "rating": "Poor",
           "tide_status": "滿潮"
@@ -200,8 +200,8 @@
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "0.5",
-          "wave_direction": "偏北",
-          "wave_period": "3.8",
+          "wave_direction": "西北",
+          "wave_period": "3.2",
           "score": 45,
           "rating": "Poor",
           "tide_status": "退潮"
@@ -214,7 +214,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.9",
           "wave_direction": "偏北",
-          "wave_period": "3.8",
+          "wave_period": "3.3",
           "score": 55,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -227,7 +227,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.8",
           "wave_direction": "偏北",
-          "wave_period": "3.7",
+          "wave_period": "3.6",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -240,7 +240,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.6",
           "wave_direction": "偏北",
-          "wave_period": "3.8",
+          "wave_period": "3.6",
           "score": 63,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -253,7 +253,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.7",
           "wave_direction": "偏北",
-          "wave_period": "4.0",
+          "wave_period": "3.2",
           "score": 54,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -265,8 +265,8 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "0.9",
-          "wave_direction": "西北",
-          "wave_period": "3.6",
+          "wave_direction": "偏北",
+          "wave_period": "3.3",
           "score": 51,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -279,7 +279,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.1",
           "wave_direction": "偏北",
-          "wave_period": "2.9",
+          "wave_period": "3.6",
           "score": 59,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -292,7 +292,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.6",
           "wave_direction": "偏北",
-          "wave_period": "3.2",
+          "wave_period": "4.2",
           "score": 58,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -305,7 +305,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.7",
           "wave_direction": "偏北",
-          "wave_period": "3.5",
+          "wave_period": "4.8",
           "score": 58,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -318,8 +318,8 @@
           "wind_direction": "東北風",
           "wave_height": "1.7",
           "wave_direction": "偏北",
-          "wave_period": "3.8",
-          "score": 51,
+          "wave_period": "5.1",
+          "score": 54,
           "rating": "Fair",
           "tide_status": "乾潮"
         }
@@ -566,7 +566,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.6",
           "wave_direction": "偏北",
-          "wave_period": "2.8",
+          "wave_period": "2.9",
           "score": 36,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -579,7 +579,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.6",
           "wave_direction": "偏北",
-          "wave_period": "3.0",
+          "wave_period": "3.1",
           "score": 50,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -591,9 +591,9 @@
           "beaufort": "3",
           "wind_direction": "東北風",
           "wave_height": "0.5",
-          "wave_direction": "西北",
-          "wave_period": "3.5",
-          "score": 44,
+          "wave_direction": "偏北",
+          "wave_period": "3.3",
+          "score": 43,
           "rating": "Poor",
           "tide_status": "滿潮"
         },
@@ -618,7 +618,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.4",
           "wave_direction": "偏北",
-          "wave_period": "3.5",
+          "wave_period": "3.6",
           "score": 48,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -643,9 +643,9 @@
           "beaufort": "2",
           "wind_direction": "東北風",
           "wave_height": "0.3",
-          "wave_direction": "西北",
-          "wave_period": "3.8",
-          "score": 49,
+          "wave_direction": "偏北",
+          "wave_period": "3.7",
+          "score": 48,
           "rating": "Poor",
           "tide_status": "漲潮"
         },
@@ -656,9 +656,9 @@
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "0.4",
-          "wave_direction": "西北",
-          "wave_period": "3.8",
-          "score": 44,
+          "wave_direction": "偏北",
+          "wave_period": "3.7",
+          "score": 43,
           "rating": "Poor",
           "tide_status": "滿潮"
         },
@@ -669,10 +669,10 @@
           "beaufort": "5",
           "wind_direction": "偏南風",
           "wave_height": "0.6",
-          "wave_direction": "偏南",
-          "wave_period": "4.0",
-          "score": 54,
-          "rating": "Fair",
+          "wave_direction": "西北",
+          "wave_period": "3.7",
+          "score": 38,
+          "rating": "Poor",
           "tide_status": "乾潮"
         },
         {
@@ -683,7 +683,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.3",
           "wave_direction": "西南",
-          "wave_period": "4.2",
+          "wave_period": "4.0",
           "score": 71,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -695,9 +695,9 @@
           "beaufort": "4",
           "wind_direction": "偏東風",
           "wave_height": "1.0",
-          "wave_direction": "西南",
+          "wave_direction": "偏西",
           "wave_period": "4.0",
-          "score": 63,
+          "score": 57,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
@@ -709,7 +709,7 @@
           "wind_direction": "東南風",
           "wave_height": "0.8",
           "wave_direction": "西南",
-          "wave_period": "3.9",
+          "wave_period": "4.1",
           "score": 68,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -722,7 +722,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.7",
           "wave_direction": "西南",
-          "wave_period": "3.9",
+          "wave_period": "4.0",
           "score": 66,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -734,9 +734,9 @@
           "beaufort": "4",
           "wind_direction": "東北風",
           "wave_height": "0.8",
-          "wave_direction": "西南",
-          "wave_period": "3.9",
-          "score": 69,
+          "wave_direction": "西北",
+          "wave_period": "3.6",
+          "score": 53,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -747,10 +747,10 @@
           "beaufort": "4",
           "wind_direction": "偏北風",
           "wave_height": "1.0",
-          "wave_direction": "西南",
-          "wave_period": "3.9",
-          "score": 63,
-          "rating": "Fair",
+          "wave_direction": "偏北",
+          "wave_period": "3.6",
+          "score": 45,
+          "rating": "Poor",
           "tide_status": "漲潮"
         },
         {
@@ -760,10 +760,10 @@
           "beaufort": "5",
           "wind_direction": "偏北風",
           "wave_height": "1.1",
-          "wave_direction": "西南",
-          "wave_period": "3.6",
-          "score": 53,
-          "rating": "Fair",
+          "wave_direction": "偏北",
+          "wave_period": "3.8",
+          "score": 35,
+          "rating": "Poor",
           "tide_status": "滿潮"
         },
         {
@@ -774,7 +774,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.2",
           "wave_direction": "偏北",
-          "wave_period": "3.3",
+          "wave_period": "4.0",
           "score": 40,
           "rating": "Poor",
           "tide_status": "退潮"
@@ -787,7 +787,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.1",
           "wave_direction": "偏北",
-          "wave_period": "3.7",
+          "wave_period": "4.3",
           "score": 51,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -1068,7 +1068,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.4",
           "wave_direction": "西北",
-          "wave_period": "3.1",
+          "wave_period": "3.3",
           "score": 14,
           "rating": "Poor",
           "tide_status": "退潮"
@@ -1081,7 +1081,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.4",
           "wave_direction": "西北",
-          "wave_period": "3.6",
+          "wave_period": "3.4",
           "score": 9,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -1107,7 +1107,7 @@
           "wind_direction": "偏西風",
           "wave_height": "0.4",
           "wave_direction": "偏南",
-          "wave_period": "3.9",
+          "wave_period": "4.0",
           "score": 14,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1120,7 +1120,7 @@
           "wind_direction": "偏南風",
           "wave_height": "0.5",
           "wave_direction": "偏南",
-          "wave_period": "4.5",
+          "wave_period": "4.3",
           "score": 16,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1133,7 +1133,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "偏南",
-          "wave_period": "4.4",
+          "wave_period": "4.2",
           "score": 28,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1146,7 +1146,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.1",
           "wave_direction": "偏南",
-          "wave_period": "4.4",
+          "wave_period": "4.1",
           "score": 28,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1159,7 +1159,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.0",
           "wave_direction": "偏南",
-          "wave_period": "4.2",
+          "wave_period": "4.1",
           "score": 26,
           "rating": "Poor",
           "tide_status": "退潮"
@@ -1171,7 +1171,7 @@
           "beaufort": "2",
           "wind_direction": "東南風",
           "wave_height": "0.8",
-          "wave_direction": "偏南",
+          "wave_direction": "西南",
           "wave_period": "4.1",
           "score": 21,
           "rating": "Poor",
@@ -1211,7 +1211,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.6",
           "wave_direction": "西南",
-          "wave_period": "3.7",
+          "wave_period": "3.9",
           "score": 18,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1224,7 +1224,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.6",
           "wave_direction": "偏西",
-          "wave_period": "3.2",
+          "wave_period": "3.5",
           "score": 21,
           "rating": "Poor",
           "tide_status": "中潮"
@@ -1237,7 +1237,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.7",
           "wave_direction": "西北",
-          "wave_period": "3.0",
+          "wave_period": "3.6",
           "score": 20,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1250,7 +1250,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.6",
           "wave_direction": "西北",
-          "wave_period": "3.4",
+          "wave_period": "3.9",
           "score": 18,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1444,7 +1444,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.5",
           "wave_direction": "西北",
-          "wave_period": "2.8",
+          "wave_period": "3.1",
           "score": 43,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1457,7 +1457,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.6",
           "wave_direction": "西北",
-          "wave_period": "2.7",
+          "wave_period": "2.8",
           "score": 51,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -1495,9 +1495,9 @@
           "beaufort": "2",
           "wind_direction": "東北風",
           "wave_height": "0.6",
-          "wave_direction": "偏南",
+          "wave_direction": "偏西",
           "wave_period": "3.6",
-          "score": 77,
+          "score": 71,
           "rating": "Good",
           "tide_status": "乾潮"
         },
@@ -1509,7 +1509,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.6",
           "wave_direction": "偏南",
-          "wave_period": "3.7",
+          "wave_period": "3.6",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -1522,7 +1522,7 @@
           "wind_direction": "偏西風",
           "wave_height": "0.6",
           "wave_direction": "偏南",
-          "wave_period": "4.3",
+          "wave_period": "4.1",
           "score": 79,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -1535,7 +1535,7 @@
           "wind_direction": "東南風",
           "wave_height": "1.0",
           "wave_direction": "偏南",
-          "wave_period": "3.8",
+          "wave_period": "3.5",
           "score": 49,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1548,7 +1548,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.3",
           "wave_direction": "偏南",
-          "wave_period": "4.2",
+          "wave_period": "4.1",
           "score": 49,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -1561,7 +1561,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.1",
           "wave_direction": "偏南",
-          "wave_period": "4.2",
+          "wave_period": "3.9",
           "score": 40,
           "rating": "Poor",
           "tide_status": "滿潮"
@@ -1574,7 +1574,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.0",
           "wave_direction": "偏南",
-          "wave_period": "4.1",
+          "wave_period": "4.0",
           "score": 55,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -1626,7 +1626,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.7",
           "wave_direction": "西南",
-          "wave_period": "3.8",
+          "wave_period": "3.9",
           "score": 69,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -1639,7 +1639,7 @@
           "wind_direction": "西北風",
           "wave_height": "0.6",
           "wave_direction": "西南",
-          "wave_period": "3.3",
+          "wave_period": "3.8",
           "score": 67,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -1651,9 +1651,9 @@
           "beaufort": "2",
           "wind_direction": "西北風",
           "wave_height": "0.7",
-          "wave_direction": "偏西",
-          "wave_period": "3.2",
-          "score": 63,
+          "wave_direction": "西北",
+          "wave_period": "3.9",
+          "score": 53,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -1664,10 +1664,10 @@
           "beaufort": "2",
           "wind_direction": "偏西風",
           "wave_height": "0.7",
-          "wave_direction": "偏西",
-          "wave_period": "3.5",
-          "score": 73,
-          "rating": "Good",
+          "wave_direction": "西北",
+          "wave_period": "4.0",
+          "score": 63,
+          "rating": "Fair",
           "tide_status": "漲潮"
         }
       ],
@@ -1865,7 +1865,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.6",
           "score": 60,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -1891,8 +1891,8 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
-          "score": 63,
+          "wave_period": "6.9",
+          "score": 60,
           "rating": "Fair",
           "tide_status": "退潮"
         },
@@ -1904,7 +1904,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.1",
           "score": 72,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -1917,7 +1917,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.2",
           "score": 77,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -1930,8 +1930,8 @@
           "wind_direction": "西南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
-          "score": 84,
+          "wave_period": "7.1",
+          "score": 87,
           "rating": "Good",
           "tide_status": "漲潮"
         },
@@ -1943,8 +1943,8 @@
           "wind_direction": "偏南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
-          "score": 84,
+          "wave_period": "7.0",
+          "score": 87,
           "rating": "Good",
           "tide_status": "退潮"
         },
@@ -1956,7 +1956,7 @@
           "wind_direction": "偏南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.2",
+          "wave_period": "6.8",
           "score": 60,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -1969,7 +1969,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.7",
           "score": 62,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -1982,7 +1982,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 63,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -1995,7 +1995,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.9",
           "score": 79,
           "rating": "Good",
           "tide_status": "中潮"
@@ -2008,7 +2008,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.7",
           "score": 67,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -2021,7 +2021,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.4",
           "score": 72,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -2034,7 +2034,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "6.2",
           "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2047,8 +2047,8 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 59,
+          "wave_period": "5.8",
+          "score": 55,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
@@ -2060,7 +2060,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.6",
           "wave_direction": "偏東",
-          "wave_period": "5.7",
+          "wave_period": "5.5",
           "score": 55,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -2073,7 +2073,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "5.8",
+          "wave_period": "5.7",
           "score": 67,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -2085,9 +2085,9 @@
           "beaufort": "4",
           "wind_direction": "偏北風",
           "wave_height": "1.5",
-          "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 62,
+          "wave_direction": "東北",
+          "wave_period": "5.7",
+          "score": 54,
           "rating": "Fair",
           "tide_status": "滿潮"
         }
@@ -2334,7 +2334,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.6",
           "score": 71,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -2360,8 +2360,8 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
-          "score": 73,
+          "wave_period": "6.9",
+          "score": 70,
           "rating": "Good",
           "tide_status": "退潮"
         },
@@ -2373,7 +2373,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.1",
           "score": 79,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -2386,7 +2386,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.2",
           "score": 85,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -2399,8 +2399,8 @@
           "wind_direction": "西南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
-          "score": 85,
+          "wave_period": "7.1",
+          "score": 88,
           "rating": "Good",
           "tide_status": "漲潮"
         },
@@ -2412,8 +2412,8 @@
           "wind_direction": "偏南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
-          "score": 84,
+          "wave_period": "7.0",
+          "score": 87,
           "rating": "Good",
           "tide_status": "退潮"
         },
@@ -2425,7 +2425,7 @@
           "wind_direction": "偏南風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.2",
+          "wave_period": "6.8",
           "score": 70,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -2438,7 +2438,7 @@
           "wind_direction": "偏北風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.7",
           "score": 53,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2451,7 +2451,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 61,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -2464,7 +2464,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.9",
           "score": 73,
           "rating": "Good",
           "tide_status": "中潮"
@@ -2477,7 +2477,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.7",
           "score": 61,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -2490,7 +2490,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.4",
           "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2503,7 +2503,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "6.2",
           "score": 58,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2516,9 +2516,9 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 53,
-          "rating": "Fair",
+          "wave_period": "5.8",
+          "score": 49,
+          "rating": "Poor",
           "tide_status": "滿潮"
         },
         {
@@ -2529,7 +2529,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.6",
           "wave_direction": "偏東",
-          "wave_period": "5.7",
+          "wave_period": "5.5",
           "score": 45,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -2542,7 +2542,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "5.8",
+          "wave_period": "5.7",
           "score": 57,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -2554,9 +2554,9 @@
           "beaufort": "4",
           "wind_direction": "偏北風",
           "wave_height": "1.5",
-          "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 65,
+          "wave_direction": "東北",
+          "wave_period": "5.7",
+          "score": 62,
           "rating": "Fair",
           "tide_status": "滿潮"
         }
@@ -2907,7 +2907,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
+          "wave_period": "7.1",
           "score": 61,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -2920,7 +2920,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.5",
           "score": 60,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -2933,7 +2933,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.4",
           "score": 77,
           "rating": "Good",
           "tide_status": "中潮"
@@ -2946,7 +2946,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.7",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "6.0",
           "score": 73,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -2959,8 +2959,8 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 64,
+          "wave_period": "5.7",
+          "score": 60,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -2972,8 +2972,8 @@
           "wind_direction": "西北風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "6.1",
-          "score": 79,
+          "wave_period": "5.9",
+          "score": 76,
           "rating": "Good",
           "tide_status": "漲潮"
         },
@@ -2985,8 +2985,8 @@
           "wind_direction": "西北風",
           "wave_height": "1.9",
           "wave_direction": "偏東",
-          "wave_period": "5.9",
-          "score": 70,
+          "wave_period": "6.0",
+          "score": 73,
           "rating": "Good",
           "tide_status": "退潮"
         },
@@ -2998,7 +2998,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.9",
           "wave_direction": "偏東",
-          "wave_period": "5.7",
+          "wave_period": "5.8",
           "score": 74,
           "rating": "Good",
           "tide_status": "乾潮"
@@ -3011,7 +3011,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.8",
           "wave_direction": "偏東",
-          "wave_period": "5.7",
+          "wave_period": "5.8",
           "score": 74,
           "rating": "Good",
           "tide_status": "中潮"
@@ -3024,7 +3024,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.7",
           "wave_direction": "偏東",
-          "wave_period": "5.7",
+          "wave_period": "5.9",
           "score": 71,
           "rating": "Good",
           "tide_status": "滿潮"
@@ -3272,7 +3272,7 @@
           "wind_direction": "偏西風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.1",
+          "wave_period": "7.0",
           "score": 83,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -3285,7 +3285,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
+          "wave_period": "7.1",
           "score": 83,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3298,7 +3298,7 @@
           "wind_direction": "偏西風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.3",
+          "wave_period": "7.2",
           "score": 76,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3389,7 +3389,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.5",
           "score": 65,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -3402,7 +3402,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.4",
           "score": 61,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -3415,7 +3415,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.7",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "5.8",
           "score": 45,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -3428,8 +3428,8 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "6.0",
-          "score": 53,
+          "wave_period": "5.7",
+          "score": 50,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3441,8 +3441,8 @@
           "wind_direction": "偏北風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "6.1",
-          "score": 75,
+          "wave_period": "5.9",
+          "score": 71,
           "rating": "Good",
           "tide_status": "漲潮"
         },
@@ -3454,7 +3454,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.9",
           "wave_direction": "偏東",
-          "wave_period": "5.8",
+          "wave_period": "5.9",
           "score": 71,
           "rating": "Good",
           "tide_status": "退潮"
@@ -3480,7 +3480,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.9",
           "wave_direction": "東北",
-          "wave_period": "5.6",
+          "wave_period": "5.7",
           "score": 67,
           "rating": "Fair",
           "tide_status": "中潮"
@@ -3493,7 +3493,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.7",
           "wave_direction": "偏東",
-          "wave_period": "5.5",
+          "wave_period": "5.8",
           "score": 76,
           "rating": "Good",
           "tide_status": "滿潮"
@@ -3741,7 +3741,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.0",
           "wave_direction": "偏東",
-          "wave_period": "5.1",
+          "wave_period": "5.2",
           "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -3754,7 +3754,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "5.1",
+          "wave_period": "5.2",
           "score": 58,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -3780,8 +3780,8 @@
           "wind_direction": "偏東風",
           "wave_height": "0.9",
           "wave_direction": "偏東",
-          "wave_period": "4.9",
-          "score": 52,
+          "wave_period": "5.1",
+          "score": 54,
           "rating": "Fair",
           "tide_status": "退潮"
         },
@@ -3793,7 +3793,7 @@
           "wind_direction": "偏東風",
           "wave_height": "0.9",
           "wave_direction": "東南",
-          "wave_period": "5.0",
+          "wave_period": "5.3",
           "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -3806,8 +3806,8 @@
           "wind_direction": "偏東風",
           "wave_height": "0.9",
           "wave_direction": "東南",
-          "wave_period": "4.8",
-          "score": 64,
+          "wave_period": "5.1",
+          "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3819,8 +3819,8 @@
           "wind_direction": "偏東風",
           "wave_height": "0.9",
           "wave_direction": "東南",
-          "wave_period": "4.8",
-          "score": 62,
+          "wave_period": "5.0",
+          "score": 65,
           "rating": "Fair",
           "tide_status": "乾潮"
         },
@@ -3832,8 +3832,8 @@
           "wind_direction": "東南風",
           "wave_height": "1.0",
           "wave_direction": "東南",
-          "wave_period": "5.1",
-          "score": 61,
+          "wave_period": "4.8",
+          "score": 59,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3845,7 +3845,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.1",
           "wave_direction": "東南",
-          "wave_period": "4.8",
+          "wave_period": "4.5",
           "score": 52,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -3870,9 +3870,9 @@
           "beaufort": "4",
           "wind_direction": "偏西風",
           "wave_height": "1.2",
-          "wave_direction": "東南",
-          "wave_period": "4.7",
-          "score": 48,
+          "wave_direction": "偏南",
+          "wave_period": "4.6",
+          "score": 46,
           "rating": "Poor",
           "tide_status": "退潮"
         },
@@ -3883,10 +3883,10 @@
           "beaufort": "4",
           "wind_direction": "偏西風",
           "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "5.0",
-          "score": 51,
-          "rating": "Fair",
+          "wave_direction": "偏南",
+          "wave_period": "4.5",
+          "score": 46,
+          "rating": "Poor",
           "tide_status": "退潮"
         },
         {
@@ -3896,9 +3896,9 @@
           "beaufort": "4",
           "wind_direction": "偏西風",
           "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "4.8",
-          "score": 52,
+          "wave_direction": "偏南",
+          "wave_period": "4.6",
+          "score": 50,
           "rating": "Fair",
           "tide_status": "乾潮"
         },
@@ -3909,9 +3909,9 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "0.9",
-          "wave_direction": "東南",
-          "wave_period": "5.0",
-          "score": 69,
+          "wave_direction": "偏南",
+          "wave_period": "5.1",
+          "score": 68,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3923,7 +3923,7 @@
           "wind_direction": "東北風",
           "wave_height": "0.9",
           "wave_direction": "東南",
-          "wave_period": "5.3",
+          "wave_period": "5.4",
           "score": 68,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -3935,9 +3935,9 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "1.0",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 68,
+          "wave_direction": "偏東",
+          "wave_period": "4.8",
+          "score": 59,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3948,9 +3948,9 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "1.0",
-          "wave_direction": "東南",
-          "wave_period": "5.6",
-          "score": 68,
+          "wave_direction": "偏東",
+          "wave_period": "4.6",
+          "score": 59,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -3961,9 +3961,9 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "1.1",
-          "wave_direction": "東南",
-          "wave_period": "5.5",
-          "score": 59,
+          "wave_direction": "偏東",
+          "wave_period": "4.7",
+          "score": 50,
           "rating": "Fair",
           "tide_status": "滿潮"
         }
@@ -4186,7 +4186,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.5",
+          "wave_period": "6.6",
           "score": 56,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4199,7 +4199,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.6",
+          "wave_period": "6.7",
           "score": 56,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4212,7 +4212,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.6",
+          "wave_period": "6.7",
           "score": 56,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4225,8 +4225,8 @@
           "wind_direction": "東北風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
-          "score": 55,
+          "wave_period": "7.0",
+          "score": 58,
           "rating": "Fair",
           "tide_status": "乾潮"
         },
@@ -4238,7 +4238,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
+          "wave_period": "7.4",
           "score": 66,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4251,7 +4251,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.4",
+          "wave_period": "7.6",
           "score": 61,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -4264,7 +4264,7 @@
           "wind_direction": "偏東風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.5",
+          "wave_period": "7.7",
           "score": 61,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4277,7 +4277,7 @@
           "wind_direction": "東南風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.5",
+          "wave_period": "7.6",
           "score": 87,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -4290,7 +4290,7 @@
           "wind_direction": "偏南風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "7.4",
+          "wave_period": "7.0",
           "score": 65,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4303,7 +4303,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.6",
           "score": 72,
           "rating": "Good",
           "tide_status": "退潮"
@@ -4316,7 +4316,7 @@
           "wind_direction": "偏西風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 72,
           "rating": "Good",
           "tide_status": "退潮"
@@ -4329,8 +4329,8 @@
           "wind_direction": "西南風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
-          "score": 62,
+          "wave_period": "7.0",
+          "score": 65,
           "rating": "Fair",
           "tide_status": "乾潮"
         },
@@ -4342,7 +4342,7 @@
           "wind_direction": "偏西風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.2",
           "score": 73,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -4355,7 +4355,7 @@
           "wind_direction": "偏北風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "7.1",
+          "wave_period": "7.3",
           "score": 55,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4367,9 +4367,9 @@
           "beaufort": "5",
           "wind_direction": "偏北風",
           "wave_height": "1.2",
-          "wave_direction": "偏東",
-          "wave_period": "7.3",
-          "score": 56,
+          "wave_direction": "東北",
+          "wave_period": "5.8",
+          "score": 50,
           "rating": "Fair",
           "tide_status": "中潮"
         },
@@ -4380,10 +4380,10 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "1.5",
-          "wave_direction": "偏東",
-          "wave_period": "6.7",
-          "score": 50,
-          "rating": "Fair",
+          "wave_direction": "東北",
+          "wave_period": "5.6",
+          "score": 47,
+          "rating": "Poor",
           "tide_status": "漲潮"
         },
         {
@@ -4394,7 +4394,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.7",
           "wave_direction": "東北",
-          "wave_period": "5.8",
+          "wave_period": "5.6",
           "score": 47,
           "rating": "Poor",
           "tide_status": "漲潮"
@@ -4631,7 +4631,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.5",
           "wave_direction": "偏東",
-          "wave_period": "6.6",
+          "wave_period": "6.8",
           "score": 58,
           "rating": "Fair",
           "tide_status": "漲潮"
@@ -4644,7 +4644,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 58,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4657,7 +4657,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 58,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4670,7 +4670,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.1",
           "score": 58,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4683,7 +4683,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "7.3",
+          "wave_period": "7.5",
           "score": 70,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -4696,7 +4696,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "7.6",
+          "wave_period": "7.7",
           "score": 67,
           "rating": "Fair",
           "tide_status": "滿潮"
@@ -4709,7 +4709,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "7.6",
+          "wave_period": "7.7",
           "score": 69,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4748,8 +4748,8 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "7.3",
-          "score": 68,
+          "wave_period": "6.8",
+          "score": 65,
           "rating": "Fair",
           "tide_status": "滿潮"
         },
@@ -4761,7 +4761,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.9",
           "score": 68,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -4774,7 +4774,7 @@
           "wind_direction": "西南風",
           "wave_height": "1.3",
           "wave_direction": "偏東",
-          "wave_period": "7.0",
+          "wave_period": "7.1",
           "score": 63,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -4787,7 +4787,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.1",
+          "wave_period": "7.3",
           "score": 76,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -4800,8 +4800,8 @@
           "wind_direction": "偏北風",
           "wave_height": "1.1",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
-          "score": 69,
+          "wave_period": "6.8",
+          "score": 67,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -4813,8 +4813,8 @@
           "wind_direction": "偏北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
-          "score": 68,
+          "wave_period": "6.2",
+          "score": 65,
           "rating": "Fair",
           "tide_status": "中潮"
         },
@@ -4825,10 +4825,10 @@
           "beaufort": "5",
           "wind_direction": "東北風",
           "wave_height": "1.5",
-          "wave_direction": "偏東",
-          "wave_period": "6.5",
-          "score": 55,
-          "rating": "Fair",
+          "wave_direction": "東北",
+          "wave_period": "5.9",
+          "score": 47,
+          "rating": "Poor",
           "tide_status": "漲潮"
         },
         {
@@ -4839,7 +4839,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.7",
           "wave_direction": "東北",
-          "wave_period": "5.9",
+          "wave_period": "5.8",
           "score": 47,
           "rating": "Poor",
           "tide_status": "漲潮"
