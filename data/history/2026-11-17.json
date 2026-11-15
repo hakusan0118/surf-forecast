@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updated": "2026-11-16T00:14:36+08:00",
+  "updated": "2026-11-16T06:13:58+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -138,7 +138,7 @@
           "beaufort": "3",
           "wind_direction": "偏北風",
           "wave_height": "1.1",
-          "wave_direction": "偏東",
+          "wave_direction": "東北",
           "wave_period": "5.7",
           "score": 45,
           "rating": "Poor",
