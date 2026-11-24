@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-25T00:14:34+08:00",
+  "updated": "2026-11-25T06:14:13+08:00",
   "locations": [
     {
       "name": "Hualien-Beibin",
@@ -152,7 +152,7 @@
           "wind_direction": "西北風",
           "wave_height": "2.0",
           "wave_direction": "偏東",
-          "wave_period": "7.2",
+          "wave_period": "7.3",
           "score": 88,
           "rating": "Good",
           "tide_status": "漲潮"
@@ -609,7 +609,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.2",
           "wave_direction": "東北",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 45,
           "rating": "Poor",
           "tide_status": "退潮"
@@ -622,7 +622,7 @@
           "wind_direction": "東北風",
           "wave_height": "2.0",
           "wave_direction": "東北",
-          "wave_period": "6.7",
+          "wave_period": "6.8",
           "score": 40,
           "rating": "Poor",
           "tide_status": "乾潮"
@@ -661,7 +661,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.6",
           "wave_direction": "偏東",
-          "wave_period": "6.6",
+          "wave_period": "6.5",
           "score": 52,
           "rating": "Fair",
           "tide_status": "退潮"
@@ -707,8 +707,8 @@
           "wind_direction": "偏北風",
           "wave_height": "2.2",
           "wave_direction": "東北",
-          "wave_period": "6.9",
-          "score": 55,
+          "wave_period": "7.0",
+          "score": 58,
           "rating": "Fair",
           "tide_status": "漲潮"
         },
@@ -844,7 +844,7 @@
           "wind_direction": "東北風",
           "wave_height": "1.4",
           "wave_direction": "偏東",
-          "wave_period": "6.8",
+          "wave_period": "6.9",
           "score": 67,
           "rating": "Fair",
           "tide_status": "乾潮"
@@ -857,8 +857,8 @@
           "wind_direction": "東北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "6.9",
-          "score": 65,
+          "wave_period": "7.0",
+          "score": 67,
           "rating": "Fair",
           "tide_status": "中潮"
         },
@@ -1105,7 +1105,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "6.3",
           "score": 75,
           "rating": "Good",
           "tide_status": "退潮"
@@ -1216,7 +1216,7 @@
           "wind_direction": "西北風",
           "wave_height": "1.2",
           "wave_direction": "偏東",
-          "wave_period": "6.4",
+          "wave_period": "6.3",
           "score": 81,
           "rating": "Good",
           "tide_status": "退潮"
